@@ -1,12 +1,10 @@
 import { ArrowLeft } from "lucide-react"
 import './verify.scss'
-import  Accessibility from './Accessibility.jsx'
 import Backbtn from "./Backbtn"
 
 function Verify(){
     return(
         <div className="verify-wrapper">
-            <Accessibility/>
             <Backbtn/>
             <div className="content">
                 <h1>Verify</h1>

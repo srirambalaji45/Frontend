@@ -1,6 +1,7 @@
 import React from "react";
 import "./signup.scss";
 import { Link } from "react-router-dom";
+
 const Signup = () => {
   return (
     <div className="signup-page">

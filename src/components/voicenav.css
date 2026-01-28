@@ -1,0 +1,23 @@
+.voicenav-wrapper {
+  position: fixed;
+  top: 12%;
+  right: 7px;
+  transform: translateY(-50%);
+  z-index: 9999;
+  width: auto;
+  height: auto;
+}
+
+.voice-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
+  font-size: xx-small;
+}/*# sourceMappingURL=voicenav.css.map */

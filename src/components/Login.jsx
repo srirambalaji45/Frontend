@@ -1,7 +1,7 @@
 import "./Login.scss";
 import {PersonStanding} from 'lucide-react'
-import Accessibility from './Accessibility'
 import { Link } from "react-router-dom";
+
 const Login = () => {
   return (
     <div className="login-page">
@@ -15,8 +15,6 @@ const Login = () => {
             <span className="blue">SAATHI</span>
           </h1>
         </div>
-
-        <Accessibility/>
 
         <div className="form">
           <h2 className="welcome-msg">WELCOME</h2>
