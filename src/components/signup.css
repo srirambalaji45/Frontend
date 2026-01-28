@@ -1,0 +1,112 @@
+.signup-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", sans-serif;
+  background-image: url("f.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.signup-card {
+  width: 100%;
+  max-width: 420px;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.634);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.logo {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.title .green {
+  color: #2e7d32;
+}
+.title .blue {
+  color: #1e5fa3;
+}
+
+.welcome {
+  color: #2e7d32;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 24px;
+}
+
+.phone-input {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  padding: 10px 16px;
+  margin-bottom: 14px;
+  background: #fff;
+}
+.phone-input .code {
+  margin-right: 10px;
+  font-weight: 600;
+  color: #333;
+}
+.phone-input input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 15px;
+}
+
+.otp-text {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 12px;
+  border-radius: 30px;
+  border: none;
+  background: #1e5fa3;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.btn-primary:hover {
+  background: #174a7e;
+}
+
+.footer-text {
+  margin-top: 18px;
+  font-size: 14px;
+}
+.footer-text a {
+  color: #2e7d32;
+  font-weight: 600;
+  text-decoration: none;
+}
+.footer-text a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=signup.css.map */

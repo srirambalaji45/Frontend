@@ -1,0 +1,80 @@
+.roleselection-wrapper {
+  min-height: 100vh;
+  padding: 1rem;
+  background: radial-gradient(circle at top right, #e0fce1 0%, transparent 40%), radial-gradient(circle at bottom left, #cad6f8 0%, transparent 40%), #f7f3e9;
+}
+
+.two-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: rgb(238, 197, 160);
+}
+
+.handshake,
+.tractor {
+  gap: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 25rem;
+  padding: 2rem;
+  font-size: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 1rem;
+  border: none;
+}
+
+.handshake-content,
+.tractor-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border: none;
+}
+
+.handshake:hover {
+  background-color: #0f59a3;
+  color: white;
+}
+
+.tractor:hover {
+  background-color: #0d8749;
+  color: white;
+}
+
+.handshake {
+  color: #0f59a3;
+}
+
+.tractor {
+  color: #0d8749;
+}
+
+.para {
+  color: rgb(169, 168, 168);
+}
+
+.icon {
+  height: 4rem;
+  width: 4rem;
+}
+
+@media (max-width: 480px) {
+  .handshake,
+  .tractor {
+    padding: 1.25rem;
+    gap: 1rem;
+  }
+  .icon {
+    width: 3rem;
+    height: 3rem;
+  }
+  .two-btn {
+    gap: 1.5rem;
+  }
+}/*# sourceMappingURL=roleselection.css.map */

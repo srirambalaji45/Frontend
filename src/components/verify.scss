@@ -1,0 +1,39 @@
+.verify-wrapper{
+    background-color: #fcf1e5;
+    min-height: 100vh;
+}
+
+.input-btn{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 10%;
+    border: 1px solid rgb(83, 83, 83);
+    background-color: rgb(252, 255, 238);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-otp{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.verify-btn{
+    background-color: #255f99;
+    color: white;
+    padding: 1rem;
+    width: 10rem;
+    border-radius:  2rem;
+    border: none;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    margin: 5rem;
+}
+
+.verify-btn:hover{
+    opacity: 0.9;
+}

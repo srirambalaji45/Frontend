@@ -1,0 +1,11 @@
+.accessibility-btn {
+  position: fixed; /* REQUIRED */
+  right: 0.2rem;
+  background-color: #bfbf8e;
+  border-top-left-radius: 20%;
+  border-bottom-left-radius: 20%;
+  border: none;
+  width: 3rem;
+  top: 20%;
+  transform: translateY(-50%);
+}/*# sourceMappingURL=accessibilty.css.map */

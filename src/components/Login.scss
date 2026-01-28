@@ -1,0 +1,159 @@
+
+.login-page {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("f.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 0.5rem;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.bg-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 248, 235, 0.627) 0%,
+    rgba(255, 248, 235, 0.495) 60%,
+    rgba(255, 248, 235, 0.378) 100%
+  );
+}
+
+
+.login-wrapper {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 380px;
+  text-align: center;
+  padding: 2rem;
+ 
+  
+}
+
+.brand{
+
+  .app-name{
+    font-size:xx-large;
+  }
+}
+
+.brand img {
+  width: 70px;
+  margin-bottom: 4rem;
+}
+
+.brand h1 {
+  font-size: 1.6rem;
+}
+
+.green {
+  color: green;
+}
+
+.blue {
+  color: rgb(37, 95, 153);
+}
+
+/* ===== FORM ===== */
+.form {
+  margin-top: 1.5rem;
+}
+
+.form h2 {
+  color: green;
+  margin-bottom: 1rem;
+}
+
+.form label {
+  font-size: 0.85rem;
+}
+
+.form input {
+  width: 100%;
+  padding: 0.7rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.hint {
+  font-size: 0.75rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+/* ===== BUTTON ===== */
+.cnt-btn {
+  width: 100%;
+  padding: 0.9rem;
+  background-color: rgb(37, 95, 153);
+  color: white;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.cnt-btn:hover {
+  opacity: 0.9;
+}
+
+/* ===== SIGNUP ===== */
+.signup {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+}
+
+.signup span {
+  color: green;
+  cursor: pointer;
+}
+
+/* ===== MOBILE BG ===== */
+@media (max-width: 768px) {
+  .login-page {
+    background-image: url("f.jpg");
+    background-position: center;
+  }
+}
+
+
+.create-new{
+    text-decoration: underline;
+}
+
+.welcome-msg{
+    margin-bottom: 3rem;
+}
+
+.phone-input {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  height: 25px;
+  background: #fff;
+
+  .country-code {
+    margin-right: 10px;
+    font-weight: 600;
+    color: #333;
+  }
+
+  input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 15px;
+  }
+}
