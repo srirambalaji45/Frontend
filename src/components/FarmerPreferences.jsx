@@ -76,7 +76,7 @@ function FarmerPreferences() {
       </div>
       
       <h2 className="preferences-heading">Preferred Crops </h2>
-      <div className="preferences-table">
+      <div className="table-wrapper">
       {preferences.length > 0 && (
       
       <table className="preferences-table">
