@@ -1,0 +1,166 @@
+.preferences-page {
+  min-height: 100vh;
+  background-color:  #fcf1e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.preferences-wrapper {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 1.5rem;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+}
+
+.preferences-heading {
+  color: rgb(6, 6, 132);
+  margin-bottom: 2rem;
+}
+
+.preferences-form {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+
+  select {
+    flex: 1 1 100%;
+    max-width: 100%;
+    padding: 0.6rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: rgb(252, 255, 238);
+  }
+}
+
+.add-btn {
+  background-color: rgb(37, 95, 153);
+  flex: 1 1 100%;
+  max-width: 100%;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+}
+
+.add-btn:hover {
+  opacity: 0.9;
+}
+
+.preferences-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(252, 255, 238);
+    padding: 0.6rem 1rem;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+
+    button {
+      background: none;
+      border: none;
+      color: red;
+      cursor: pointer;
+    }
+  }
+}
+
+.continue-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.continue-btn {
+  background-color: rgb(37, 95, 153);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+
+  width: 100%;         
+  max-width: 100%;
+}
+
+
+.continue-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.preferences-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 300px;
+  margin-top: 1.5rem;
+  background-color: rgb(252, 255, 238);
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.preferences-table thead {
+  background-color: rgba(200, 221, 167, 1);
+  color: rgb(6, 6, 132);
+}
+
+.preferences-table thead:hover{
+ background-color: rgba(180, 205, 145, 1);
+}
+
+
+.preferences-table th,
+.preferences-table td {
+  padding: 0.75rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.preferences-table tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.remove-btn {
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.remove-btn:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .preferences-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .preferences-form select,
+  .preferences-form button {
+    width: 100%;
+  }
+}
+
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto; 
+}
