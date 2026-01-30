@@ -1,3 +1,4 @@
+/* Login.scss - updated to scale properly with accessibility text size */
 
 .login-page {
   min-height: 100vh;
@@ -10,10 +11,9 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   overflow: hidden;
 }
-
 
 .bg-overlay {
   position: absolute;
@@ -26,7 +26,6 @@
   );
 }
 
-
 .login-wrapper {
   position: relative;
   z-index: 2;
@@ -34,14 +33,12 @@
   max-width: 380px;
   text-align: center;
   padding: 2rem;
- 
-  
 }
 
-.brand{
-
-  .app-name{
-    font-size:xx-large;
+.brand {
+  .app-name {
+    /* ✅ was xx-large (doesn't scale predictably). Use rem so accessibility scaling works */
+    font-size: 2rem;
   }
 }
 
@@ -83,6 +80,7 @@
   border-radius: 8px;
   border: 1px solid #ccc;
   outline: none;
+  font-size: 1rem; /* ✅ ensure base inputs scale */
 }
 
 .hint {
@@ -101,6 +99,7 @@
   border: none;
   cursor: pointer;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  font-size: 1rem; /* ✅ scales with root font size */
 }
 
 .cnt-btn:hover {
@@ -126,33 +125,46 @@
   }
 }
 
-
-.create-new{
-    text-decoration: underline;
+.create-new {
+  text-decoration: underline;
 }
 
-.welcome-msg{
-    margin-bottom: 3rem;
+.welcome-msg {
+  margin-bottom: 3rem;
 }
 
+/* ✅ Phone input fixed: avoid fixed 25px height + px font-size */
 .phone-input {
   display: flex;
   align-items: center;
   border: 1px solid #ccc;
   border-radius: 30px;
-  height: 25px;
   background: #fff;
+
+  padding: 0.25rem 0.9rem;
+  min-height: 2.6rem;
 
   .country-code {
     margin-right: 10px;
     font-weight: 600;
     color: #333;
+    font-size: 1rem;
+    line-height: 1;
   }
 
   input {
     border: none;
     outline: none;
     flex: 1;
-    font-size: 15px;
+
+    /* ✅ was 15px; use rem so text scaling works */
+    font-size: 1rem;
+
+    padding: 0.2rem 0;
+    background: transparent;
+
+    /* keep your 100% width behavior inside flex */
+    width: 100%;
+    margin: 0; /* prevent extra spacing inside phone-input */
   }
 }

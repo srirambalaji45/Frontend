@@ -1,3 +1,5 @@
+@charset "UTF-8";
+/* Signup.scss - updated to scale properly with accessibility text size */
 .signup-page {
   min-height: 100vh;
   display: flex;
@@ -8,33 +10,38 @@
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 16px;
+  /* ✅ was 16px (won't scale). Use rem */
+  padding: 1rem;
   box-sizing: border-box;
 }
 
 .signup-card {
   width: 100%;
   max-width: 420px;
-  padding: 40px 30px;
+  /* ✅ was px. Use rem so it scales smoothly */
+  padding: 2.5rem 1.9rem;
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
   justify-content: center;
   background: rgba(255, 255, 255, 0.634);
-  border-radius: 16px;
+  border-radius: 1rem; /* ✅ 16px -> 1rem */
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
 
 .logo {
-  font-size: 32px;
-  margin-bottom: 10px;
+  /* ✅ was 32px */
+  font-size: 2rem;
+  margin-bottom: 0.625rem;
 }
 
 .title {
-  font-size: 26px;
+  /* ✅ was 26px */
+  font-size: 1.625rem;
   font-weight: 700;
-  margin-bottom: 10px;
+  /* ✅ was 10px */
+  margin-bottom: 0.625rem;
 }
 .title .green {
   color: #2e7d32;
@@ -46,50 +53,66 @@
 .welcome {
   color: #2e7d32;
   font-weight: 700;
-  margin-bottom: 6px;
+  /* ✅ was 6px */
+  margin-bottom: 0.375rem;
 }
 
 .subtitle {
-  font-size: 14px;
+  /* ✅ was 14px */
+  font-size: 0.875rem;
   color: #444;
-  margin-bottom: 24px;
+  /* ✅ was 24px */
+  margin-bottom: 1.5rem;
 }
 
+/* ✅ Phone input: avoid px font-size + ensure height scales */
 .phone-input {
   display: flex;
   align-items: center;
   border: 1px solid #ccc;
   border-radius: 30px;
-  padding: 10px 16px;
-  margin-bottom: 14px;
+  /* ✅ was 10px 16px */
+  padding: 0.625rem 1rem;
+  /* ✅ was 14px */
+  margin-bottom: 0.875rem;
   background: #fff;
+  /* ✅ ensures it doesn't get cramped when text increases */
+  min-height: 2.6rem;
 }
 .phone-input .code {
-  margin-right: 10px;
+  margin-right: 0.625rem;
   font-weight: 600;
   color: #333;
+  font-size: 1rem;
+  line-height: 1;
 }
 .phone-input input {
   border: none;
   outline: none;
   flex: 1;
-  font-size: 15px;
+  /* ✅ was 15px */
+  font-size: 1rem;
+  background: transparent;
 }
 
 .otp-text {
-  font-size: 13px;
+  /* ✅ was 13px */
+  font-size: 0.8125rem;
   color: #555;
-  margin-bottom: 20px;
+  /* ✅ was 20px */
+  margin-bottom: 1.25rem;
 }
 
 .btn-primary {
   width: 100%;
-  padding: 12px;
+  /* ✅ was 12px */
+  padding: 0.75rem;
   border-radius: 30px;
   border: none;
   background: #1e5fa3;
   color: #fff;
-  font-size: 16px;
+  /* ✅ was 16px */
+  font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
   transition: background 0.3s;
@@ -99,8 +122,10 @@
 }
 
 .footer-text {
-  margin-top: 18px;
-  font-size: 14px;
+  /* ✅ was 18px */
+  margin-top: 1.125rem;
+  /* ✅ was 14px */
+  font-size: 0.875rem;
 }
 .footer-text a {
   color: #2e7d32;
@@ -109,4 +134,22 @@
 }
 .footer-text a:hover {
   text-decoration: underline;
+}
+
+/* ✅ Role input: remove fixed width/px sizes so it scales */
+.role-input {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  padding: 0.625rem 1rem;
+  margin-bottom: 0.875rem;
+  background: #fff;
+  outline: none;
+  /* ✅ avoid flex: 1 + fixed width together; just make it responsive */
+  width: 100%;
+  max-width: 260px;
+  /* ✅ was 15px */
+  font-size: 1rem;
+  min-height: 2.6rem;
 }/*# sourceMappingURL=signup.css.map */
