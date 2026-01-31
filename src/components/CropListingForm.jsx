@@ -1,4 +1,5 @@
 import {useState} from "react";
+import {useTranslation} from "react-i18next";
 
 const cropData = {
     "Food Grains / Cereals": ["Mushk Budji Rice","Amaranth Seed","Arhar","Arhar Dal Split","Bajra","Barley","Barnyard Millet","Basmati rice","Broken Rice","Browntop Millet","Buck Wheat","Chakhao Or Black Rice","Chana Dal Split","Chana whole","Foxtail Millet","Horse Gram","Jowar","Kabuli Chana Whole","Katarni Rice","Khesari Dal","Kodo Millet","Little Millet","Lobia","Maize","Marcha Rice","Masoor whole","Moong Dal Split","Moong whole","Moth","Oats Raw","Paddy","Proso Millet","Ragi","Rajma","Urad Dal Split","Urad whole","Wheat","White Peas"],
@@ -10,6 +11,8 @@ const cropData = {
 };
 
 function CropListingForm(){
+    const { t } = useTranslation();
+
     const [category , SetCategory] = useState("");
     const [crop , SetCrop] = useState("");
     const [quantity , SetQuantity] = useState("");
@@ -22,6 +25,8 @@ function CropListingForm(){
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        console.log({ category, crop, quantity, price });
+
         SetCategory("");
         SetCrop("");
         SetQuantity("");
@@ -33,7 +38,7 @@ function CropListingForm(){
       <form onSubmit={handleSubmit} style={{ display: "flex", gap: "16px" }}>
       
       <select value={category} onChange={handleCategoryChange} required>
-        <option value="">Select Category</option>
+        <option value="">{t("listing.select_category")}</option>
         {Object.keys(cropData).map((cat) => (
           <option key={cat} value={cat}>{cat}</option>
         ))}
@@ -45,7 +50,7 @@ function CropListingForm(){
         required
         disabled={!category}
       >
-        <option value="">Select Crop</option>
+        <option value="">{t("listing.select_crop")}</option>
         {category &&
           cropData[category].map((c) => (
             <option key={c} value={c}>{c}</option>
@@ -54,7 +59,7 @@ function CropListingForm(){
 
       <input
         type="number"
-        placeholder="Quantity (kg)"
+        placeholder={t("listing.quantity")}
         value={quantity}
         onChange={(e) => SetQuantity(e.target.value)}
         required
@@ -62,13 +67,13 @@ function CropListingForm(){
 
       <input
         type="number"
-        placeholder="Price (₹/kg)"
+        placeholder={t("listing.price")}
         value={price}
         onChange={(e) => SetPrice(e.target.value)}
         required
       />
 
-      <button type="submit">Add</button>
+      <button type="submit">{t("listing.add")}</button>
     </form>
 
     );
