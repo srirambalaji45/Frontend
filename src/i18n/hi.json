@@ -44,7 +44,18 @@
   "invalid_phone": "कृपया 10 अंकों का वैध मोबाइल नंबर दर्ज करें",
   "otp_send_failed": "OTP भेजने में विफल",
   "login_failed": "लॉगिन विफल"
-}
+  },
+  "listing": {
+  "select_category": "कैटेगरी चुनें",
+  "select_crop": "फसल चुनें",
+  "quantity": "मात्रा (kg)",
+  "price": "कीमत (₹/kg)",
+  "add": "जोड़ें"
+  },
+  "dashboard": {
+    "farmer_dashboard" : "किसान डैशबोर्ड"
+  }
+
 
 
 

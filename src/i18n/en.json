@@ -44,5 +44,17 @@
     "invalid_phone": "Enter a valid 10-digit mobile number",
     "otp_send_failed": "Failed to send OTP",
     "login_failed": "Login failed"
+  },
+  "listing": {
+  "select_category": "Select Category",
+  "select_crop": "Select Crop",
+  "quantity": "Quantity (kg)",
+  "price": "Price (₹/kg)",
+  "add": "Add"
+  },
+  "dashboard": {
+    "farmer_dashboard" : "Farmer Dashboard"
   }
+
+
 }

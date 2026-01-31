@@ -43,6 +43,17 @@
   "invalid_phone": "చెల్లుబాటు అయ్యే 10 అంకెల మొబైల్ నంబర్ నమోదు చేయండి",
   "otp_send_failed": "OTP పంపడం విఫలమైంది",
   "login_failed": "లాగిన్ విఫలమైంది"
+ },
+ "listing": {
+  "select_category": "వర్గం ఎంచుకోండి",
+  "select_crop": "పంటను ఎంచుకోండి",
+  "quantity": "పరిమాణం (కిలోలు)",
+  "price": "ధర (₹/కిలోలు)",
+  "add": "జోడించండి"
+ },
+"dashboard": {
+  "farmer_dashboard" : "రైతు డాష్‌బోర్డ్"
 }
+
 
 }

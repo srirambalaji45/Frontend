@@ -42,6 +42,17 @@
   "invalid_phone": "ശരിയായ 10 അക്ക മൊബൈൽ നമ്പർ നൽകുക",
   "otp_send_failed": "OTP അയയ്ക്കാൻ കഴിഞ്ഞില്ല",
   "login_failed": "ലോഗിൻ പരാജയപ്പെട്ടു"
-}
+ },
+ "listing": {
+  "select_category": "വിഭാഗം തിരഞ്ഞെടുക്കുക",
+  "select_crop": "വിള തിരഞ്ഞെടുക്കുക",
+  "quantity": "അളവ് (കിലോ)",
+  "price": "വില (₹/കിലോ)",
+  "add": "ചേർക്കുക"
+ },
+ "dashboard": {
+   "farmer_dashboard" : "കർഷക ഡാഷ്‌ബോർഡ്"
+ }
+
 
 }
