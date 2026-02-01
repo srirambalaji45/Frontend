@@ -1,0 +1,81 @@
+.nav-farmer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 2rem;
+    background: #1a4b84;
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid #81c784; 
+}
+.nav-left {
+    display: flex;
+    gap: 2.5rem;
+    span {
+        cursor: pointer;
+        font-weight: 600;
+        color: #fdf5e6;
+        font-size: 0.95rem;
+        transition: color 0.2s ease;
+        position: relative;
+        &:hover {
+            text-decoration: underline; // User requested underline
+            color: #bbf7d0; // Light Green on hover
+        }
+    }
+}
+.nav-right {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.profile-icon {
+    cursor: pointer;
+    color: #bbf7d0; // Light Green Icon
+    transition: transform 0.2s ease, color 0.2s ease;
+    &:hover {
+        transform: scale(1.1);
+        color: #f5f5dc; // Changes to Beige on hover
+    }
+}
+.profile-dropdown {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 220px;
+    background: #fdfbf7; // Beige background for the dropdown
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+    overflow: hidden;
+    border: 1px solid #e2e8f0;
+}
+.profile-dropdown button {
+    padding: 0.9rem 1.2rem;
+    border: none;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+    font-weight: 600;
+    color: #1a365d; // Navy Blue text inside Beige dropdown
+    transition: all 0.2s;
+    &:hover {
+        background-color: #f0fff4; // Light Green tint background
+        color: #2f855a; // Forest Green text
+        text-decoration: underline;
+    }
+}
+.dropdown-divider {
+    height: 1px;
+    background-color: #cbd5e0;
+    margin: 4px 0;
+}
+.profile-dropdown button:last-child {
+    color: #c53030; // Professional red
+    &:hover {
+        background-color: #fff5f5;
+        color: #9b2c2c;
+    }
+}

@@ -48,11 +48,23 @@
   "select_crop": "വിള തിരഞ്ഞെടുക്കുക",
   "quantity": "അളവ് (കിലോ)",
   "price": "വില (₹/കിലോ)",
-  "add": "ചേർക്കുക"
+  "add": "ചേർക്കുക",
+  "add_crop_listings" : "ക്രോപ്പ് ലിസ്റ്റിംഗുകൾ ചേർക്കുക"
  },
  "dashboard": {
    "farmer_dashboard" : "കർഷക ഡാഷ്‌ബോർഡ്"
- }
+ },
+  "nav_farmer": {
+    "dashboard": "ഡാഷ്ബോർഡ്",
+    "my_listings": "എന്റെ ലിസ്റ്റിംഗുകൾ",
+    "add_crop": "വിള ചേർക്കുക",
+    "mandi_prices": "മാണ്ടി വിലകൾ",
+    "ai_insights": "AI ഇൻസൈറ്റുകൾ",
+    "live_auctions": "തത്സമയ ലേലങ്ങൾ",
+    "edit_profile": "പ്രൊഫൈൽ എഡിറ്റ് ചെയ്യുക",
+    "edit_preferences": "മുൻഗണനകൾ എഡിറ്റ് ചെയ്യുക",
+    "logout": "ലോഗൗട്ട് ചെയ്യുക"
+  }
 
 
 }

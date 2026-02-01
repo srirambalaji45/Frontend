@@ -49,11 +49,24 @@
   "select_crop": "పంటను ఎంచుకోండి",
   "quantity": "పరిమాణం (కిలోలు)",
   "price": "ధర (₹/కిలోలు)",
-  "add": "జోడించండి"
+  "add": "జోడించండి",
+  "add_crop_listings" : "పంటల జాబితాలను జోడించండి"
  },
 "dashboard": {
   "farmer_dashboard" : "రైతు డాష్‌బోర్డ్"
-}
+},
+  "nav_farmer": {
+    "dashboard": "డాష్బోర్డ్",
+    "my_listings": "నా జాబితాలు",
+    "add_crop": "పంటను జోడించండి",
+    "mandi_prices": "మండి ధరలు",
+    "ai_insights": "AI అంతర్దృష్టులు",
+    "live_auctions": "ప్రత్యక్ష వేలం",
+    "edit_profile": "ప్రొఫైల్ను సవరించండి",
+    "edit_preferences": "ప్రాధాన్యతలను సవరించండి",
+    "logout": "లాగ్ అవుట్ చేయండి"
+  }
+
 
 
 }

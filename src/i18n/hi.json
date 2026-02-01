@@ -50,10 +50,22 @@
   "select_crop": "फसल चुनें",
   "quantity": "मात्रा (kg)",
   "price": "कीमत (₹/kg)",
-  "add": "जोड़ें"
+  "add": "जोड़ें",
+  "add_crop_listings" : "फसल लिस्टिंग जोड़ें"
   },
   "dashboard": {
     "farmer_dashboard" : "किसान डैशबोर्ड"
+  },
+  "nav_farmer": {
+    "dashboard": "डैशबोर्ड",
+    "my_listings": "मेरी लिस्टिंग",
+    "add_crop": "फसल जोड़ें",
+    "mandi_prices": "मंडी की कीमतें",
+    "ai_insights": "AI इनसाइट्स",
+    "live_auctions": "लाइव नीलामी",
+    "edit_profile": "प्रोफ़ाइल संपादित करें",
+    "edit_preferences": "पसंद संपादित करें",
+    "logout": "लॉग आउट"
   }
 
 

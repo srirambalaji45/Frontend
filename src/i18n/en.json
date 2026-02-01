@@ -50,11 +50,22 @@
   "select_crop": "Select Crop",
   "quantity": "Quantity (kg)",
   "price": "Price (₹/kg)",
-  "add": "Add"
+  "add": "Add",
+  "add_crop_listings" : "Add Crop Listings"
   },
   "dashboard": {
     "farmer_dashboard" : "Farmer Dashboard"
+  },
+  "nav_farmer": {
+    "dashboard": "Dashboard",
+    "my_listings": "My Listings",
+    "add_crop": "Add Crop",
+    "mandi_prices": "Mandi Prices",
+    "ai_insights": "AI Insights",
+    "live_auctions": "Live Auctions",
+    "edit_profile": "Edit Profile",
+    "edit_preferences": "Edit Preferences",
+    "logout": "Logout"
   }
-
 
 }

@@ -1,0 +1,90 @@
+.crop-listing-page {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdf5e6; // Full page Beige background
+    padding: 2rem;
+    box-sizing: border-box;
+}
+.crop-listing-card {
+    background: #fffcf9; // Card Off-white
+    padding: 2.5rem 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(26, 75, 132, 0.1);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    border: 1px solid rgba(26, 75, 132, 0.05);
+    .listing-title {
+        color: #1a4b84; // Deep Navy
+        font-size: 1.75rem;
+        font-weight: 800;
+        margin-bottom: 2rem;
+        letter-spacing: -0.5px;
+    }
+}
+.crop-listing-vertical-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    .input-group {
+        width: 100%;
+    }
+    .listing-select,
+    .listing-input {
+        width: 100%;
+        padding: 0.9rem 1.2rem;
+        border: 1.5px solid #e2e8f0;
+        border-radius: 12px;
+        font-size: 1rem;
+        color: #1a4b84; // Navy
+        font-family: inherit;
+        background-color: white;
+        transition: all 0.2s ease;
+        box-sizing: border-box;
+        outline: none;
+        &:focus {
+            border-color: #1a4b84;
+            background-color: #fffcf9;
+            box-shadow: 0 0 0 4px rgba(26, 75, 132, 0.05);
+        }
+        &::placeholder {
+            color: #94a3b8;
+        }
+        &:disabled {
+            background-color: #f8fafc;
+            color: #cbd5e0;
+            cursor: not-allowed;
+        }
+    }
+    /* Custom arrow for selects */
+    select.listing-select {
+        appearance: none;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' fill='%231a4b84' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: calc(100% - 15px) center;
+    }
+    .listing-add-btn {
+        margin-top: 0.5rem;
+        padding: 1rem;
+        background-color: #1a4b84; // Deep Navy
+        color: white;
+        border: none;
+        border-radius: 12px;
+        font-size: 1.1rem;
+        font-weight: 700;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        box-shadow: 0 4px 12px rgba(26, 75, 132, 0.2);
+        &:hover {
+            background-color: #133a66;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 18px rgba(26, 75, 132, 0.3);
+        }
+        &:active {
+            transform: translateY(0);
+        }
+    }
+}

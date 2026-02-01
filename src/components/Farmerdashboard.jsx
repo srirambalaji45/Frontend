@@ -1,5 +1,6 @@
 import CropListingForm from "./CropListingForm";
 import { useTranslation } from "react-i18next";
+import NavFarmer from "./NavFarmer";
 
 
 function Farmerdashboard() {
@@ -7,8 +8,7 @@ function Farmerdashboard() {
 
   return (
     <div>
-      <h1>{t("dashboard.farmer_dashboard")}</h1>
-      <CropListingForm/>
+      <NavFarmer/>
     </div>
   );
 }
