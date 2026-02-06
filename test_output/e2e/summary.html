@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E2e Test Summary</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f5; padding: 20px; }
+        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        h1 { color: #333; margin-bottom: 30px; }
+        h2 { color: #555; margin-top: 30px; margin-bottom: 15px; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        .overview { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-bottom: 30px; }
+        .stat-card { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; }
+        .stat-card.success { background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); }
+        .stat-card.failed { background: linear-gradient(135deg, #ee0979 0%, #ff6a00 100%); }
+        .stat-label { font-size: 14px; opacity: 0.9; margin-bottom: 5px; }
+        .stat-value { font-size: 32px; font-weight: bold; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th, td { padding: 12px; text-align: left; border-bottom: 1px solid #eee; }
+        th { background: #f8f9fa; font-weight: 600; }
+        .status-passed { color: #38ef7d; font-weight: bold; }
+        .status-failed { color: #ee0979; font-weight: bold; }
+        .error-box { background: #fff5f5; border-left: 4px solid #ee0979; padding: 15px; margin: 10px 0; border-radius: 4px; overflow-x: auto; }
+        .error-box pre { font-size: 12px; color: #721c24; white-space: pre-wrap; }
+        .progress-bar { width: 100%; height: 30px; background: #eee; border-radius: 15px; overflow: hidden; margin: 20px 0; }
+        .progress-fill { height: 100%; background: linear-gradient(90deg, #11998e 0%, #38ef7d 100%); display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; transition: width 0.3s; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>E2e Test Summary</h1>
+        
+        <div class="overview">
+            <div class="stat-card">
+                <div class="stat-label">Total Tests</div>
+                <div class="stat-value">96</div>
+            </div>
+            <div class="stat-card success">
+                <div class="stat-label">Passed</div>
+                <div class="stat-value">68</div>
+            </div>
+            <div class="stat-card failed">
+                <div class="stat-label">Failed</div>
+                <div class="stat-value">28</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Success Rate</div>
+                <div class="stat-value">70.83%</div>
+            </div>
+        </div>
+
+        <div class="progress-bar">
+            <div class="progress-fill" style="width: 70.83%">70.83%</div>
+        </div>
+
+        <table>
+            <tr>
+                <th>Metric</th>
+                <th>Value</th>
+            </tr>
+            <tr><td>Total Duration</td><td>275.64s</td></tr>
+            <tr><td>Average Duration</td><td>2871.26ms</td></tr>
+            <tr><td>Skipped Tests</td><td>0</td></tr>
+        </table>
+    <h2>❌ Failed Tests</h2>
+                <div class="error-box">
+                    <strong>1. should allow selecting category and crop [chromium]</strong><br>
+                    <small>Duration: 37788ms</small>
+                    <pre>[31mTest timeout of 30000ms exceeded.[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>2. should add preference to table [chromium]</strong><br>
+                    <small>Duration: 37831ms</small>
+                    <pre>[31mTest timeout of 30000ms exceeded.[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>3. should add multiple preferences [chromium]</strong><br>
+                    <small>Duration: 37648ms</small>
+                    <pre>[31mTest timeout of 30000ms exceeded.[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>4. should remove preference on remove button click [chromium]</strong><br>
+                    <small>Duration: 38117ms</small>
+                    <pre>[31mTest timeout of 30000ms exceeded.[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>5. should enable continue button with preferences [chromium]</strong><br>
+                    <small>Duration: 38215ms</small>
+                    <pre>[31mTest timeout of 30000ms exceeded.[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>6. should navigate to dashboard on continue [chromium]</strong><br>
+                    <small>Duration: 38331ms</small>
+                    <pre>[31mTest timeout of 30000ms exceeded.[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>7. should clear selections after adding preference [chromium]</strong><br>
+                    <small>Duration: 34766ms</small>
+                    <pre>[31mTest timeout of 30000ms exceeded.[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>8. should allow selecting category and crop [firefox]</strong><br>
+                    <small>Duration: 30360ms</small>
+                    <pre>[31mTest timeout of 30000ms exceeded.[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>9. should add preference to table [firefox]</strong><br>
+                    <small>Duration: 30330ms</small>
+                    <pre>[31mTest timeout of 30000ms exceeded.[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>10. should add multiple preferences [firefox]</strong><br>
+                    <small>Duration: 30426ms</small>
+                    <pre>[31mTest timeout of 30000ms exceeded.[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>11. should remove preference on remove button click [firefox]</strong><br>
+                    <small>Duration: 30591ms</small>
+                    <pre>[31mTest timeout of 30000ms exceeded.[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>12. should enable continue button with preferences [firefox]</strong><br>
+                    <small>Duration: 30552ms</small>
+                    <pre>[31mTest timeout of 30000ms exceeded.[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>13. should navigate to dashboard on continue [firefox]</strong><br>
+                    <small>Duration: 31643ms</small>
+                    <pre>[31mTest timeout of 30000ms exceeded.[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>14. should clear selections after adding preference [firefox]</strong><br>
+                    <small>Duration: 31279ms</small>
+                    <pre>[31mTest timeout of 30000ms exceeded.[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>15. should allow selecting category and crop [mobile-chrome]</strong><br>
+                    <small>Duration: 35452ms</small>
+                    <pre>[31mTest timeout of 30000ms exceeded.[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>16. should add preference to table [mobile-chrome]</strong><br>
+                    <small>Duration: 35572ms</small>
+                    <pre>[31mTest timeout of 30000ms exceeded.[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>17. should add multiple preferences [mobile-chrome]</strong><br>
+                    <small>Duration: 36273ms</small>
+                    <pre>[31mTest timeout of 30000ms exceeded.[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>18. should remove preference on remove button click [mobile-chrome]</strong><br>
+                    <small>Duration: 35823ms</small>
+                    <pre>[31mTest timeout of 30000ms exceeded.[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>19. should enable continue button with preferences [mobile-chrome]</strong><br>
+                    <small>Duration: 35974ms</small>
+                    <pre>[31mTest timeout of 30000ms exceeded.[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>20. should navigate to dashboard on continue [mobile-chrome]</strong><br>
+                    <small>Duration: 36275ms</small>
+                    <pre>[31mTest timeout of 30000ms exceeded.[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>21. should clear selections after adding preference [mobile-chrome]</strong><br>
+                    <small>Duration: 33683ms</small>
+                    <pre>[31mTest timeout of 30000ms exceeded.[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>22. should allow selecting category and crop [tablet]</strong><br>
+                    <small>Duration: 35140ms</small>
+                    <pre>[31mTest timeout of 30000ms exceeded.[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>23. should add preference to table [tablet]</strong><br>
+                    <small>Duration: 35133ms</small>
+                    <pre>[31mTest timeout of 30000ms exceeded.[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>24. should add multiple preferences [tablet]</strong><br>
+                    <small>Duration: 36148ms</small>
+                    <pre>[31mTest timeout of 30000ms exceeded.[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>25. should remove preference on remove button click [tablet]</strong><br>
+                    <small>Duration: 39143ms</small>
+                    <pre>[31mTest timeout of 30000ms exceeded.[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>26. should enable continue button with preferences [tablet]</strong><br>
+                    <small>Duration: 40138ms</small>
+                    <pre>[31mTest timeout of 30000ms exceeded.[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>27. should navigate to dashboard on continue [tablet]</strong><br>
+                    <small>Duration: 40963ms</small>
+                    <pre>[31mTest timeout of 30000ms exceeded.[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>28. should clear selections after adding preference [tablet]</strong><br>
+                    <small>Duration: 35684ms</small>
+                    <pre>[31mTest timeout of 30000ms exceeded.[39m</pre>
+                </div>
+            <h2>🐌 Slowest Tests</h2><table><tr><th>Test</th><th>Duration</th></tr><tr><td>should navigate to dashboard on continue [tablet]</td><td>40963ms</td></tr><tr><td>should enable continue button with preferences [tablet]</td><td>40138ms</td></tr><tr><td>should remove preference on remove button click [tablet]</td><td>39143ms</td></tr><tr><td>should navigate to dashboard on continue [chromium]</td><td>38331ms</td></tr><tr><td>should enable continue button with preferences [chromium]</td><td>38215ms</td></tr></table><h2>📋 All Tests</h2><table><tr><th>Test</th><th>Status</th><th>Duration</th></tr><tr><td>should display preferences page correctly [chromium]</td><td class="status-passed">passed</td><td>2603ms</td></tr><tr><td>should allow selecting category and crop [chromium]</td><td class="status-failed">failed</td><td>37788ms</td></tr><tr><td>should add preference to table [chromium]</td><td class="status-failed">failed</td><td>37831ms</td></tr><tr><td>should add multiple preferences [chromium]</td><td class="status-failed">failed</td><td>37648ms</td></tr><tr><td>should remove preference on remove button click [chromium]</td><td class="status-failed">failed</td><td>38117ms</td></tr><tr><td>should disable continue button when no preferences [chromium]</td><td class="status-passed">passed</td><td>2362ms</td></tr><tr><td>should enable continue button with preferences [chromium]</td><td class="status-failed">failed</td><td>38215ms</td></tr><tr><td>should navigate to dashboard on continue [chromium]</td><td class="status-failed">failed</td><td>38331ms</td></tr><tr><td>should clear selections after adding preference [chromium]</td><td class="status-failed">failed</td><td>34766ms</td></tr><tr><td>should display preferences page correctly [firefox]</td><td class="status-passed">passed</td><td>4725ms</td></tr><tr><td>should allow selecting category and crop [firefox]</td><td class="status-failed">failed</td><td>30360ms</td></tr><tr><td>should add preference to table [firefox]</td><td class="status-failed">failed</td><td>30330ms</td></tr><tr><td>should add multiple preferences [firefox]</td><td class="status-failed">failed</td><td>30426ms</td></tr><tr><td>should remove preference on remove button click [firefox]</td><td class="status-failed">failed</td><td>30591ms</td></tr><tr><td>should disable continue button when no preferences [firefox]</td><td class="status-passed">passed</td><td>3506ms</td></tr><tr><td>should enable continue button with preferences [firefox]</td><td class="status-failed">failed</td><td>30552ms</td></tr><tr><td>should navigate to dashboard on continue [firefox]</td><td class="status-failed">failed</td><td>31643ms</td></tr><tr><td>should clear selections after adding preference [firefox]</td><td class="status-failed">failed</td><td>31279ms</td></tr><tr><td>should display preferences page correctly [mobile-chrome]</td><td class="status-passed">passed</td><td>3942ms</td></tr><tr><td>should allow selecting category and crop [mobile-chrome]</td><td class="status-failed">failed</td><td>35452ms</td></tr><tr><td>should add preference to table [mobile-chrome]</td><td class="status-failed">failed</td><td>35572ms</td></tr><tr><td>should add multiple preferences [mobile-chrome]</td><td class="status-failed">failed</td><td>36273ms</td></tr><tr><td>should remove preference on remove button click [mobile-chrome]</td><td class="status-failed">failed</td><td>35823ms</td></tr><tr><td>should disable continue button when no preferences [mobile-chrome]</td><td class="status-passed">passed</td><td>1231ms</td></tr><tr><td>should enable continue button with preferences [mobile-chrome]</td><td class="status-failed">failed</td><td>35974ms</td></tr><tr><td>should navigate to dashboard on continue [mobile-chrome]</td><td class="status-failed">failed</td><td>36275ms</td></tr><tr><td>should clear selections after adding preference [mobile-chrome]</td><td class="status-failed">failed</td><td>33683ms</td></tr><tr><td>should display preferences page correctly [tablet]</td><td class="status-passed">passed</td><td>4818ms</td></tr><tr><td>should allow selecting category and crop [tablet]</td><td class="status-failed">failed</td><td>35140ms</td></tr><tr><td>should add preference to table [tablet]</td><td class="status-failed">failed</td><td>35133ms</td></tr><tr><td>should add multiple preferences [tablet]</td><td class="status-failed">failed</td><td>36148ms</td></tr><tr><td>should remove preference on remove button click [tablet]</td><td class="status-failed">failed</td><td>39143ms</td></tr><tr><td>should disable continue button when no preferences [tablet]</td><td class="status-passed">passed</td><td>5638ms</td></tr><tr><td>should enable continue button with preferences [tablet]</td><td class="status-failed">failed</td><td>40138ms</td></tr><tr><td>should navigate to dashboard on continue [tablet]</td><td class="status-failed">failed</td><td>40963ms</td></tr><tr><td>should clear selections after adding preference [tablet]</td><td class="status-failed">failed</td><td>35684ms</td></tr><tr><td>should display crop listing form [chromium]</td><td class="status-passed">passed</td><td>3328ms</td></tr><tr><td>should select category and filter crops [chromium]</td><td class="status-passed">passed</td><td>2861ms</td></tr><tr><td>should submit form with valid data [chromium]</td><td class="status-passed">passed</td><td>3703ms</td></tr><tr><td>should require all fields for submission [chromium]</td><td class="status-passed">passed</td><td>3129ms</td></tr><tr><td>should display crop listing form [firefox]</td><td class="status-passed">passed</td><td>7279ms</td></tr><tr><td>should select category and filter crops [firefox]</td><td class="status-passed">passed</td><td>7942ms</td></tr><tr><td>should submit form with valid data [firefox]</td><td class="status-passed">passed</td><td>10958ms</td></tr><tr><td>should require all fields for submission [firefox]</td><td class="status-passed">passed</td><td>9882ms</td></tr><tr><td>should display crop listing form [mobile-chrome]</td><td class="status-passed">passed</td><td>3849ms</td></tr><tr><td>should select category and filter crops [mobile-chrome]</td><td class="status-passed">passed</td><td>4040ms</td></tr><tr><td>should submit form with valid data [mobile-chrome]</td><td class="status-passed">passed</td><td>3347ms</td></tr><tr><td>should require all fields for submission [mobile-chrome]</td><td class="status-passed">passed</td><td>4039ms</td></tr><tr><td>should display crop listing form [tablet]</td><td class="status-passed">passed</td><td>4573ms</td></tr><tr><td>should select category and filter crops [tablet]</td><td class="status-passed">passed</td><td>4614ms</td></tr><tr><td>should submit form with valid data [tablet]</td><td class="status-passed">passed</td><td>5125ms</td></tr><tr><td>should require all fields for submission [tablet]</td><td class="status-passed">passed</td><td>5507ms</td></tr><tr><td>should display login page correctly [chromium]</td><td class="status-passed">passed</td><td>3664ms</td></tr><tr><td>should validate phone number format [chromium]</td><td class="status-passed">passed</td><td>3713ms</td></tr><tr><td>should accept valid 10-digit phone number [chromium]</td><td class="status-passed">passed</td><td>3330ms</td></tr><tr><td>should only allow numeric input [chromium]</td><td class="status-passed">passed</td><td>3053ms</td></tr><tr><td>should navigate to signup page [chromium]</td><td class="status-passed">passed</td><td>2735ms</td></tr><tr><td>should show loading state during submission [chromium]</td><td class="status-passed">passed</td><td>3568ms</td></tr><tr><td>should handle API error gracefully [chromium]</td><td class="status-passed">passed</td><td>3899ms</td></tr><tr><td>should navigate to verify page on successful login [chromium]</td><td class="status-passed">passed</td><td>2720ms</td></tr><tr><td>should store phone in localStorage after successful request [chromium]</td><td class="status-passed">passed</td><td>2454ms</td></tr><tr><td>should display login page correctly [firefox]</td><td class="status-passed">passed</td><td>4681ms</td></tr><tr><td>should validate phone number format [firefox]</td><td class="status-passed">passed</td><td>6683ms</td></tr><tr><td>should accept valid 10-digit phone number [firefox]</td><td class="status-passed">passed</td><td>6250ms</td></tr><tr><td>should only allow numeric input [firefox]</td><td class="status-passed">passed</td><td>5829ms</td></tr><tr><td>should navigate to signup page [firefox]</td><td class="status-passed">passed</td><td>7277ms</td></tr><tr><td>should show loading state during submission [firefox]</td><td class="status-passed">passed</td><td>5713ms</td></tr><tr><td>should handle API error gracefully [firefox]</td><td class="status-passed">passed</td><td>6283ms</td></tr><tr><td>should navigate to verify page on successful login [firefox]</td><td class="status-passed">passed</td><td>6357ms</td></tr><tr><td>should store phone in localStorage after successful request [firefox]</td><td class="status-passed">passed</td><td>5420ms</td></tr><tr><td>should display login page correctly [mobile-chrome]</td><td class="status-passed">passed</td><td>3875ms</td></tr><tr><td>should validate phone number format [mobile-chrome]</td><td class="status-passed">passed</td><td>4670ms</td></tr><tr><td>should accept valid 10-digit phone number [mobile-chrome]</td><td class="status-passed">passed</td><td>4147ms</td></tr><tr><td>should only allow numeric input [mobile-chrome]</td><td class="status-passed">passed</td><td>4211ms</td></tr><tr><td>should navigate to signup page [mobile-chrome]</td><td class="status-passed">passed</td><td>3041ms</td></tr><tr><td>should show loading state during submission [mobile-chrome]</td><td class="status-passed">passed</td><td>4720ms</td></tr><tr><td>should handle API error gracefully [mobile-chrome]</td><td class="status-passed">passed</td><td>4251ms</td></tr><tr><td>should navigate to verify page on successful login [mobile-chrome]</td><td class="status-passed">passed</td><td>2434ms</td></tr><tr><td>should store phone in localStorage after successful request [mobile-chrome]</td><td class="status-passed">passed</td><td>2507ms</td></tr><tr><td>should display login page correctly [tablet]</td><td class="status-passed">passed</td><td>5932ms</td></tr><tr><td>should validate phone number format [tablet]</td><td class="status-passed">passed</td><td>7685ms</td></tr><tr><td>should accept valid 10-digit phone number [tablet]</td><td class="status-passed">passed</td><td>6632ms</td></tr><tr><td>should only allow numeric input [tablet]</td><td class="status-passed">passed</td><td>5637ms</td></tr><tr><td>should navigate to signup page [tablet]</td><td class="status-passed">passed</td><td>8016ms</td></tr><tr><td>should show loading state during submission [tablet]</td><td class="status-passed">passed</td><td>8309ms</td></tr><tr><td>should handle API error gracefully [tablet]</td><td class="status-passed">passed</td><td>7677ms</td></tr><tr><td>should navigate to verify page on successful login [tablet]</td><td class="status-passed">passed</td><td>4609ms</td></tr><tr><td>should store phone in localStorage after successful request [tablet]</td><td class="status-passed">passed</td><td>5163ms</td></tr><tr><td>should display correctly on mobile [chromium]</td><td class="status-passed">passed</td><td>2335ms</td></tr><tr><td>should display correctly on tablet [chromium]</td><td class="status-passed">passed</td><td>2428ms</td></tr><tr><td>should display correctly on mobile [firefox]</td><td class="status-passed">passed</td><td>4546ms</td></tr><tr><td>should display correctly on tablet [firefox]</td><td class="status-passed">passed</td><td>4488ms</td></tr><tr><td>should display correctly on mobile [mobile-chrome]</td><td class="status-passed">passed</td><td>3103ms</td></tr><tr><td>should display correctly on tablet [mobile-chrome]</td><td class="status-passed">passed</td><td>5530ms</td></tr><tr><td>should display correctly on mobile [tablet]</td><td class="status-passed">passed</td><td>4184ms</td></tr><tr><td>should display correctly on tablet [tablet]</td><td class="status-passed">passed</td><td>5236ms</td></tr></table></div></body></html>

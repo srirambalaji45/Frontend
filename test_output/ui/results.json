@@ -1,0 +1,810 @@
+{
+  "total": 64,
+  "passed": 46,
+  "failed": 18,
+  "skipped": 0,
+  "duration": 187993.2,
+  "tests": [
+    {
+      "name": "should have proper mobile layout (375px) [chromium]",
+      "status": "passed",
+      "duration": 3100,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should have proper tablet layout (768px) [chromium]",
+      "status": "passed",
+      "duration": 3361,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should have proper desktop layout (1440px) [chromium]",
+      "status": "passed",
+      "duration": 4103,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should display logo correctly [chromium]",
+      "status": "passed",
+      "duration": 3495,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should have visible form elements [chromium]",
+      "status": "passed",
+      "duration": 3463,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should have proper mobile layout (375px) [firefox]",
+      "status": "passed",
+      "duration": 15342,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should have proper tablet layout (768px) [firefox]",
+      "status": "passed",
+      "duration": 13966,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should have proper desktop layout (1440px) [firefox]",
+      "status": "passed",
+      "duration": 18909,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should display logo correctly [firefox]",
+      "status": "passed",
+      "duration": 16517,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should have visible form elements [firefox]",
+      "status": "passed",
+      "duration": 18584,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should have proper mobile layout (375px) [mobile-chrome]",
+      "status": "passed",
+      "duration": 10601,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should have proper tablet layout (768px) [mobile-chrome]",
+      "status": "passed",
+      "duration": 12032,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should have proper desktop layout (1440px) [mobile-chrome]",
+      "status": "passed",
+      "duration": 18219,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should display logo correctly [mobile-chrome]",
+      "status": "passed",
+      "duration": 5886,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should have visible form elements [mobile-chrome]",
+      "status": "passed",
+      "duration": 8458,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should have proper mobile layout (375px) [tablet]",
+      "status": "passed",
+      "duration": 11320,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should have proper tablet layout (768px) [tablet]",
+      "status": "passed",
+      "duration": 10764,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should have proper desktop layout (1440px) [tablet]",
+      "status": "passed",
+      "duration": 12297,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should display logo correctly [tablet]",
+      "status": "passed",
+      "duration": 15325,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should have visible form elements [tablet]",
+      "status": "passed",
+      "duration": 14381,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should display form properly on mobile [chromium]",
+      "status": "passed",
+      "duration": 2347,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should display form properly on tablet [chromium]",
+      "status": "passed",
+      "duration": 1355,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should display form properly on mobile [firefox]",
+      "status": "passed",
+      "duration": 9534,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should display form properly on tablet [firefox]",
+      "status": "passed",
+      "duration": 10264,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should display form properly on mobile [mobile-chrome]",
+      "status": "passed",
+      "duration": 4769,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should display form properly on tablet [mobile-chrome]",
+      "status": "passed",
+      "duration": 7877,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should display form properly on mobile [tablet]",
+      "status": "passed",
+      "duration": 12498,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should display form properly on tablet [tablet]",
+      "status": "passed",
+      "duration": 12092,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should display table correctly when preferences added [chromium]",
+      "status": "failed",
+      "duration": 44964,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-23566-ctly-when-preferences-added-chromium/test-failed-1.png"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-23566-ctly-when-preferences-added-chromium/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "should display table correctly when preferences added [firefox]",
+      "status": "failed",
+      "duration": 31487,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-23566-ctly-when-preferences-added-firefox/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-23566-ctly-when-preferences-added-firefox/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-23566-ctly-when-preferences-added-firefox/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "should display table correctly when preferences added [mobile-chrome]",
+      "status": "failed",
+      "duration": 40950,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-23566-ctly-when-preferences-added-mobile-chrome/test-failed-1.png"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-23566-ctly-when-preferences-added-mobile-chrome/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "should display table correctly when preferences added [tablet]",
+      "status": "failed",
+      "duration": 35053,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-23566-ctly-when-preferences-added-tablet/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-23566-ctly-when-preferences-added-tablet/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-23566-ctly-when-preferences-added-tablet/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "should open drawer with animation [chromium]",
+      "status": "passed",
+      "duration": 3141,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should display all accessibility options [chromium]",
+      "status": "passed",
+      "duration": 3281,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should close on backdrop click [chromium]",
+      "status": "passed",
+      "duration": 4279,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should open drawer with animation [firefox]",
+      "status": "passed",
+      "duration": 7471,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should display all accessibility options [firefox]",
+      "status": "passed",
+      "duration": 7849,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should close on backdrop click [firefox]",
+      "status": "passed",
+      "duration": 8698,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should open drawer with animation [mobile-chrome]",
+      "status": "passed",
+      "duration": 10408,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should display all accessibility options [mobile-chrome]",
+      "status": "passed",
+      "duration": 9782,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should close on backdrop click [mobile-chrome]",
+      "status": "failed",
+      "duration": 38475,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-4caad-uld-close-on-backdrop-click-mobile-chrome/test-failed-1.png"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-4caad-uld-close-on-backdrop-click-mobile-chrome/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "should open drawer with animation [tablet]",
+      "status": "passed",
+      "duration": 19041,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should display all accessibility options [tablet]",
+      "status": "passed",
+      "duration": 17118,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should close on backdrop click [tablet]",
+      "status": "passed",
+      "duration": 25847,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should apply dark theme correctly [chromium]",
+      "status": "passed",
+      "duration": 3461,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should persist theme on page reload [chromium]",
+      "status": "passed",
+      "duration": 3808,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should apply dark theme correctly [firefox]",
+      "status": "passed",
+      "duration": 9078,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should persist theme on page reload [firefox]",
+      "status": "passed",
+      "duration": 9467,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should apply dark theme correctly [mobile-chrome]",
+      "status": "passed",
+      "duration": 11388,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should persist theme on page reload [mobile-chrome]",
+      "status": "passed",
+      "duration": 12337,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should apply dark theme correctly [tablet]",
+      "status": "passed",
+      "duration": 24634,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should persist theme on page reload [tablet]",
+      "status": "failed",
+      "duration": 26899,
+      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"dark\"\u001b[39m\nReceived: \u001b[31mnull\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-c5cc6-ersist-theme-on-page-reload-tablet/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-c5cc6-ersist-theme-on-page-reload-tablet/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-c5cc6-ersist-theme-on-page-reload-tablet/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "login page visual snapshot [chromium]",
+      "status": "failed",
+      "duration": 4942,
+      "error": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/login-page-chromium-linux.png, writing actual.",
+      "attachments": [
+        {
+          "name": "login-page-expected.png",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/login-page-chromium-linux.png"
+        },
+        {
+          "name": "login-page-actual.png",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-4135d--login-page-visual-snapshot-chromium/login-page-actual.png"
+        },
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-4135d--login-page-visual-snapshot-chromium/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-4135d--login-page-visual-snapshot-chromium/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-4135d--login-page-visual-snapshot-chromium/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "crop listing form visual snapshot [chromium]",
+      "status": "failed",
+      "duration": 2769,
+      "error": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/crop-listing-form-chromium-linux.png, writing actual.",
+      "attachments": [
+        {
+          "name": "crop-listing-form-expected.png",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/crop-listing-form-chromium-linux.png"
+        },
+        {
+          "name": "crop-listing-form-actual.png",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-a3278-isting-form-visual-snapshot-chromium/crop-listing-form-actual.png"
+        },
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-a3278-isting-form-visual-snapshot-chromium/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-a3278-isting-form-visual-snapshot-chromium/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-a3278-isting-form-visual-snapshot-chromium/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "farmer preferences visual snapshot [chromium]",
+      "status": "failed",
+      "duration": 2614,
+      "error": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/farmer-preferences-chromium-linux.png, writing actual.",
+      "attachments": [
+        {
+          "name": "farmer-preferences-expected.png",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/farmer-preferences-chromium-linux.png"
+        },
+        {
+          "name": "farmer-preferences-actual.png",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-aabe3-preferences-visual-snapshot-chromium/farmer-preferences-actual.png"
+        },
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-aabe3-preferences-visual-snapshot-chromium/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-aabe3-preferences-visual-snapshot-chromium/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-aabe3-preferences-visual-snapshot-chromium/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "login page visual snapshot [firefox]",
+      "status": "failed",
+      "duration": 32326,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-4135d--login-page-visual-snapshot-firefox/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-4135d--login-page-visual-snapshot-firefox/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-4135d--login-page-visual-snapshot-firefox/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "crop listing form visual snapshot [firefox]",
+      "status": "failed",
+      "duration": 33357,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-a3278-isting-form-visual-snapshot-firefox/test-failed-1.png"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-a3278-isting-form-visual-snapshot-firefox/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "farmer preferences visual snapshot [firefox]",
+      "status": "failed",
+      "duration": 6843,
+      "error": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/farmer-preferences-firefox-linux.png, writing actual.",
+      "attachments": [
+        {
+          "name": "farmer-preferences-expected.png",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/farmer-preferences-firefox-linux.png"
+        },
+        {
+          "name": "farmer-preferences-actual.png",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-aabe3-preferences-visual-snapshot-firefox/farmer-preferences-actual.png"
+        },
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-aabe3-preferences-visual-snapshot-firefox/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-aabe3-preferences-visual-snapshot-firefox/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-aabe3-preferences-visual-snapshot-firefox/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "login page visual snapshot [mobile-chrome]",
+      "status": "failed",
+      "duration": 8771,
+      "error": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/login-page-mobile-chrome-linux.png, writing actual.",
+      "attachments": [
+        {
+          "name": "login-page-expected.png",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/login-page-mobile-chrome-linux.png"
+        },
+        {
+          "name": "login-page-actual.png",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-4135d--login-page-visual-snapshot-mobile-chrome/login-page-actual.png"
+        },
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-4135d--login-page-visual-snapshot-mobile-chrome/test-failed-1.png"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-4135d--login-page-visual-snapshot-mobile-chrome/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "crop listing form visual snapshot [mobile-chrome]",
+      "status": "failed",
+      "duration": 6285,
+      "error": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/crop-listing-form-mobile-chrome-linux.png, writing actual.",
+      "attachments": [
+        {
+          "name": "crop-listing-form-expected.png",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/crop-listing-form-mobile-chrome-linux.png"
+        },
+        {
+          "name": "crop-listing-form-actual.png",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-a3278-isting-form-visual-snapshot-mobile-chrome/crop-listing-form-actual.png"
+        },
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-a3278-isting-form-visual-snapshot-mobile-chrome/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-a3278-isting-form-visual-snapshot-mobile-chrome/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-a3278-isting-form-visual-snapshot-mobile-chrome/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "farmer preferences visual snapshot [mobile-chrome]",
+      "status": "failed",
+      "duration": 5144,
+      "error": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/farmer-preferences-mobile-chrome-linux.png, writing actual.",
+      "attachments": [
+        {
+          "name": "farmer-preferences-expected.png",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/farmer-preferences-mobile-chrome-linux.png"
+        },
+        {
+          "name": "farmer-preferences-actual.png",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-aabe3-preferences-visual-snapshot-mobile-chrome/farmer-preferences-actual.png"
+        },
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-aabe3-preferences-visual-snapshot-mobile-chrome/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-aabe3-preferences-visual-snapshot-mobile-chrome/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-aabe3-preferences-visual-snapshot-mobile-chrome/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "login page visual snapshot [tablet]",
+      "status": "failed",
+      "duration": 14723,
+      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nTimeout: 5000ms\n  Timeout 5000ms exceeded.\n\n  Snapshot: login-page.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(login-page.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - generating new stable screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - waiting 100ms before taking screenshot\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - Timeout 5000ms exceeded.\u001b[22m\n",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-4135d--login-page-visual-snapshot-tablet/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-4135d--login-page-visual-snapshot-tablet/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-4135d--login-page-visual-snapshot-tablet/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "crop listing form visual snapshot [tablet]",
+      "status": "failed",
+      "duration": 7028,
+      "error": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/crop-listing-form-tablet-linux.png, writing actual.",
+      "attachments": [
+        {
+          "name": "crop-listing-form-expected.png",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/crop-listing-form-tablet-linux.png"
+        },
+        {
+          "name": "crop-listing-form-actual.png",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-a3278-isting-form-visual-snapshot-tablet/crop-listing-form-actual.png"
+        },
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-a3278-isting-form-visual-snapshot-tablet/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-a3278-isting-form-visual-snapshot-tablet/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-a3278-isting-form-visual-snapshot-tablet/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "farmer preferences visual snapshot [tablet]",
+      "status": "failed",
+      "duration": 6632,
+      "error": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/farmer-preferences-tablet-linux.png, writing actual.",
+      "attachments": [
+        {
+          "name": "farmer-preferences-expected.png",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/farmer-preferences-tablet-linux.png"
+        },
+        {
+          "name": "farmer-preferences-actual.png",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-aabe3-preferences-visual-snapshot-tablet/farmer-preferences-actual.png"
+        },
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-aabe3-preferences-visual-snapshot-tablet/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-aabe3-preferences-visual-snapshot-tablet/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-aabe3-preferences-visual-snapshot-tablet/error-context.md"
+        }
+      ]
+    }
+  ]
+}

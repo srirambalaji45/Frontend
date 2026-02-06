@@ -1,0 +1,105 @@
+{
+  "total": 16,
+  "passed": 15,
+  "failed": 1,
+  "skipped": 0,
+  "duration": 2554.6168270000007,
+  "tests": [
+    {
+      "name": "/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/CropListingForm.test.jsx > Functional: CropListingForm Component > TC001: renders form with all required elements",
+      "status": "passed",
+      "duration": 422.8642279999999,
+      "error": null
+    },
+    {
+      "name": "/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/CropListingForm.test.jsx > Functional: CropListingForm Component > TC002: enables crop dropdown after category selection",
+      "status": "passed",
+      "duration": 150.95682999999963,
+      "error": null
+    },
+    {
+      "name": "/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/CropListingForm.test.jsx > Functional: CropListingForm Component > TC003: resets crop selection when category changes",
+      "status": "passed",
+      "duration": 235.4816920000003,
+      "error": null
+    },
+    {
+      "name": "/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/CropListingForm.test.jsx > Functional: CropListingForm Component > TC004: shows correct crops for selected category",
+      "status": "passed",
+      "duration": 98.75342300000011,
+      "error": null
+    },
+    {
+      "name": "/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/CropListingForm.test.jsx > Functional: CropListingForm Component > TC005: quantity input has number type",
+      "status": "passed",
+      "duration": 12.162263000000166,
+      "error": null
+    },
+    {
+      "name": "/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/CropListingForm.test.jsx > Functional: CropListingForm Component > TC006: price input has number type",
+      "status": "passed",
+      "duration": 8.298608999999942,
+      "error": null
+    },
+    {
+      "name": "/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/CropListingForm.test.jsx > Functional: CropListingForm Component > TC007: clears form after successful submission",
+      "status": "passed",
+      "duration": 271.21947999999975,
+      "error": null
+    },
+    {
+      "name": "/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/CropListingForm.test.jsx > Functional: CropListingForm Component > TC008: displays all crop categories",
+      "status": "passed",
+      "duration": 32.61560700000018,
+      "error": null
+    },
+    {
+      "name": "/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/Login.test.jsx > Functional: Login Component > TC001: shows error for empty phone submission",
+      "status": "passed",
+      "duration": 485.82229199999983,
+      "error": null
+    },
+    {
+      "name": "/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/Login.test.jsx > Functional: Login Component > TC002: shows error for phone number less than 10 digits",
+      "status": "passed",
+      "duration": 146.10345300000017,
+      "error": null
+    },
+    {
+      "name": "/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/Login.test.jsx > Functional: Login Component > TC003: accepts exactly 10 digit phone number",
+      "status": "passed",
+      "duration": 162.5663010000003,
+      "error": null
+    },
+    {
+      "name": "/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/Login.test.jsx > Functional: Login Component > TC004: filters non-numeric characters from input",
+      "status": "passed",
+      "duration": 107.26705300000003,
+      "error": null
+    },
+    {
+      "name": "/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/Login.test.jsx > Functional: Login Component > TC005: displays API error message",
+      "status": "passed",
+      "duration": 132.90280600000006,
+      "error": null
+    },
+    {
+      "name": "/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/Login.test.jsx > Functional: Login Component > TC006: shows loading state during submission",
+      "status": "passed",
+      "duration": 154.32721800000036,
+      "error": null
+    },
+    {
+      "name": "/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/Login.test.jsx > Functional: Login Component > TC007: displays +91 country code",
+      "status": "passed",
+      "duration": 11.860595999999987,
+      "error": null
+    },
+    {
+      "name": "/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/Login.test.jsx > Functional: Login Component > TC008: enforces 10 digit maximum",
+      "status": "failed",
+      "duration": 121.41497600000002,
+      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31melement\u001b[39m\u001b[2m).toHaveValue(\u001b[22m\u001b[32m1234567890\u001b[39m\u001b[2m)\u001b[22m\n\nExpected the element to have value:\n\u001b[32m  1234567890\u001b[39m\nReceived:\n\u001b[31m  12345678901234\u001b[39m\n    at Proxy.expectWrapper (file:///home/akash-krishnan/Documents/sriram/Frontend/node_modules/@vitest/expect/dist/index.js:1821:12)\n    at Proxy.<anonymous> (file:///home/akash-krishnan/Documents/sriram/Frontend/node_modules/@vitest/expect/dist/index.js:1090:14)\n    at Proxy.methodWrapper (file:///home/akash-krishnan/Documents/sriram/Frontend/node_modules/chai/index.js:1700:25)\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/functional/Login.test.jsx:202:23\n    at file:///home/akash-krishnan/Documents/sriram/Frontend/node_modules/@vitest/runner/dist/index.js:915:20"
+    }
+  ]
+}

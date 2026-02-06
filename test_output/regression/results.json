@@ -1,0 +1,63 @@
+{
+  "total": 9,
+  "passed": 9,
+  "failed": 0,
+  "skipped": 0,
+  "duration": 578.366931999999,
+  "tests": [
+    {
+      "name": "/home/akash-krishnan/Documents/sriram/Frontend/tests/regression/baseline.test.jsx > Regression: Login Component Baseline > BASELINE-001: Login form structure unchanged",
+      "status": "passed",
+      "duration": 350.44517700000006,
+      "error": null
+    },
+    {
+      "name": "/home/akash-krishnan/Documents/sriram/Frontend/tests/regression/baseline.test.jsx > Regression: Login Component Baseline > BASELINE-002: Phone input accepts user input",
+      "status": "passed",
+      "duration": 11.26420300000018,
+      "error": null
+    },
+    {
+      "name": "/home/akash-krishnan/Documents/sriram/Frontend/tests/regression/baseline.test.jsx > Regression: Login Component Baseline > BASELINE-003: Signup navigation link present",
+      "status": "passed",
+      "duration": 36.69598099999985,
+      "error": null
+    },
+    {
+      "name": "/home/akash-krishnan/Documents/sriram/Frontend/tests/regression/baseline.test.jsx > Regression: CropListingForm Baseline > BASELINE-004: Form has category and crop dropdowns",
+      "status": "passed",
+      "duration": 63.54460500000005,
+      "error": null
+    },
+    {
+      "name": "/home/akash-krishnan/Documents/sriram/Frontend/tests/regression/baseline.test.jsx > Regression: CropListingForm Baseline > BASELINE-005: Crop dropdown initially disabled",
+      "status": "passed",
+      "duration": 38.48799599999984,
+      "error": null
+    },
+    {
+      "name": "/home/akash-krishnan/Documents/sriram/Frontend/tests/regression/baseline.test.jsx > Regression: CropListingForm Baseline > BASELINE-006: All crop categories available",
+      "status": "passed",
+      "duration": 32.771062999999685,
+      "error": null
+    },
+    {
+      "name": "/home/akash-krishnan/Documents/sriram/Frontend/tests/regression/baseline.test.jsx > Regression: Accessibility Baseline > BASELINE-007: Accessibility button rendered",
+      "status": "passed",
+      "duration": 20.955419999999776,
+      "error": null
+    },
+    {
+      "name": "/home/akash-krishnan/Documents/sriram/Frontend/tests/regression/baseline.test.jsx > Regression: Accessibility Baseline > BASELINE-008: Theme state initialization",
+      "status": "passed",
+      "duration": 10.896555999999691,
+      "error": null
+    },
+    {
+      "name": "/home/akash-krishnan/Documents/sriram/Frontend/tests/regression/baseline.test.jsx > Regression: Accessibility Baseline > BASELINE-009: Language options exist after drawer open",
+      "status": "passed",
+      "duration": 13.305930999999873,
+      "error": null
+    }
+  ]
+}

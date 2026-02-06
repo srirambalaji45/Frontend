@@ -1,0 +1,3080 @@
+{
+  "config": {
+    "configFile": "/home/akash-krishnan/Documents/sriram/Frontend/playwright.all.config.js",
+    "rootDir": "/home/akash-krishnan/Documents/sriram/Frontend/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 6
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/home/akash-krishnan/Documents/sriram/Frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/home/akash-krishnan/Documents/sriram/Frontend/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.js"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/akash-krishnan/Documents/sriram/Frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/home/akash-krishnan/Documents/sriram/Frontend/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.js"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/akash-krishnan/Documents/sriram/Frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "mobile-chrome",
+        "name": "mobile-chrome",
+        "testDir": "/home/akash-krishnan/Documents/sriram/Frontend/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.js"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/akash-krishnan/Documents/sriram/Frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "tablet",
+        "name": "tablet",
+        "testDir": "/home/akash-krishnan/Documents/sriram/Frontend/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.js"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.2",
+    "workers": 6,
+    "webServer": {
+      "command": "npm run dev",
+      "url": "http://localhost:5173",
+      "reuseExistingServer": true,
+      "timeout": 120000
+    }
+  },
+  "suites": [
+    {
+      "title": "ui/visual-regression.spec.js",
+      "file": "ui/visual-regression.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "UI Testing: Login Page Layout",
+          "file": "ui/visual-regression.spec.js",
+          "line": 15,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should have proper mobile layout (375px)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3100,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:41:36.475Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-6154ac4d1e6cdc5603f0",
+              "file": "ui/visual-regression.spec.js",
+              "line": 16,
+              "column": 5
+            },
+            {
+              "title": "should have proper tablet layout (768px)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 3361,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:41:36.661Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-6f3f4a33933b808b320f",
+              "file": "ui/visual-regression.spec.js",
+              "line": 31,
+              "column": 5
+            },
+            {
+              "title": "should have proper desktop layout (1440px)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 4103,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:41:36.573Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-d63db8486838860e5837",
+              "file": "ui/visual-regression.spec.js",
+              "line": 39,
+              "column": 5
+            },
+            {
+              "title": "should display logo correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 3495,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:41:36.614Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-f28fc4d12b672135acab",
+              "file": "ui/visual-regression.spec.js",
+              "line": 56,
+              "column": 5
+            },
+            {
+              "title": "should have visible form elements",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 3463,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:41:36.571Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-96f3e242fec6a09e4f62",
+              "file": "ui/visual-regression.spec.js",
+              "line": 67,
+              "column": 5
+            },
+            {
+              "title": "should have proper mobile layout (375px)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 15342,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:41:48.881Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-1575e142e4b4bba17d5b",
+              "file": "ui/visual-regression.spec.js",
+              "line": 16,
+              "column": 5
+            },
+            {
+              "title": "should have proper tablet layout (768px)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 13966,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:41:48.991Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-70df32be99a1a7e54e94",
+              "file": "ui/visual-regression.spec.js",
+              "line": 31,
+              "column": 5
+            },
+            {
+              "title": "should have proper desktop layout (1440px)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 18909,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:41:50.931Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-0997a0bb52491ef5df63",
+              "file": "ui/visual-regression.spec.js",
+              "line": 39,
+              "column": 5
+            },
+            {
+              "title": "should display logo correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 16517,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:41:51.523Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-458f38b4b78e997f720b",
+              "file": "ui/visual-regression.spec.js",
+              "line": 56,
+              "column": 5
+            },
+            {
+              "title": "should have visible form elements",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 18584,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:41:54.051Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-75851aa65e3b0922c799",
+              "file": "ui/visual-regression.spec.js",
+              "line": 67,
+              "column": 5
+            },
+            {
+              "title": "should have proper mobile layout (375px)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 10601,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:40.031Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-0f86bca3966de19c3774",
+              "file": "ui/visual-regression.spec.js",
+              "line": 16,
+              "column": 5
+            },
+            {
+              "title": "should have proper tablet layout (768px)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 13,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 12032,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:46.902Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-aeb72fc4325003bc02a1",
+              "file": "ui/visual-regression.spec.js",
+              "line": 31,
+              "column": 5
+            },
+            {
+              "title": "should have proper desktop layout (1440px)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 18219,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:49.586Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-8d69374fa3b2c432e999",
+              "file": "ui/visual-regression.spec.js",
+              "line": 39,
+              "column": 5
+            },
+            {
+              "title": "should display logo correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 5886,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:51.304Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-556460a21e2cd6d4ebfa",
+              "file": "ui/visual-regression.spec.js",
+              "line": 56,
+              "column": 5
+            },
+            {
+              "title": "should have visible form elements",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 8458,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:59.501Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-a9588b4f7c3ffbd3b790",
+              "file": "ui/visual-regression.spec.js",
+              "line": 67,
+              "column": 5
+            },
+            {
+              "title": "should have proper mobile layout (375px)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "tablet",
+                  "projectName": "tablet",
+                  "results": [
+                    {
+                      "workerIndex": 19,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 11320,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:34.121Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-653e2db240862f035fbd",
+              "file": "ui/visual-regression.spec.js",
+              "line": 16,
+              "column": 5
+            },
+            {
+              "title": "should have proper tablet layout (768px)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "tablet",
+                  "projectName": "tablet",
+                  "results": [
+                    {
+                      "workerIndex": 18,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 10764,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:33.048Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-b6be24acb9221fec9804",
+              "file": "ui/visual-regression.spec.js",
+              "line": 31,
+              "column": 5
+            },
+            {
+              "title": "should have proper desktop layout (1440px)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "tablet",
+                  "projectName": "tablet",
+                  "results": [
+                    {
+                      "workerIndex": 20,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 12297,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:34.395Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-c5d2e1c8169220a87829",
+              "file": "ui/visual-regression.spec.js",
+              "line": 39,
+              "column": 5
+            },
+            {
+              "title": "should display logo correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "tablet",
+                  "projectName": "tablet",
+                  "results": [
+                    {
+                      "workerIndex": 21,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 15325,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:43.626Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-cc4df3d294424c7748f4",
+              "file": "ui/visual-regression.spec.js",
+              "line": 56,
+              "column": 5
+            },
+            {
+              "title": "should have visible form elements",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "tablet",
+                  "projectName": "tablet",
+                  "results": [
+                    {
+                      "workerIndex": 18,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 14381,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:44.840Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-edc1620cb5397988d553",
+              "file": "ui/visual-regression.spec.js",
+              "line": 67,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "UI Testing: CropListingForm Layout",
+          "file": "ui/visual-regression.spec.js",
+          "line": 81,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should display form properly on mobile",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 2347,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:41:36.691Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-bb55ac8724f35691a6e0",
+              "file": "ui/visual-regression.spec.js",
+              "line": 82,
+              "column": 5
+            },
+            {
+              "title": "should display form properly on tablet",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 1355,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:41:39.511Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-1066b5dc4ef85d59e24f",
+              "file": "ui/visual-regression.spec.js",
+              "line": 94,
+              "column": 5
+            },
+            {
+              "title": "should display form properly on mobile",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 9534,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:06.277Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-04068061ba54d32e1bd8",
+              "file": "ui/visual-regression.spec.js",
+              "line": 82,
+              "column": 5
+            },
+            {
+              "title": "should display form properly on tablet",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 10264,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:07.629Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-291e26d1358bafb57275",
+              "file": "ui/visual-regression.spec.js",
+              "line": 94,
+              "column": 5
+            },
+            {
+              "title": "should display form properly on mobile",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 4769,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:57.347Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-9addc589ebdea7975f8b",
+              "file": "ui/visual-regression.spec.js",
+              "line": 82,
+              "column": 5
+            },
+            {
+              "title": "should display form properly on tablet",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 13,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 7877,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:59.692Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-6a4967aae2657dd93447",
+              "file": "ui/visual-regression.spec.js",
+              "line": 94,
+              "column": 5
+            },
+            {
+              "title": "should display form properly on mobile",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "tablet",
+                  "projectName": "tablet",
+                  "results": [
+                    {
+                      "workerIndex": 19,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 12498,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:46.266Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-40ae88fdc132e7f4fce2",
+              "file": "ui/visual-regression.spec.js",
+              "line": 82,
+              "column": 5
+            },
+            {
+              "title": "should display form properly on tablet",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "tablet",
+                  "projectName": "tablet",
+                  "results": [
+                    {
+                      "workerIndex": 20,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 12092,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:47.397Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-3c22a0e405bf2ea1a696",
+              "file": "ui/visual-regression.spec.js",
+              "line": 94,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "UI Testing: Farmer Preferences Layout",
+          "file": "ui/visual-regression.spec.js",
+          "line": 102,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should display table correctly when preferences added",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 44964,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                            "column": 46,
+                            "line": 107
+                          },
+                          "message": "Error: locator.selectOption: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('select').first()\u001b[22m\n\u001b[2m    - locator resolved to <select class=\"acc-select\">…</select>\u001b[22m\n\u001b[2m  - attempting select option action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and enabled\u001b[22m\n\u001b[2m      - did not find some options\u001b[22m\n\u001b[2m    - retrying select option action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and enabled\u001b[22m\n\u001b[2m      - did not find some options\u001b[22m\n\u001b[2m    - retrying select option action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    56 × waiting for element to be visible and enabled\u001b[22m\n\u001b[2m       - did not find some options\u001b[22m\n\u001b[2m     - retrying select option action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n\n  105 |\n  106 |         // Add a preference\n> 107 |         await page.locator('select').first().selectOption('Fruits');\n      |                                              ^\n  108 |         await page.locator('select').nth(1).selectOption('Mango');\n  109 |         await page.click('.add-btn');\n  110 |\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js:107:46"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:41:39.870Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-23566-ctly-when-preferences-added-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-23566-ctly-when-preferences-added-chromium/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-39dbb6ce88525b6c464a",
+              "file": "ui/visual-regression.spec.js",
+              "line": 103,
+              "column": 5
+            },
+            {
+              "title": "should display table correctly when preferences added",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 4,
+                      "status": "timedOut",
+                      "duration": 31487,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                            "column": 46,
+                            "line": 107
+                          },
+                          "message": "Error: locator.selectOption: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('select').first()\u001b[22m\n\u001b[2m    - locator resolved to <select class=\"acc-select\">…</select>\u001b[22m\n\u001b[2m  - attempting select option action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and enabled\u001b[22m\n\u001b[2m      - did not find some options\u001b[22m\n\u001b[2m    - retrying select option action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and enabled\u001b[22m\n\u001b[2m      - did not find some options\u001b[22m\n\u001b[2m    - retrying select option action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    43 × waiting for element to be visible and enabled\u001b[22m\n\u001b[2m       - did not find some options\u001b[22m\n\u001b[2m     - retrying select option action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n\n  105 |\n  106 |         // Add a preference\n> 107 |         await page.locator('select').first().selectOption('Fruits');\n      |                                              ^\n  108 |         await page.locator('select').nth(1).selectOption('Mango');\n  109 |         await page.click('.add-btn');\n  110 |\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js:107:46"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:15.220Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-23566-ctly-when-preferences-added-firefox/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-23566-ctly-when-preferences-added-firefox/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-23566-ctly-when-preferences-added-firefox/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-609dc1a4bd0a5e9d4815",
+              "file": "ui/visual-regression.spec.js",
+              "line": 103,
+              "column": 5
+            },
+            {
+              "title": "should display table correctly when preferences added",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 16,
+                      "parallelIndex": 3,
+                      "status": "timedOut",
+                      "duration": 40950,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                            "column": 46,
+                            "line": 107
+                          },
+                          "message": "Error: locator.selectOption: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('select').first()\u001b[22m\n\u001b[2m    - locator resolved to <select class=\"acc-select\">…</select>\u001b[22m\n\u001b[2m  - attempting select option action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and enabled\u001b[22m\n\u001b[2m      - did not find some options\u001b[22m\n\u001b[2m    - retrying select option action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and enabled\u001b[22m\n\u001b[2m      - did not find some options\u001b[22m\n\u001b[2m    - retrying select option action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    52 × waiting for element to be visible and enabled\u001b[22m\n\u001b[2m       - did not find some options\u001b[22m\n\u001b[2m     - retrying select option action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible and enabled\u001b[22m\n\n\n  105 |\n  106 |         // Add a preference\n> 107 |         await page.locator('select').first().selectOption('Fruits');\n      |                                              ^\n  108 |         await page.locator('select').nth(1).selectOption('Mango');\n  109 |         await page.click('.add-btn');\n  110 |\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js:107:46"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:08.652Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-23566-ctly-when-preferences-added-mobile-chrome/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-23566-ctly-when-preferences-added-mobile-chrome/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-ca2e4b6067c4a60544d1",
+              "file": "ui/visual-regression.spec.js",
+              "line": 103,
+              "column": 5
+            },
+            {
+              "title": "should display table correctly when preferences added",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "tablet",
+                  "projectName": "tablet",
+                  "results": [
+                    {
+                      "workerIndex": 22,
+                      "parallelIndex": 4,
+                      "status": "timedOut",
+                      "duration": 35053,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                            "column": 46,
+                            "line": 107
+                          },
+                          "message": "Error: locator.selectOption: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('select').first()\u001b[22m\n\u001b[2m    - locator resolved to <select class=\"acc-select\">…</select>\u001b[22m\n\u001b[2m  - attempting select option action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and enabled\u001b[22m\n\u001b[2m      - did not find some options\u001b[22m\n\u001b[2m    - retrying select option action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and enabled\u001b[22m\n\u001b[2m      - did not find some options\u001b[22m\n\u001b[2m    - retrying select option action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    45 × waiting for element to be visible and enabled\u001b[22m\n\u001b[2m       - did not find some options\u001b[22m\n\u001b[2m     - retrying select option action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n\n  105 |\n  106 |         // Add a preference\n> 107 |         await page.locator('select').first().selectOption('Fruits');\n      |                                              ^\n  108 |         await page.locator('select').nth(1).selectOption('Mango');\n  109 |         await page.click('.add-btn');\n  110 |\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js:107:46"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:44:03.038Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-23566-ctly-when-preferences-added-tablet/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-23566-ctly-when-preferences-added-tablet/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-23566-ctly-when-preferences-added-tablet/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-6d20e02c93a06d6366c9",
+              "file": "ui/visual-regression.spec.js",
+              "line": 103,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "UI Testing: Accessibility Drawer",
+          "file": "ui/visual-regression.spec.js",
+          "line": 121,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should open drawer with animation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 3141,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:41:40.418Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-77c2cb78abb3be4b64d3",
+              "file": "ui/visual-regression.spec.js",
+              "line": 122,
+              "column": 5
+            },
+            {
+              "title": "should display all accessibility options",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 3281,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:41:40.419Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-6021cb8b7b20de04e6f6",
+              "file": "ui/visual-regression.spec.js",
+              "line": 133,
+              "column": 5
+            },
+            {
+              "title": "should close on backdrop click",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 4279,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:41:40.467Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-d86c342a408fae483031",
+              "file": "ui/visual-regression.spec.js",
+              "line": 145,
+              "column": 5
+            },
+            {
+              "title": "should open drawer with animation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 7471,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:15.697Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-064441590e5c7e3d5bce",
+              "file": "ui/visual-regression.spec.js",
+              "line": 122,
+              "column": 5
+            },
+            {
+              "title": "should display all accessibility options",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 7849,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:16.205Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-2700ef4b94b041d8ff74",
+              "file": "ui/visual-regression.spec.js",
+              "line": 133,
+              "column": 5
+            },
+            {
+              "title": "should close on backdrop click",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 8698,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:18.113Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-5d8043f016b0a5fd05dc",
+              "file": "ui/visual-regression.spec.js",
+              "line": 145,
+              "column": 5
+            },
+            {
+              "title": "should open drawer with animation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 10408,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:02.252Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-be7b17b6d035f920601b",
+              "file": "ui/visual-regression.spec.js",
+              "line": 122,
+              "column": 5
+            },
+            {
+              "title": "should display all accessibility options",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 13,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 9782,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:07.739Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-ffc420ea2d09e243e9eb",
+              "file": "ui/visual-regression.spec.js",
+              "line": 133,
+              "column": 5
+            },
+            {
+              "title": "should close on backdrop click",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "parallelIndex": 4,
+                      "status": "timedOut",
+                      "duration": 38475,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                            "column": 20,
+                            "line": 150
+                          },
+                          "message": "Error: page.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.acc-backdrop')\u001b[22m\n\u001b[2m    - locator resolved to <div class=\"acc-backdrop show\"></div>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <aside class=\"acc-drawer open\">…</aside> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <aside class=\"acc-drawer open\">…</aside> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    41 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <aside class=\"acc-drawer open\">…</aside> intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\n\n  148 |\n  149 |         // Click backdrop\n> 150 |         await page.click('.acc-backdrop');\n      |                    ^\n  151 |\n  152 |         // Drawer should close\n  153 |         const drawer = page.locator('.acc-drawer');\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js:150:20"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:08.639Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-4caad-uld-close-on-backdrop-click-mobile-chrome/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-4caad-uld-close-on-backdrop-click-mobile-chrome/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-b243194373cbc4383a9f",
+              "file": "ui/visual-regression.spec.js",
+              "line": 145,
+              "column": 5
+            },
+            {
+              "title": "should open drawer with animation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "tablet",
+                  "projectName": "tablet",
+                  "results": [
+                    {
+                      "workerIndex": 23,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 19041,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:44:04.563Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-2e6006bea7f582257d17",
+              "file": "ui/visual-regression.spec.js",
+              "line": 122,
+              "column": 5
+            },
+            {
+              "title": "should display all accessibility options",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "tablet",
+                  "projectName": "tablet",
+                  "results": [
+                    {
+                      "workerIndex": 19,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 17118,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:59.024Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-791bb0e33cad8a084120",
+              "file": "ui/visual-regression.spec.js",
+              "line": 133,
+              "column": 5
+            },
+            {
+              "title": "should close on backdrop click",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "tablet",
+                  "projectName": "tablet",
+                  "results": [
+                    {
+                      "workerIndex": 18,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 25847,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:59.363Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-04991cd3742f3df83b78",
+              "file": "ui/visual-regression.spec.js",
+              "line": 145,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "UI Testing: Theme Switching",
+          "file": "ui/visual-regression.spec.js",
+          "line": 158,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should apply dark theme correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 3461,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:41:40.949Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-b1d294c240eb8947e48c",
+              "file": "ui/visual-regression.spec.js",
+              "line": 159,
+              "column": 5
+            },
+            {
+              "title": "should persist theme on page reload",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 3808,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:41:41.076Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-24d312b5ec6ba96f7aff",
+              "file": "ui/visual-regression.spec.js",
+              "line": 179,
+              "column": 5
+            },
+            {
+              "title": "should apply dark theme correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 9078,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:18.699Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-c754cce55711aaac3a43",
+              "file": "ui/visual-regression.spec.js",
+              "line": 159,
+              "column": 5
+            },
+            {
+              "title": "should persist theme on page reload",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 9467,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:23.513Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-45f0684eb83d10e0cd7c",
+              "file": "ui/visual-regression.spec.js",
+              "line": 179,
+              "column": 5
+            },
+            {
+              "title": "should apply dark theme correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 11388,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:08.744Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-20629ffb752f8502c08e",
+              "file": "ui/visual-regression.spec.js",
+              "line": 159,
+              "column": 5
+            },
+            {
+              "title": "should persist theme on page reload",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 12337,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:13.028Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-c970fbbc9724f9a3e390",
+              "file": "ui/visual-regression.spec.js",
+              "line": 179,
+              "column": 5
+            },
+            {
+              "title": "should apply dark theme correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "tablet",
+                  "projectName": "tablet",
+                  "results": [
+                    {
+                      "workerIndex": 20,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 24634,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:59.861Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-d138890a3c2e4be0a1fc",
+              "file": "ui/visual-regression.spec.js",
+              "line": 159,
+              "column": 5
+            },
+            {
+              "title": "should persist theme on page reload",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "tablet",
+                  "projectName": "tablet",
+                  "results": [
+                    {
+                      "workerIndex": 21,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 26899,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"dark\"\u001b[39m\nReceived: \u001b[31mnull\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"dark\"\u001b[39m\nReceived: \u001b[31mnull\u001b[39m\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js:194:34",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                          "column": 34,
+                          "line": 194
+                        },
+                        "snippet": "  192 |         );\n  193 |\n> 194 |         expect(themeAfterReload).toBe(themeBeforeReload);\n      |                                  ^\n  195 |     });\n  196 | });\n  197 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                            "column": 34,
+                            "line": 194
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"dark\"\u001b[39m\nReceived: \u001b[31mnull\u001b[39m\n\n  192 |         );\n  193 |\n> 194 |         expect(themeAfterReload).toBe(themeBeforeReload);\n      |                                  ^\n  195 |     });\n  196 | });\n  197 |\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js:194:34"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:44:00.137Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-c5cc6-ersist-theme-on-page-reload-tablet/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-c5cc6-ersist-theme-on-page-reload-tablet/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-c5cc6-ersist-theme-on-page-reload-tablet/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                        "column": 34,
+                        "line": 194
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-5539c3ef9637d34d3dda",
+              "file": "ui/visual-regression.spec.js",
+              "line": 179,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "UI Testing: Visual Regression",
+          "file": "ui/visual-regression.spec.js",
+          "line": 198,
+          "column": 6,
+          "specs": [
+            {
+              "title": "login page visual snapshot",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 4942,
+                      "error": {
+                        "message": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/login-page-chromium-linux.png, writing actual.",
+                        "stack": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/login-page-chromium-linux.png, writing actual.\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js:204:9",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                          "column": 9,
+                          "line": 204
+                        },
+                        "snippet": "  202 |\n  203 |         // Take screenshot for visual comparison\n> 204 |         await expect(page).toHaveScreenshot('login-page.png', {\n      |         ^\n  205 |             maxDiffPixels: 100,\n  206 |         });\n  207 |     });"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                            "column": 9,
+                            "line": 204
+                          },
+                          "message": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/login-page-chromium-linux.png, writing actual.\n\n  202 |\n  203 |         // Take screenshot for visual comparison\n> 204 |         await expect(page).toHaveScreenshot('login-page.png', {\n      |         ^\n  205 |             maxDiffPixels: 100,\n  206 |         });\n  207 |     });\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js:204:9"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:41:43.601Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "login-page-expected.png",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/login-page-chromium-linux.png"
+                        },
+                        {
+                          "name": "login-page-actual.png",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-4135d--login-page-visual-snapshot-chromium/login-page-actual.png"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-4135d--login-page-visual-snapshot-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-4135d--login-page-visual-snapshot-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-4135d--login-page-visual-snapshot-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                        "column": 9,
+                        "line": 204
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-ad9692926994ed3939b1",
+              "file": "ui/visual-regression.spec.js",
+              "line": 199,
+              "column": 5
+            },
+            {
+              "title": "crop listing form visual snapshot",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "failed",
+                      "duration": 2769,
+                      "error": {
+                        "message": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/crop-listing-form-chromium-linux.png, writing actual.",
+                        "stack": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/crop-listing-form-chromium-linux.png, writing actual.\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js:213:9",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                          "column": 9,
+                          "line": 213
+                        },
+                        "snippet": "  211 |         await page.waitForLoadState('networkidle');\n  212 |\n> 213 |         await expect(page).toHaveScreenshot('crop-listing-form.png', {\n      |         ^\n  214 |             maxDiffPixels: 100,\n  215 |         });\n  216 |     });"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                            "column": 9,
+                            "line": 213
+                          },
+                          "message": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/crop-listing-form-chromium-linux.png, writing actual.\n\n  211 |         await page.waitForLoadState('networkidle');\n  212 |\n> 213 |         await expect(page).toHaveScreenshot('crop-listing-form.png', {\n      |         ^\n  214 |             maxDiffPixels: 100,\n  215 |         });\n  216 |     });\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js:213:9"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:41:43.763Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "crop-listing-form-expected.png",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/crop-listing-form-chromium-linux.png"
+                        },
+                        {
+                          "name": "crop-listing-form-actual.png",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-a3278-isting-form-visual-snapshot-chromium/crop-listing-form-actual.png"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-a3278-isting-form-visual-snapshot-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-a3278-isting-form-visual-snapshot-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-a3278-isting-form-visual-snapshot-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                        "column": 9,
+                        "line": 213
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-37a8e5201f1881e669aa",
+              "file": "ui/visual-regression.spec.js",
+              "line": 209,
+              "column": 5
+            },
+            {
+              "title": "farmer preferences visual snapshot",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "failed",
+                      "duration": 2614,
+                      "error": {
+                        "message": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/farmer-preferences-chromium-linux.png, writing actual.",
+                        "stack": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/farmer-preferences-chromium-linux.png, writing actual.\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js:222:9",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                          "column": 9,
+                          "line": 222
+                        },
+                        "snippet": "  220 |         await page.waitForLoadState('networkidle');\n  221 |\n> 222 |         await expect(page).toHaveScreenshot('farmer-preferences.png', {\n      |         ^\n  223 |             maxDiffPixels: 100,\n  224 |         });\n  225 |     });"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                            "column": 9,
+                            "line": 222
+                          },
+                          "message": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/farmer-preferences-chromium-linux.png, writing actual.\n\n  220 |         await page.waitForLoadState('networkidle');\n  221 |\n> 222 |         await expect(page).toHaveScreenshot('farmer-preferences.png', {\n      |         ^\n  223 |             maxDiffPixels: 100,\n  224 |         });\n  225 |     });\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js:222:9"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:41:44.505Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "farmer-preferences-expected.png",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/farmer-preferences-chromium-linux.png"
+                        },
+                        {
+                          "name": "farmer-preferences-actual.png",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-aabe3-preferences-visual-snapshot-chromium/farmer-preferences-actual.png"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-aabe3-preferences-visual-snapshot-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-aabe3-preferences-visual-snapshot-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-aabe3-preferences-visual-snapshot-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                        "column": 9,
+                        "line": 222
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-6b934201d8a4b9f3f663",
+              "file": "ui/visual-regression.spec.js",
+              "line": 218,
+              "column": 5
+            },
+            {
+              "title": "login page visual snapshot",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 3,
+                      "status": "timedOut",
+                      "duration": 32326,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                            "column": 20,
+                            "line": 201
+                          },
+                          "message": "Error: page.waitForLoadState: Test timeout of 30000ms exceeded.\n\n  199 |     test('login page visual snapshot', async ({ page }) => {\n  200 |         await page.goto('/');\n> 201 |         await page.waitForLoadState('networkidle');\n      |                    ^\n  202 |\n  203 |         // Take screenshot for visual comparison\n  204 |         await expect(page).toHaveScreenshot('login-page.png', {\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js:201:20"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:24.276Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-4135d--login-page-visual-snapshot-firefox/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-4135d--login-page-visual-snapshot-firefox/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-4135d--login-page-visual-snapshot-firefox/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-b67024ce3b1b21eb8dad",
+              "file": "ui/visual-regression.spec.js",
+              "line": 199,
+              "column": 5
+            },
+            {
+              "title": "crop listing form visual snapshot",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 33357,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                            "column": 20,
+                            "line": 211
+                          },
+                          "message": "Error: page.waitForLoadState: Test timeout of 30000ms exceeded.\n\n  209 |     test('crop listing form visual snapshot', async ({ page }) => {\n  210 |         await page.goto('/add-crop');\n> 211 |         await page.waitForLoadState('networkidle');\n      |                    ^\n  212 |\n  213 |         await expect(page).toHaveScreenshot('crop-listing-form.png', {\n  214 |             maxDiffPixels: 100,\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js:211:20"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:31.228Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-a3278-isting-form-visual-snapshot-firefox/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-a3278-isting-form-visual-snapshot-firefox/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-5c32513f1362c17a6f55",
+              "file": "ui/visual-regression.spec.js",
+              "line": 209,
+              "column": 5
+            },
+            {
+              "title": "farmer preferences visual snapshot",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 6843,
+                      "error": {
+                        "message": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/farmer-preferences-firefox-linux.png, writing actual.",
+                        "stack": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/farmer-preferences-firefox-linux.png, writing actual.\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js:222:9",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                          "column": 9,
+                          "line": 222
+                        },
+                        "snippet": "  220 |         await page.waitForLoadState('networkidle');\n  221 |\n> 222 |         await expect(page).toHaveScreenshot('farmer-preferences.png', {\n      |         ^\n  223 |             maxDiffPixels: 100,\n  224 |         });\n  225 |     });"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                            "column": 9,
+                            "line": 222
+                          },
+                          "message": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/farmer-preferences-firefox-linux.png, writing actual.\n\n  220 |         await page.waitForLoadState('networkidle');\n  221 |\n> 222 |         await expect(page).toHaveScreenshot('farmer-preferences.png', {\n      |         ^\n  223 |             maxDiffPixels: 100,\n  224 |         });\n  225 |     });\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js:222:9"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:27.045Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "farmer-preferences-expected.png",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/farmer-preferences-firefox-linux.png"
+                        },
+                        {
+                          "name": "farmer-preferences-actual.png",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-aabe3-preferences-visual-snapshot-firefox/farmer-preferences-actual.png"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-aabe3-preferences-visual-snapshot-firefox/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-aabe3-preferences-visual-snapshot-firefox/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-aabe3-preferences-visual-snapshot-firefox/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                        "column": 9,
+                        "line": 222
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-3a670ee93f2b5e63d475",
+              "file": "ui/visual-regression.spec.js",
+              "line": 218,
+              "column": 5
+            },
+            {
+              "title": "login page visual snapshot",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 13,
+                      "parallelIndex": 5,
+                      "status": "failed",
+                      "duration": 8771,
+                      "error": {
+                        "message": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/login-page-mobile-chrome-linux.png, writing actual.",
+                        "stack": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/login-page-mobile-chrome-linux.png, writing actual.\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js:204:9",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                          "column": 9,
+                          "line": 204
+                        },
+                        "snippet": "  202 |\n  203 |         // Take screenshot for visual comparison\n> 204 |         await expect(page).toHaveScreenshot('login-page.png', {\n      |         ^\n  205 |             maxDiffPixels: 100,\n  206 |         });\n  207 |     });"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                            "column": 9,
+                            "line": 204
+                          },
+                          "message": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/login-page-mobile-chrome-linux.png, writing actual.\n\n  202 |\n  203 |         // Take screenshot for visual comparison\n> 204 |         await expect(page).toHaveScreenshot('login-page.png', {\n      |         ^\n  205 |             maxDiffPixels: 100,\n  206 |         });\n  207 |     });\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js:204:9"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:17.773Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "login-page-expected.png",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/login-page-mobile-chrome-linux.png"
+                        },
+                        {
+                          "name": "login-page-actual.png",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-4135d--login-page-visual-snapshot-mobile-chrome/login-page-actual.png"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-4135d--login-page-visual-snapshot-mobile-chrome/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-4135d--login-page-visual-snapshot-mobile-chrome/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                        "column": 9,
+                        "line": 204
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-e8d0f8ab187a0a715895",
+              "file": "ui/visual-regression.spec.js",
+              "line": 199,
+              "column": 5
+            },
+            {
+              "title": "crop listing form visual snapshot",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 17,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 6285,
+                      "error": {
+                        "message": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/crop-listing-form-mobile-chrome-linux.png, writing actual.",
+                        "stack": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/crop-listing-form-mobile-chrome-linux.png, writing actual.\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js:213:9",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                          "column": 9,
+                          "line": 213
+                        },
+                        "snippet": "  211 |         await page.waitForLoadState('networkidle');\n  212 |\n> 213 |         await expect(page).toHaveScreenshot('crop-listing-form.png', {\n      |         ^\n  214 |             maxDiffPixels: 100,\n  215 |         });\n  216 |     });"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                            "column": 9,
+                            "line": 213
+                          },
+                          "message": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/crop-listing-form-mobile-chrome-linux.png, writing actual.\n\n  211 |         await page.waitForLoadState('networkidle');\n  212 |\n> 213 |         await expect(page).toHaveScreenshot('crop-listing-form.png', {\n      |         ^\n  214 |             maxDiffPixels: 100,\n  215 |         });\n  216 |     });\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js:213:9"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:26.656Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "crop-listing-form-expected.png",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/crop-listing-form-mobile-chrome-linux.png"
+                        },
+                        {
+                          "name": "crop-listing-form-actual.png",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-a3278-isting-form-visual-snapshot-mobile-chrome/crop-listing-form-actual.png"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-a3278-isting-form-visual-snapshot-mobile-chrome/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-a3278-isting-form-visual-snapshot-mobile-chrome/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-a3278-isting-form-visual-snapshot-mobile-chrome/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                        "column": 9,
+                        "line": 213
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-74b1c2037a2eacfd2347",
+              "file": "ui/visual-regression.spec.js",
+              "line": 209,
+              "column": 5
+            },
+            {
+              "title": "farmer preferences visual snapshot",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 5144,
+                      "error": {
+                        "message": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/farmer-preferences-mobile-chrome-linux.png, writing actual.",
+                        "stack": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/farmer-preferences-mobile-chrome-linux.png, writing actual.\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js:222:9",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                          "column": 9,
+                          "line": 222
+                        },
+                        "snippet": "  220 |         await page.waitForLoadState('networkidle');\n  221 |\n> 222 |         await expect(page).toHaveScreenshot('farmer-preferences.png', {\n      |         ^\n  223 |             maxDiffPixels: 100,\n  224 |         });\n  225 |     });"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                            "column": 9,
+                            "line": 222
+                          },
+                          "message": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/farmer-preferences-mobile-chrome-linux.png, writing actual.\n\n  220 |         await page.waitForLoadState('networkidle');\n  221 |\n> 222 |         await expect(page).toHaveScreenshot('farmer-preferences.png', {\n      |         ^\n  223 |             maxDiffPixels: 100,\n  224 |         });\n  225 |     });\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js:222:9"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:20.334Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "farmer-preferences-expected.png",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/farmer-preferences-mobile-chrome-linux.png"
+                        },
+                        {
+                          "name": "farmer-preferences-actual.png",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-aabe3-preferences-visual-snapshot-mobile-chrome/farmer-preferences-actual.png"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-aabe3-preferences-visual-snapshot-mobile-chrome/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-aabe3-preferences-visual-snapshot-mobile-chrome/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-aabe3-preferences-visual-snapshot-mobile-chrome/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                        "column": 9,
+                        "line": 222
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-078be983505dd961771c",
+              "file": "ui/visual-regression.spec.js",
+              "line": 218,
+              "column": 5
+            },
+            {
+              "title": "login page visual snapshot",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "tablet",
+                  "projectName": "tablet",
+                  "results": [
+                    {
+                      "workerIndex": 19,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 14723,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nTimeout: 5000ms\n  Timeout 5000ms exceeded.\n\n  Snapshot: login-page.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(login-page.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - generating new stable screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - waiting 100ms before taking screenshot\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - Timeout 5000ms exceeded.\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nTimeout: 5000ms\n  Timeout 5000ms exceeded.\n\n  Snapshot: login-page.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(login-page.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - generating new stable screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - waiting 100ms before taking screenshot\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - Timeout 5000ms exceeded.\u001b[22m\n\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js:204:28",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                          "column": 28,
+                          "line": 204
+                        },
+                        "snippet": "  202 |\n  203 |         // Take screenshot for visual comparison\n> 204 |         await expect(page).toHaveScreenshot('login-page.png', {\n      |                            ^\n  205 |             maxDiffPixels: 100,\n  206 |         });\n  207 |     });"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                            "column": 28,
+                            "line": 204
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nTimeout: 5000ms\n  Timeout 5000ms exceeded.\n\n  Snapshot: login-page.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(login-page.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - generating new stable screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - waiting 100ms before taking screenshot\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - Timeout 5000ms exceeded.\u001b[22m\n\n\n  202 |\n  203 |         // Take screenshot for visual comparison\n> 204 |         await expect(page).toHaveScreenshot('login-page.png', {\n      |                            ^\n  205 |             maxDiffPixels: 100,\n  206 |         });\n  207 |     });\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js:204:28"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:44:16.385Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-4135d--login-page-visual-snapshot-tablet/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-4135d--login-page-visual-snapshot-tablet/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-4135d--login-page-visual-snapshot-tablet/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                        "column": 28,
+                        "line": 204
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-4e616c66c0347b86a85c",
+              "file": "ui/visual-regression.spec.js",
+              "line": 199,
+              "column": 5
+            },
+            {
+              "title": "crop listing form visual snapshot",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "tablet",
+                  "projectName": "tablet",
+                  "results": [
+                    {
+                      "workerIndex": 23,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 7028,
+                      "error": {
+                        "message": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/crop-listing-form-tablet-linux.png, writing actual.",
+                        "stack": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/crop-listing-form-tablet-linux.png, writing actual.\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js:213:9",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                          "column": 9,
+                          "line": 213
+                        },
+                        "snippet": "  211 |         await page.waitForLoadState('networkidle');\n  212 |\n> 213 |         await expect(page).toHaveScreenshot('crop-listing-form.png', {\n      |         ^\n  214 |             maxDiffPixels: 100,\n  215 |         });\n  216 |     });"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                            "column": 9,
+                            "line": 213
+                          },
+                          "message": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/crop-listing-form-tablet-linux.png, writing actual.\n\n  211 |         await page.waitForLoadState('networkidle');\n  212 |\n> 213 |         await expect(page).toHaveScreenshot('crop-listing-form.png', {\n      |         ^\n  214 |             maxDiffPixels: 100,\n  215 |         });\n  216 |     });\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js:213:9"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:44:24.424Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "crop-listing-form-expected.png",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/crop-listing-form-tablet-linux.png"
+                        },
+                        {
+                          "name": "crop-listing-form-actual.png",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-a3278-isting-form-visual-snapshot-tablet/crop-listing-form-actual.png"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-a3278-isting-form-visual-snapshot-tablet/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-a3278-isting-form-visual-snapshot-tablet/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-a3278-isting-form-visual-snapshot-tablet/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                        "column": 9,
+                        "line": 213
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-12f0d27ba39fe4c695b4",
+              "file": "ui/visual-regression.spec.js",
+              "line": 209,
+              "column": 5
+            },
+            {
+              "title": "farmer preferences visual snapshot",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "tablet",
+                  "projectName": "tablet",
+                  "results": [
+                    {
+                      "workerIndex": 20,
+                      "parallelIndex": 5,
+                      "status": "failed",
+                      "duration": 6632,
+                      "error": {
+                        "message": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/farmer-preferences-tablet-linux.png, writing actual.",
+                        "stack": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/farmer-preferences-tablet-linux.png, writing actual.\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js:222:9",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                          "column": 9,
+                          "line": 222
+                        },
+                        "snippet": "  220 |         await page.waitForLoadState('networkidle');\n  221 |\n> 222 |         await expect(page).toHaveScreenshot('farmer-preferences.png', {\n      |         ^\n  223 |             maxDiffPixels: 100,\n  224 |         });\n  225 |     });"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                            "column": 9,
+                            "line": 222
+                          },
+                          "message": "Error: A snapshot doesn't exist at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/farmer-preferences-tablet-linux.png, writing actual.\n\n  220 |         await page.waitForLoadState('networkidle');\n  221 |\n> 222 |         await expect(page).toHaveScreenshot('farmer-preferences.png', {\n      |         ^\n  223 |             maxDiffPixels: 100,\n  224 |         });\n  225 |     });\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js:222:9"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:44:24.669Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "farmer-preferences-expected.png",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js-snapshots/farmer-preferences-tablet-linux.png"
+                        },
+                        {
+                          "name": "farmer-preferences-actual.png",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-aabe3-preferences-visual-snapshot-tablet/farmer-preferences-actual.png"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-aabe3-preferences-visual-snapshot-tablet/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-aabe3-preferences-visual-snapshot-tablet/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/ui-visual-regression-UI-Te-aabe3-preferences-visual-snapshot-tablet/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/ui/visual-regression.spec.js",
+                        "column": 9,
+                        "line": 222
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "89b8d0925e4d50b22845-545e61767409060a54b5",
+              "file": "ui/visual-regression.spec.js",
+              "line": 218,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-02-06T18:41:31.440Z",
+    "duration": 187993.2,
+    "expected": 46,
+    "skipped": 0,
+    "unexpected": 18,
+    "flaky": 0
+  }
+}

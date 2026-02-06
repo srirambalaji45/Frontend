@@ -1,0 +1,1129 @@
+{
+  "total": 96,
+  "passed": 68,
+  "failed": 28,
+  "skipped": 0,
+  "duration": 275640.878,
+  "tests": [
+    {
+      "name": "should display preferences page correctly [chromium]",
+      "status": "passed",
+      "duration": 2603,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should allow selecting category and crop [chromium]",
+      "status": "failed",
+      "duration": 37788,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-9f17d-selecting-category-and-crop-chromium/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-9f17d-selecting-category-and-crop-chromium/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-9f17d-selecting-category-and-crop-chromium/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "should add preference to table [chromium]",
+      "status": "failed",
+      "duration": 37831,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-7ce35-uld-add-preference-to-table-chromium/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-7ce35-uld-add-preference-to-table-chromium/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-7ce35-uld-add-preference-to-table-chromium/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "should add multiple preferences [chromium]",
+      "status": "failed",
+      "duration": 37648,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-f5b1e-ld-add-multiple-preferences-chromium/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-f5b1e-ld-add-multiple-preferences-chromium/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-f5b1e-ld-add-multiple-preferences-chromium/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "should remove preference on remove button click [chromium]",
+      "status": "failed",
+      "duration": 38117,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-752fa-ence-on-remove-button-click-chromium/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-752fa-ence-on-remove-button-click-chromium/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-752fa-ence-on-remove-button-click-chromium/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "should disable continue button when no preferences [chromium]",
+      "status": "passed",
+      "duration": 2362,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should enable continue button with preferences [chromium]",
+      "status": "failed",
+      "duration": 38215,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-7cb5d-nue-button-with-preferences-chromium/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-7cb5d-nue-button-with-preferences-chromium/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-7cb5d-nue-button-with-preferences-chromium/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "should navigate to dashboard on continue [chromium]",
+      "status": "failed",
+      "duration": 38331,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-45c95-te-to-dashboard-on-continue-chromium/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-45c95-te-to-dashboard-on-continue-chromium/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-45c95-te-to-dashboard-on-continue-chromium/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "should clear selections after adding preference [chromium]",
+      "status": "failed",
+      "duration": 34766,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-4614b-ons-after-adding-preference-chromium/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-4614b-ons-after-adding-preference-chromium/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-4614b-ons-after-adding-preference-chromium/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "should display preferences page correctly [firefox]",
+      "status": "passed",
+      "duration": 4725,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should allow selecting category and crop [firefox]",
+      "status": "failed",
+      "duration": 30360,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-9f17d-selecting-category-and-crop-firefox/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-9f17d-selecting-category-and-crop-firefox/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-9f17d-selecting-category-and-crop-firefox/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "should add preference to table [firefox]",
+      "status": "failed",
+      "duration": 30330,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-7ce35-uld-add-preference-to-table-firefox/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-7ce35-uld-add-preference-to-table-firefox/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-7ce35-uld-add-preference-to-table-firefox/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "should add multiple preferences [firefox]",
+      "status": "failed",
+      "duration": 30426,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-f5b1e-ld-add-multiple-preferences-firefox/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-f5b1e-ld-add-multiple-preferences-firefox/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-f5b1e-ld-add-multiple-preferences-firefox/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "should remove preference on remove button click [firefox]",
+      "status": "failed",
+      "duration": 30591,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-752fa-ence-on-remove-button-click-firefox/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-752fa-ence-on-remove-button-click-firefox/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-752fa-ence-on-remove-button-click-firefox/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "should disable continue button when no preferences [firefox]",
+      "status": "passed",
+      "duration": 3506,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should enable continue button with preferences [firefox]",
+      "status": "failed",
+      "duration": 30552,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-7cb5d-nue-button-with-preferences-firefox/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-7cb5d-nue-button-with-preferences-firefox/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-7cb5d-nue-button-with-preferences-firefox/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "should navigate to dashboard on continue [firefox]",
+      "status": "failed",
+      "duration": 31643,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-45c95-te-to-dashboard-on-continue-firefox/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-45c95-te-to-dashboard-on-continue-firefox/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-45c95-te-to-dashboard-on-continue-firefox/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "should clear selections after adding preference [firefox]",
+      "status": "failed",
+      "duration": 31279,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-4614b-ons-after-adding-preference-firefox/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-4614b-ons-after-adding-preference-firefox/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-4614b-ons-after-adding-preference-firefox/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "should display preferences page correctly [mobile-chrome]",
+      "status": "passed",
+      "duration": 3942,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should allow selecting category and crop [mobile-chrome]",
+      "status": "failed",
+      "duration": 35452,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-9f17d-selecting-category-and-crop-mobile-chrome/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-9f17d-selecting-category-and-crop-mobile-chrome/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-9f17d-selecting-category-and-crop-mobile-chrome/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "should add preference to table [mobile-chrome]",
+      "status": "failed",
+      "duration": 35572,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-7ce35-uld-add-preference-to-table-mobile-chrome/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-7ce35-uld-add-preference-to-table-mobile-chrome/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-7ce35-uld-add-preference-to-table-mobile-chrome/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "should add multiple preferences [mobile-chrome]",
+      "status": "failed",
+      "duration": 36273,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-f5b1e-ld-add-multiple-preferences-mobile-chrome/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-f5b1e-ld-add-multiple-preferences-mobile-chrome/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-f5b1e-ld-add-multiple-preferences-mobile-chrome/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "should remove preference on remove button click [mobile-chrome]",
+      "status": "failed",
+      "duration": 35823,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-752fa-ence-on-remove-button-click-mobile-chrome/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-752fa-ence-on-remove-button-click-mobile-chrome/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-752fa-ence-on-remove-button-click-mobile-chrome/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "should disable continue button when no preferences [mobile-chrome]",
+      "status": "passed",
+      "duration": 1231,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should enable continue button with preferences [mobile-chrome]",
+      "status": "failed",
+      "duration": 35974,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-7cb5d-nue-button-with-preferences-mobile-chrome/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-7cb5d-nue-button-with-preferences-mobile-chrome/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-7cb5d-nue-button-with-preferences-mobile-chrome/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "should navigate to dashboard on continue [mobile-chrome]",
+      "status": "failed",
+      "duration": 36275,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-45c95-te-to-dashboard-on-continue-mobile-chrome/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-45c95-te-to-dashboard-on-continue-mobile-chrome/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-45c95-te-to-dashboard-on-continue-mobile-chrome/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "should clear selections after adding preference [mobile-chrome]",
+      "status": "failed",
+      "duration": 33683,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-4614b-ons-after-adding-preference-mobile-chrome/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-4614b-ons-after-adding-preference-mobile-chrome/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-4614b-ons-after-adding-preference-mobile-chrome/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "should display preferences page correctly [tablet]",
+      "status": "passed",
+      "duration": 4818,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should allow selecting category and crop [tablet]",
+      "status": "failed",
+      "duration": 35140,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-9f17d-selecting-category-and-crop-tablet/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-9f17d-selecting-category-and-crop-tablet/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-9f17d-selecting-category-and-crop-tablet/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "should add preference to table [tablet]",
+      "status": "failed",
+      "duration": 35133,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-7ce35-uld-add-preference-to-table-tablet/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-7ce35-uld-add-preference-to-table-tablet/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-7ce35-uld-add-preference-to-table-tablet/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "should add multiple preferences [tablet]",
+      "status": "failed",
+      "duration": 36148,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-f5b1e-ld-add-multiple-preferences-tablet/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-f5b1e-ld-add-multiple-preferences-tablet/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-f5b1e-ld-add-multiple-preferences-tablet/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "should remove preference on remove button click [tablet]",
+      "status": "failed",
+      "duration": 39143,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-752fa-ence-on-remove-button-click-tablet/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-752fa-ence-on-remove-button-click-tablet/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-752fa-ence-on-remove-button-click-tablet/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "should disable continue button when no preferences [tablet]",
+      "status": "passed",
+      "duration": 5638,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should enable continue button with preferences [tablet]",
+      "status": "failed",
+      "duration": 40138,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-7cb5d-nue-button-with-preferences-tablet/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-7cb5d-nue-button-with-preferences-tablet/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-7cb5d-nue-button-with-preferences-tablet/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "should navigate to dashboard on continue [tablet]",
+      "status": "failed",
+      "duration": 40963,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-45c95-te-to-dashboard-on-continue-tablet/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-45c95-te-to-dashboard-on-continue-tablet/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-45c95-te-to-dashboard-on-continue-tablet/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "should clear selections after adding preference [tablet]",
+      "status": "failed",
+      "duration": 35684,
+      "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-4614b-ons-after-adding-preference-tablet/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-4614b-ons-after-adding-preference-tablet/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/farmer-preferences-E2E-Far-4614b-ons-after-adding-preference-tablet/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "should display crop listing form [chromium]",
+      "status": "passed",
+      "duration": 3328,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should select category and filter crops [chromium]",
+      "status": "passed",
+      "duration": 2861,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should submit form with valid data [chromium]",
+      "status": "passed",
+      "duration": 3703,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should require all fields for submission [chromium]",
+      "status": "passed",
+      "duration": 3129,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should display crop listing form [firefox]",
+      "status": "passed",
+      "duration": 7279,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should select category and filter crops [firefox]",
+      "status": "passed",
+      "duration": 7942,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should submit form with valid data [firefox]",
+      "status": "passed",
+      "duration": 10958,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should require all fields for submission [firefox]",
+      "status": "passed",
+      "duration": 9882,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should display crop listing form [mobile-chrome]",
+      "status": "passed",
+      "duration": 3849,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should select category and filter crops [mobile-chrome]",
+      "status": "passed",
+      "duration": 4040,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should submit form with valid data [mobile-chrome]",
+      "status": "passed",
+      "duration": 3347,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should require all fields for submission [mobile-chrome]",
+      "status": "passed",
+      "duration": 4039,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should display crop listing form [tablet]",
+      "status": "passed",
+      "duration": 4573,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should select category and filter crops [tablet]",
+      "status": "passed",
+      "duration": 4614,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should submit form with valid data [tablet]",
+      "status": "passed",
+      "duration": 5125,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should require all fields for submission [tablet]",
+      "status": "passed",
+      "duration": 5507,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should display login page correctly [chromium]",
+      "status": "passed",
+      "duration": 3664,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should validate phone number format [chromium]",
+      "status": "passed",
+      "duration": 3713,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should accept valid 10-digit phone number [chromium]",
+      "status": "passed",
+      "duration": 3330,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should only allow numeric input [chromium]",
+      "status": "passed",
+      "duration": 3053,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should navigate to signup page [chromium]",
+      "status": "passed",
+      "duration": 2735,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should show loading state during submission [chromium]",
+      "status": "passed",
+      "duration": 3568,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should handle API error gracefully [chromium]",
+      "status": "passed",
+      "duration": 3899,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should navigate to verify page on successful login [chromium]",
+      "status": "passed",
+      "duration": 2720,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should store phone in localStorage after successful request [chromium]",
+      "status": "passed",
+      "duration": 2454,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should display login page correctly [firefox]",
+      "status": "passed",
+      "duration": 4681,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should validate phone number format [firefox]",
+      "status": "passed",
+      "duration": 6683,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should accept valid 10-digit phone number [firefox]",
+      "status": "passed",
+      "duration": 6250,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should only allow numeric input [firefox]",
+      "status": "passed",
+      "duration": 5829,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should navigate to signup page [firefox]",
+      "status": "passed",
+      "duration": 7277,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should show loading state during submission [firefox]",
+      "status": "passed",
+      "duration": 5713,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should handle API error gracefully [firefox]",
+      "status": "passed",
+      "duration": 6283,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should navigate to verify page on successful login [firefox]",
+      "status": "passed",
+      "duration": 6357,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should store phone in localStorage after successful request [firefox]",
+      "status": "passed",
+      "duration": 5420,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should display login page correctly [mobile-chrome]",
+      "status": "passed",
+      "duration": 3875,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should validate phone number format [mobile-chrome]",
+      "status": "passed",
+      "duration": 4670,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should accept valid 10-digit phone number [mobile-chrome]",
+      "status": "passed",
+      "duration": 4147,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should only allow numeric input [mobile-chrome]",
+      "status": "passed",
+      "duration": 4211,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should navigate to signup page [mobile-chrome]",
+      "status": "passed",
+      "duration": 3041,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should show loading state during submission [mobile-chrome]",
+      "status": "passed",
+      "duration": 4720,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should handle API error gracefully [mobile-chrome]",
+      "status": "passed",
+      "duration": 4251,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should navigate to verify page on successful login [mobile-chrome]",
+      "status": "passed",
+      "duration": 2434,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should store phone in localStorage after successful request [mobile-chrome]",
+      "status": "passed",
+      "duration": 2507,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should display login page correctly [tablet]",
+      "status": "passed",
+      "duration": 5932,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should validate phone number format [tablet]",
+      "status": "passed",
+      "duration": 7685,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should accept valid 10-digit phone number [tablet]",
+      "status": "passed",
+      "duration": 6632,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should only allow numeric input [tablet]",
+      "status": "passed",
+      "duration": 5637,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should navigate to signup page [tablet]",
+      "status": "passed",
+      "duration": 8016,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should show loading state during submission [tablet]",
+      "status": "passed",
+      "duration": 8309,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should handle API error gracefully [tablet]",
+      "status": "passed",
+      "duration": 7677,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should navigate to verify page on successful login [tablet]",
+      "status": "passed",
+      "duration": 4609,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should store phone in localStorage after successful request [tablet]",
+      "status": "passed",
+      "duration": 5163,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should display correctly on mobile [chromium]",
+      "status": "passed",
+      "duration": 2335,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should display correctly on tablet [chromium]",
+      "status": "passed",
+      "duration": 2428,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should display correctly on mobile [firefox]",
+      "status": "passed",
+      "duration": 4546,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should display correctly on tablet [firefox]",
+      "status": "passed",
+      "duration": 4488,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should display correctly on mobile [mobile-chrome]",
+      "status": "passed",
+      "duration": 3103,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should display correctly on tablet [mobile-chrome]",
+      "status": "passed",
+      "duration": 5530,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should display correctly on mobile [tablet]",
+      "status": "passed",
+      "duration": 4184,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "should display correctly on tablet [tablet]",
+      "status": "passed",
+      "duration": 5236,
+      "error": null,
+      "attachments": []
+    }
+  ]
+}

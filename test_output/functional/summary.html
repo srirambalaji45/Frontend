@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functional Test Summary</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f5; padding: 20px; }
+        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        h1 { color: #333; margin-bottom: 30px; }
+        h2 { color: #555; margin-top: 30px; margin-bottom: 15px; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        .overview { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-bottom: 30px; }
+        .stat-card { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; }
+        .stat-card.success { background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); }
+        .stat-card.failed { background: linear-gradient(135deg, #ee0979 0%, #ff6a00 100%); }
+        .stat-label { font-size: 14px; opacity: 0.9; margin-bottom: 5px; }
+        .stat-value { font-size: 32px; font-weight: bold; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th, td { padding: 12px; text-align: left; border-bottom: 1px solid #eee; }
+        th { background: #f8f9fa; font-weight: 600; }
+        .status-passed { color: #38ef7d; font-weight: bold; }
+        .status-failed { color: #ee0979; font-weight: bold; }
+        .error-box { background: #fff5f5; border-left: 4px solid #ee0979; padding: 15px; margin: 10px 0; border-radius: 4px; overflow-x: auto; }
+        .error-box pre { font-size: 12px; color: #721c24; white-space: pre-wrap; }
+        .progress-bar { width: 100%; height: 30px; background: #eee; border-radius: 15px; overflow: hidden; margin: 20px 0; }
+        .progress-fill { height: 100%; background: linear-gradient(90deg, #11998e 0%, #38ef7d 100%); display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; transition: width 0.3s; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Functional Test Summary</h1>
+        
+        <div class="overview">
+            <div class="stat-card">
+                <div class="stat-label">Total Tests</div>
+                <div class="stat-value">16</div>
+            </div>
+            <div class="stat-card success">
+                <div class="stat-label">Passed</div>
+                <div class="stat-value">15</div>
+            </div>
+            <div class="stat-card failed">
+                <div class="stat-label">Failed</div>
+                <div class="stat-value">1</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Success Rate</div>
+                <div class="stat-value">93.75%</div>
+            </div>
+        </div>
+
+        <div class="progress-bar">
+            <div class="progress-fill" style="width: 93.75%">93.75%</div>
+        </div>
+
+        <table>
+            <tr>
+                <th>Metric</th>
+                <th>Value</th>
+            </tr>
+            <tr><td>Total Duration</td><td>2.55s</td></tr>
+            <tr><td>Average Duration</td><td>159.66ms</td></tr>
+            <tr><td>Skipped Tests</td><td>0</td></tr>
+        </table>
+    <h2>❌ Failed Tests</h2>
+                <div class="error-box">
+                    <strong>1. /home/akash-krishnan/Documents/sriram/Frontend/tests/functional/Login.test.jsx > Functional: Login Component > TC008: enforces 10 digit maximum</strong><br>
+                    <small>Duration: 121.41497600000002ms</small>
+                    <pre>Error: [2mexpect([22m[31melement[39m[2m).toHaveValue([22m[32m1234567890[39m[2m)[22m
+
+Expected the element to have value:
+[32m  1234567890[39m
+Received:
+[31m  12345678901234[39m
+    at Proxy.expectWrapper (file:///home/akash-krishnan/Documents/sriram/Frontend/node_modules/@vitest/expect/dist/index.js:1821:12)
+    at Proxy.<anonymous> (file:///home/akash-krishnan/Documents/sriram/Frontend/node_modules/@vitest/expect/dist/index.js:1090:14)
+    at Proxy.methodWrapper (file:///home/akash-krishnan/Documents/sriram/Frontend/node_modules/chai/index.js:1700:25)
+    at /home/akash-krishnan/Documents/sriram/Frontend/tests/functional/Login.test.jsx:202:23
+    at file:///home/akash-krishnan/Documents/sriram/Frontend/node_modules/@vitest/runner/dist/index.js:915:20</pre>
+                </div>
+            <h2>🐌 Slowest Tests</h2><table><tr><th>Test</th><th>Duration</th></tr><tr><td>/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/Login.test.jsx > Functional: Login Component > TC001: shows error for empty phone submission</td><td>485.82229199999983ms</td></tr><tr><td>/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/CropListingForm.test.jsx > Functional: CropListingForm Component > TC001: renders form with all required elements</td><td>422.8642279999999ms</td></tr><tr><td>/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/CropListingForm.test.jsx > Functional: CropListingForm Component > TC007: clears form after successful submission</td><td>271.21947999999975ms</td></tr><tr><td>/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/CropListingForm.test.jsx > Functional: CropListingForm Component > TC003: resets crop selection when category changes</td><td>235.4816920000003ms</td></tr><tr><td>/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/Login.test.jsx > Functional: Login Component > TC003: accepts exactly 10 digit phone number</td><td>162.5663010000003ms</td></tr></table><h2>📋 All Tests</h2><table><tr><th>Test</th><th>Status</th><th>Duration</th></tr><tr><td>/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/CropListingForm.test.jsx > Functional: CropListingForm Component > TC001: renders form with all required elements</td><td class="status-passed">passed</td><td>422.8642279999999ms</td></tr><tr><td>/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/CropListingForm.test.jsx > Functional: CropListingForm Component > TC002: enables crop dropdown after category selection</td><td class="status-passed">passed</td><td>150.95682999999963ms</td></tr><tr><td>/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/CropListingForm.test.jsx > Functional: CropListingForm Component > TC003: resets crop selection when category changes</td><td class="status-passed">passed</td><td>235.4816920000003ms</td></tr><tr><td>/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/CropListingForm.test.jsx > Functional: CropListingForm Component > TC004: shows correct crops for selected category</td><td class="status-passed">passed</td><td>98.75342300000011ms</td></tr><tr><td>/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/CropListingForm.test.jsx > Functional: CropListingForm Component > TC005: quantity input has number type</td><td class="status-passed">passed</td><td>12.162263000000166ms</td></tr><tr><td>/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/CropListingForm.test.jsx > Functional: CropListingForm Component > TC006: price input has number type</td><td class="status-passed">passed</td><td>8.298608999999942ms</td></tr><tr><td>/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/CropListingForm.test.jsx > Functional: CropListingForm Component > TC007: clears form after successful submission</td><td class="status-passed">passed</td><td>271.21947999999975ms</td></tr><tr><td>/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/CropListingForm.test.jsx > Functional: CropListingForm Component > TC008: displays all crop categories</td><td class="status-passed">passed</td><td>32.61560700000018ms</td></tr><tr><td>/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/Login.test.jsx > Functional: Login Component > TC001: shows error for empty phone submission</td><td class="status-passed">passed</td><td>485.82229199999983ms</td></tr><tr><td>/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/Login.test.jsx > Functional: Login Component > TC002: shows error for phone number less than 10 digits</td><td class="status-passed">passed</td><td>146.10345300000017ms</td></tr><tr><td>/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/Login.test.jsx > Functional: Login Component > TC003: accepts exactly 10 digit phone number</td><td class="status-passed">passed</td><td>162.5663010000003ms</td></tr><tr><td>/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/Login.test.jsx > Functional: Login Component > TC004: filters non-numeric characters from input</td><td class="status-passed">passed</td><td>107.26705300000003ms</td></tr><tr><td>/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/Login.test.jsx > Functional: Login Component > TC005: displays API error message</td><td class="status-passed">passed</td><td>132.90280600000006ms</td></tr><tr><td>/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/Login.test.jsx > Functional: Login Component > TC006: shows loading state during submission</td><td class="status-passed">passed</td><td>154.32721800000036ms</td></tr><tr><td>/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/Login.test.jsx > Functional: Login Component > TC007: displays +91 country code</td><td class="status-passed">passed</td><td>11.860595999999987ms</td></tr><tr><td>/home/akash-krishnan/Documents/sriram/Frontend/tests/functional/Login.test.jsx > Functional: Login Component > TC008: enforces 10 digit maximum</td><td class="status-failed">failed</td><td>121.41497600000002ms</td></tr></table></div></body></html>

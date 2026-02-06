@@ -1,0 +1,696 @@
+{
+  "total": 44,
+  "passed": 20,
+  "failed": 24,
+  "skipped": 0,
+  "duration": 160803.407,
+  "tests": [
+    {
+      "name": "login page should load within 3 seconds [chromium]",
+      "status": "passed",
+      "duration": 9193,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "login page network idle within 5 seconds [chromium]",
+      "status": "passed",
+      "duration": 9371,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "crop listing page load time [chromium]",
+      "status": "passed",
+      "duration": 7470,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "farmer preferences page load time [chromium]",
+      "status": "passed",
+      "duration": 7557,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "login page should load within 3 seconds [firefox]",
+      "status": "failed",
+      "duration": 11486,
+      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m3000\u001b[39m\nReceived:   \u001b[31m3534\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-d6921-hould-load-within-3-seconds-firefox/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-d6921-hould-load-within-3-seconds-firefox/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-d6921-hould-load-within-3-seconds-firefox/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "login page network idle within 5 seconds [firefox]",
+      "status": "passed",
+      "duration": 10793,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "crop listing page load time [firefox]",
+      "status": "passed",
+      "duration": 9048,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "farmer preferences page load time [firefox]",
+      "status": "failed",
+      "duration": 10299,
+      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m3000\u001b[39m\nReceived:   \u001b[31m3755\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-efce6--preferences-page-load-time-firefox/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-efce6--preferences-page-load-time-firefox/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-efce6--preferences-page-load-time-firefox/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "login page should load within 3 seconds [mobile-chrome]",
+      "status": "passed",
+      "duration": 8178,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "login page network idle within 5 seconds [mobile-chrome]",
+      "status": "passed",
+      "duration": 10082,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "crop listing page load time [mobile-chrome]",
+      "status": "passed",
+      "duration": 6683,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "farmer preferences page load time [mobile-chrome]",
+      "status": "passed",
+      "duration": 5147,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "login page should load within 3 seconds [tablet]",
+      "status": "passed",
+      "duration": 11097,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "login page network idle within 5 seconds [tablet]",
+      "status": "passed",
+      "duration": 13367,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "crop listing page load time [tablet]",
+      "status": "passed",
+      "duration": 12638,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "farmer preferences page load time [tablet]",
+      "status": "failed",
+      "duration": 13685,
+      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m3000\u001b[39m\nReceived:   \u001b[31m3312\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-efce6--preferences-page-load-time-tablet/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-efce6--preferences-page-load-time-tablet/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-efce6--preferences-page-load-time-tablet/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "form input response time < 100ms [chromium]",
+      "status": "failed",
+      "duration": 9017,
+      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m1336\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-de0db-m-input-response-time-100ms-chromium/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-de0db-m-input-response-time-100ms-chromium/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-de0db-m-input-response-time-100ms-chromium/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "dropdown selection response time [chromium]",
+      "status": "failed",
+      "duration": 8005,
+      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m691\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-c4470-own-selection-response-time-chromium/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-c4470-own-selection-response-time-chromium/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-c4470-own-selection-response-time-chromium/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "accessibility drawer open time < 500ms [chromium]",
+      "status": "failed",
+      "duration": 10235,
+      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m1562\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-dc28b-lity-drawer-open-time-500ms-chromium/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-dc28b-lity-drawer-open-time-500ms-chromium/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-dc28b-lity-drawer-open-time-500ms-chromium/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "form input response time < 100ms [firefox]",
+      "status": "failed",
+      "duration": 12942,
+      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m1130\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-de0db-m-input-response-time-100ms-firefox/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-de0db-m-input-response-time-100ms-firefox/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-de0db-m-input-response-time-100ms-firefox/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "dropdown selection response time [firefox]",
+      "status": "failed",
+      "duration": 15402,
+      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m859\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-c4470-own-selection-response-time-firefox/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-c4470-own-selection-response-time-firefox/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-c4470-own-selection-response-time-firefox/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "accessibility drawer open time < 500ms [firefox]",
+      "status": "failed",
+      "duration": 10035,
+      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m1231\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-dc28b-lity-drawer-open-time-500ms-firefox/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-dc28b-lity-drawer-open-time-500ms-firefox/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-dc28b-lity-drawer-open-time-500ms-firefox/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "form input response time < 100ms [mobile-chrome]",
+      "status": "failed",
+      "duration": 9583,
+      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m1401\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-de0db-m-input-response-time-100ms-mobile-chrome/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-de0db-m-input-response-time-100ms-mobile-chrome/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-de0db-m-input-response-time-100ms-mobile-chrome/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "dropdown selection response time [mobile-chrome]",
+      "status": "failed",
+      "duration": 9521,
+      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m1393\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-c4470-own-selection-response-time-mobile-chrome/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-c4470-own-selection-response-time-mobile-chrome/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-c4470-own-selection-response-time-mobile-chrome/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "accessibility drawer open time < 500ms [mobile-chrome]",
+      "status": "failed",
+      "duration": 8891,
+      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m2111\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-dc28b-lity-drawer-open-time-500ms-mobile-chrome/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-dc28b-lity-drawer-open-time-500ms-mobile-chrome/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-dc28b-lity-drawer-open-time-500ms-mobile-chrome/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "form input response time < 100ms [tablet]",
+      "status": "failed",
+      "duration": 16793,
+      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m3471\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-de0db-m-input-response-time-100ms-tablet/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-de0db-m-input-response-time-100ms-tablet/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-de0db-m-input-response-time-100ms-tablet/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "dropdown selection response time [tablet]",
+      "status": "failed",
+      "duration": 14011,
+      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m2570\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-c4470-own-selection-response-time-tablet/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-c4470-own-selection-response-time-tablet/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-c4470-own-selection-response-time-tablet/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "accessibility drawer open time < 500ms [tablet]",
+      "status": "failed",
+      "duration": 16451,
+      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m4485\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-dc28b-lity-drawer-open-time-500ms-tablet/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-dc28b-lity-drawer-open-time-500ms-tablet/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-dc28b-lity-drawer-open-time-500ms-tablet/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "route transition time [chromium]",
+      "status": "passed",
+      "duration": 5605,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "multiple page navigation performance [chromium]",
+      "status": "failed",
+      "duration": 11495,
+      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m2000\u001b[39m\nReceived:   \u001b[31m2039\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-85585-page-navigation-performance-chromium/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-85585-page-navigation-performance-chromium/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-85585-page-navigation-performance-chromium/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "route transition time [firefox]",
+      "status": "failed",
+      "duration": 11474,
+      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m1000\u001b[39m\nReceived:   \u001b[31m1718\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-7302d-mance-route-transition-time-firefox/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-7302d-mance-route-transition-time-firefox/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-7302d-mance-route-transition-time-firefox/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "multiple page navigation performance [firefox]",
+      "status": "failed",
+      "duration": 26606,
+      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m2000\u001b[39m\nReceived:   \u001b[31m4145.75\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-85585-page-navigation-performance-firefox/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-85585-page-navigation-performance-firefox/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-85585-page-navigation-performance-firefox/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "route transition time [mobile-chrome]",
+      "status": "failed",
+      "duration": 6671,
+      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m1000\u001b[39m\nReceived:   \u001b[31m1125\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-7302d-mance-route-transition-time-mobile-chrome/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-7302d-mance-route-transition-time-mobile-chrome/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-7302d-mance-route-transition-time-mobile-chrome/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "multiple page navigation performance [mobile-chrome]",
+      "status": "passed",
+      "duration": 7854,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "route transition time [tablet]",
+      "status": "failed",
+      "duration": 19880,
+      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m1000\u001b[39m\nReceived:   \u001b[31m6733\u001b[39m",
+      "attachments": [
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-7302d-mance-route-transition-time-tablet/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-7302d-mance-route-transition-time-tablet/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "multiple page navigation performance [tablet]",
+      "status": "failed",
+      "duration": 25211,
+      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m2000\u001b[39m\nReceived:   \u001b[31m2548.25\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-85585-page-navigation-performance-tablet/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-85585-page-navigation-performance-tablet/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-85585-page-navigation-performance-tablet/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "measure Core Web Vitals [chromium]",
+      "status": "passed",
+      "duration": 7292,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "measure Time to Interactive [chromium]",
+      "status": "passed",
+      "duration": 7964,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "measure Core Web Vitals [firefox]",
+      "status": "failed",
+      "duration": 15255,
+      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m1800\u001b[39m\nReceived:   \u001b[31m5143\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-41943-ics-measure-Core-Web-Vitals-firefox/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-41943-ics-measure-Core-Web-Vitals-firefox/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-41943-ics-measure-Core-Web-Vitals-firefox/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "measure Time to Interactive [firefox]",
+      "status": "failed",
+      "duration": 22144,
+      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m3800\u001b[39m\nReceived:   \u001b[31m9668\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-0b3c5-measure-Time-to-Interactive-firefox/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-0b3c5-measure-Time-to-Interactive-firefox/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-0b3c5-measure-Time-to-Interactive-firefox/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "measure Core Web Vitals [mobile-chrome]",
+      "status": "passed",
+      "duration": 7295,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "measure Time to Interactive [mobile-chrome]",
+      "status": "passed",
+      "duration": 8045,
+      "error": null,
+      "attachments": []
+    },
+    {
+      "name": "measure Core Web Vitals [tablet]",
+      "status": "failed",
+      "duration": 14697,
+      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m1800\u001b[39m\nReceived:   \u001b[31m5226\u001b[39m",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "contentType": "image/png",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-41943-ics-measure-Core-Web-Vitals-tablet/test-failed-1.png"
+        },
+        {
+          "name": "video",
+          "contentType": "video/webm",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-41943-ics-measure-Core-Web-Vitals-tablet/video.webm"
+        },
+        {
+          "name": "error-context",
+          "contentType": "text/markdown",
+          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-41943-ics-measure-Core-Web-Vitals-tablet/error-context.md"
+        }
+      ]
+    },
+    {
+      "name": "measure Time to Interactive [tablet]",
+      "status": "passed",
+      "duration": 9286,
+      "error": null,
+      "attachments": []
+    }
+  ]
+}

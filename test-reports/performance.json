@@ -1,0 +1,2810 @@
+{
+  "config": {
+    "configFile": "/home/akash-krishnan/Documents/sriram/Frontend/playwright.all.config.js",
+    "rootDir": "/home/akash-krishnan/Documents/sriram/Frontend/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 6
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/home/akash-krishnan/Documents/sriram/Frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/home/akash-krishnan/Documents/sriram/Frontend/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.js"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/akash-krishnan/Documents/sriram/Frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/home/akash-krishnan/Documents/sriram/Frontend/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.js"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/akash-krishnan/Documents/sriram/Frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "mobile-chrome",
+        "name": "mobile-chrome",
+        "testDir": "/home/akash-krishnan/Documents/sriram/Frontend/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.js"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/akash-krishnan/Documents/sriram/Frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "tablet",
+        "name": "tablet",
+        "testDir": "/home/akash-krishnan/Documents/sriram/Frontend/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.js"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.2",
+    "workers": 6,
+    "webServer": {
+      "command": "npm run dev",
+      "url": "http://localhost:5173",
+      "reuseExistingServer": true,
+      "timeout": 120000
+    }
+  },
+  "suites": [
+    {
+      "title": "performance/performance.spec.js",
+      "file": "performance/performance.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Performance Testing: Response Time",
+          "file": "performance/performance.spec.js",
+          "line": 15,
+          "column": 6,
+          "specs": [
+            {
+              "title": "login page should load within 3 seconds",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9193,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Login page DOM load time: 2672ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:41:55.446Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-1dcf60fd10a0332d8e57",
+              "file": "performance/performance.spec.js",
+              "line": 16,
+              "column": 5
+            },
+            {
+              "title": "login page network idle within 5 seconds",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 9371,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Login page full load time: 2375ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:41:55.083Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-ef30ee1d6a07eedc5096",
+              "file": "performance/performance.spec.js",
+              "line": 29,
+              "column": 5
+            },
+            {
+              "title": "crop listing page load time",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 7470,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Crop listing page load time: 2343ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:41:56.912Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-3be90ddb14325f0a4f3a",
+              "file": "performance/performance.spec.js",
+              "line": 42,
+              "column": 5
+            },
+            {
+              "title": "farmer preferences page load time",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 7557,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Farmer preferences page load time: 2948ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:41:56.251Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-24a49716947dbfb69232",
+              "file": "performance/performance.spec.js",
+              "line": 54,
+              "column": 5
+            },
+            {
+              "title": "login page should load within 3 seconds",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 4,
+                      "status": "failed",
+                      "duration": 11486,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m3000\u001b[39m\nReceived:   \u001b[31m3534\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m3000\u001b[39m\nReceived:   \u001b[31m3534\u001b[39m\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:26:26",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                          "column": 26,
+                          "line": 26
+                        },
+                        "snippet": "  24 |\n  25 |         // Target: < 3000ms\n> 26 |         expect(loadTime).toBeLessThan(3000);\n     |                          ^\n  27 |     });\n  28 |\n  29 |     test('login page network idle within 5 seconds', async ({ page }) => {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                            "column": 26,
+                            "line": 26
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m3000\u001b[39m\nReceived:   \u001b[31m3534\u001b[39m\n\n  24 |\n  25 |         // Target: < 3000ms\n> 26 |         expect(loadTime).toBeLessThan(3000);\n     |                          ^\n  27 |     });\n  28 |\n  29 |     test('login page network idle within 5 seconds', async ({ page }) => {\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:26:26"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Login page DOM load time: 3534ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:17.844Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-d6921-hould-load-within-3-seconds-firefox/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-d6921-hould-load-within-3-seconds-firefox/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-d6921-hould-load-within-3-seconds-firefox/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                        "column": 26,
+                        "line": 26
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-f0df339aa5d1a65d18be",
+              "file": "performance/performance.spec.js",
+              "line": 16,
+              "column": 5
+            },
+            {
+              "title": "login page network idle within 5 seconds",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 10793,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Login page full load time: 3074ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:22.990Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-1fd9321c595e7d4eefc4",
+              "file": "performance/performance.spec.js",
+              "line": 29,
+              "column": 5
+            },
+            {
+              "title": "crop listing page load time",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9048,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Crop listing page load time: 2547ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:23.432Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-8b5524c9dd40fe488fcc",
+              "file": "performance/performance.spec.js",
+              "line": 42,
+              "column": 5
+            },
+            {
+              "title": "farmer preferences page load time",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 10299,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m3000\u001b[39m\nReceived:   \u001b[31m3755\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m3000\u001b[39m\nReceived:   \u001b[31m3755\u001b[39m\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:63:26",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                          "column": 26,
+                          "line": 63
+                        },
+                        "snippet": "  61 |         console.log(`Farmer preferences page load time: ${loadTime}ms`);\n  62 |\n> 63 |         expect(loadTime).toBeLessThan(3000);\n     |                          ^\n  64 |     });\n  65 | });\n  66 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                            "column": 26,
+                            "line": 63
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m3000\u001b[39m\nReceived:   \u001b[31m3755\u001b[39m\n\n  61 |         console.log(`Farmer preferences page load time: ${loadTime}ms`);\n  62 |\n> 63 |         expect(loadTime).toBeLessThan(3000);\n     |                          ^\n  64 |     });\n  65 | });\n  66 |\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:63:26"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Farmer preferences page load time: 3755ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:25.063Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-efce6--preferences-page-load-time-firefox/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-efce6--preferences-page-load-time-firefox/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-efce6--preferences-page-load-time-firefox/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                        "column": 26,
+                        "line": 63
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-76e08526e48bf0995e6a",
+              "file": "performance/performance.spec.js",
+              "line": 54,
+              "column": 5
+            },
+            {
+              "title": "login page should load within 3 seconds",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 16,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 8178,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Login page DOM load time: 1719ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:57.851Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-a71a6e78f6bb04d206f3",
+              "file": "performance/performance.spec.js",
+              "line": 16,
+              "column": 5
+            },
+            {
+              "title": "login page network idle within 5 seconds",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 17,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10082,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Login page full load time: 1774ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:59.946Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-cd18566a0d757175ded8",
+              "file": "performance/performance.spec.js",
+              "line": 29,
+              "column": 5
+            },
+            {
+              "title": "crop listing page load time",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 18,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 6683,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Crop listing page load time: 2641ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:03.527Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-0c68d68405d160530666",
+              "file": "performance/performance.spec.js",
+              "line": 42,
+              "column": 5
+            },
+            {
+              "title": "farmer preferences page load time",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 16,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 5147,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Farmer preferences page load time: 1843ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:06.846Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-e3089c0a43b3bb59fb1b",
+              "file": "performance/performance.spec.js",
+              "line": 54,
+              "column": 5
+            },
+            {
+              "title": "login page should load within 3 seconds",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "tablet",
+                  "projectName": "tablet",
+                  "results": [
+                    {
+                      "workerIndex": 23,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 11097,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Login page DOM load time: 1685ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:31.667Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-1bb44ea316efad18c78f",
+              "file": "performance/performance.spec.js",
+              "line": 16,
+              "column": 5
+            },
+            {
+              "title": "login page network idle within 5 seconds",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "tablet",
+                  "projectName": "tablet",
+                  "results": [
+                    {
+                      "workerIndex": 24,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 13367,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Login page full load time: 2039ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:33.921Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-ee248b43d960b76fbf70",
+              "file": "performance/performance.spec.js",
+              "line": 29,
+              "column": 5
+            },
+            {
+              "title": "crop listing page load time",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "tablet",
+                  "projectName": "tablet",
+                  "results": [
+                    {
+                      "workerIndex": 25,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 12638,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Crop listing page load time: 2748ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:45.541Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-3498d4920066a0f91869",
+              "file": "performance/performance.spec.js",
+              "line": 42,
+              "column": 5
+            },
+            {
+              "title": "farmer preferences page load time",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "tablet",
+                  "projectName": "tablet",
+                  "results": [
+                    {
+                      "workerIndex": 27,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 13685,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m3000\u001b[39m\nReceived:   \u001b[31m3312\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m3000\u001b[39m\nReceived:   \u001b[31m3312\u001b[39m\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:63:26",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                          "column": 26,
+                          "line": 63
+                        },
+                        "snippet": "  61 |         console.log(`Farmer preferences page load time: ${loadTime}ms`);\n  62 |\n> 63 |         expect(loadTime).toBeLessThan(3000);\n     |                          ^\n  64 |     });\n  65 | });\n  66 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                            "column": 26,
+                            "line": 63
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m3000\u001b[39m\nReceived:   \u001b[31m3312\u001b[39m\n\n  61 |         console.log(`Farmer preferences page load time: ${loadTime}ms`);\n  62 |\n> 63 |         expect(loadTime).toBeLessThan(3000);\n     |                          ^\n  64 |     });\n  65 | });\n  66 |\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:63:26"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Farmer preferences page load time: 3312ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:50.052Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-efce6--preferences-page-load-time-tablet/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-efce6--preferences-page-load-time-tablet/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-efce6--preferences-page-load-time-tablet/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                        "column": 26,
+                        "line": 63
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-a829d727b07cb1bf3b64",
+              "file": "performance/performance.spec.js",
+              "line": 54,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "Performance Testing: User Interaction Response",
+          "file": "performance/performance.spec.js",
+          "line": 67,
+          "column": 6,
+          "specs": [
+            {
+              "title": "form input response time < 100ms",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "failed",
+                      "duration": 9017,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m1336\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m1336\u001b[39m\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:80:30",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                          "column": 30,
+                          "line": 80
+                        },
+                        "snippet": "  78 |\n  79 |         // User input should feel instant\n> 80 |         expect(responseTime).toBeLessThan(500);\n     |                              ^\n  81 |     });\n  82 |\n  83 |     test('dropdown selection response time', async ({ page }) => {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                            "column": 30,
+                            "line": 80
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m1336\u001b[39m\n\n  78 |\n  79 |         // User input should feel instant\n> 80 |         expect(responseTime).toBeLessThan(500);\n     |                              ^\n  81 |     });\n  82 |\n  83 |     test('dropdown selection response time', async ({ page }) => {\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:80:30"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Input response time: 1336ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:41:55.312Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-de0db-m-input-response-time-100ms-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-de0db-m-input-response-time-100ms-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-de0db-m-input-response-time-100ms-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                        "column": 30,
+                        "line": 80
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-f2006f9e829c1376fd16",
+              "file": "performance/performance.spec.js",
+              "line": 68,
+              "column": 5
+            },
+            {
+              "title": "dropdown selection response time",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "failed",
+                      "duration": 8005,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m691\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m691\u001b[39m\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:94:30",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                          "column": 30,
+                          "line": 94
+                        },
+                        "snippet": "  92 |         console.log(`Dropdown response time: ${responseTime}ms`);\n  93 |\n> 94 |         expect(responseTime).toBeLessThan(500);\n     |                              ^\n  95 |     });\n  96 |\n  97 |     test('accessibility drawer open time < 500ms', async ({ page }) => {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                            "column": 30,
+                            "line": 94
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m691\u001b[39m\n\n  92 |         console.log(`Dropdown response time: ${responseTime}ms`);\n  93 |\n> 94 |         expect(responseTime).toBeLessThan(500);\n     |                              ^\n  95 |     });\n  96 |\n  97 |     test('accessibility drawer open time < 500ms', async ({ page }) => {\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:94:30"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Dropdown response time: 691ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:41:56.122Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-c4470-own-selection-response-time-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-c4470-own-selection-response-time-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-c4470-own-selection-response-time-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                        "column": 30,
+                        "line": 94
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-93a4271ccf4c4df0bfc2",
+              "file": "performance/performance.spec.js",
+              "line": 83,
+              "column": 5
+            },
+            {
+              "title": "accessibility drawer open time < 500ms",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 10235,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m1562\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m1562\u001b[39m\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:107:30",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                          "column": 30,
+                          "line": 107
+                        },
+                        "snippet": "  105 |         console.log(`Drawer open time: ${responseTime}ms`);\n  106 |\n> 107 |         expect(responseTime).toBeLessThan(500);\n      |                              ^\n  108 |     });\n  109 | });\n  110 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                            "column": 30,
+                            "line": 107
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m1562\u001b[39m\n\n  105 |         console.log(`Drawer open time: ${responseTime}ms`);\n  106 |\n> 107 |         expect(responseTime).toBeLessThan(500);\n      |                              ^\n  108 |     });\n  109 | });\n  110 |\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:107:30"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Drawer open time: 1562ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:04.664Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-dc28b-lity-drawer-open-time-500ms-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-dc28b-lity-drawer-open-time-500ms-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-dc28b-lity-drawer-open-time-500ms-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                        "column": 30,
+                        "line": 107
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-d61e3ea21ed6bb2fe743",
+              "file": "performance/performance.spec.js",
+              "line": 97,
+              "column": 5
+            },
+            {
+              "title": "form input response time < 100ms",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 12942,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m1130\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m1130\u001b[39m\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:80:30",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                          "column": 30,
+                          "line": 80
+                        },
+                        "snippet": "  78 |\n  79 |         // User input should feel instant\n> 80 |         expect(responseTime).toBeLessThan(500);\n     |                              ^\n  81 |     });\n  82 |\n  83 |     test('dropdown selection response time', async ({ page }) => {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                            "column": 30,
+                            "line": 80
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m1130\u001b[39m\n\n  78 |\n  79 |         // User input should feel instant\n> 80 |         expect(responseTime).toBeLessThan(500);\n     |                              ^\n  81 |     });\n  82 |\n  83 |     test('dropdown selection response time', async ({ page }) => {\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:80:30"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Input response time: 1130ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:25.893Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-de0db-m-input-response-time-100ms-firefox/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-de0db-m-input-response-time-100ms-firefox/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-de0db-m-input-response-time-100ms-firefox/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                        "column": 30,
+                        "line": 80
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-ab527a7f2f35172d6878",
+              "file": "performance/performance.spec.js",
+              "line": 68,
+              "column": 5
+            },
+            {
+              "title": "dropdown selection response time",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 5,
+                      "status": "failed",
+                      "duration": 15402,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m859\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m859\u001b[39m\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:94:30",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                          "column": 30,
+                          "line": 94
+                        },
+                        "snippet": "  92 |         console.log(`Dropdown response time: ${responseTime}ms`);\n  93 |\n> 94 |         expect(responseTime).toBeLessThan(500);\n     |                              ^\n  95 |     });\n  96 |\n  97 |     test('accessibility drawer open time < 500ms', async ({ page }) => {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                            "column": 30,
+                            "line": 94
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m859\u001b[39m\n\n  92 |         console.log(`Dropdown response time: ${responseTime}ms`);\n  93 |\n> 94 |         expect(responseTime).toBeLessThan(500);\n     |                              ^\n  95 |     });\n  96 |\n  97 |     test('accessibility drawer open time < 500ms', async ({ page }) => {\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:94:30"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Dropdown response time: 859ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:32.637Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-c4470-own-selection-response-time-firefox/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-c4470-own-selection-response-time-firefox/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-c4470-own-selection-response-time-firefox/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                        "column": 30,
+                        "line": 94
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-493e99184638e62556a0",
+              "file": "performance/performance.spec.js",
+              "line": 83,
+              "column": 5
+            },
+            {
+              "title": "accessibility drawer open time < 500ms",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 10035,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m1231\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m1231\u001b[39m\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:107:30",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                          "column": 30,
+                          "line": 107
+                        },
+                        "snippet": "  105 |         console.log(`Drawer open time: ${responseTime}ms`);\n  106 |\n> 107 |         expect(responseTime).toBeLessThan(500);\n      |                              ^\n  108 |     });\n  109 | });\n  110 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                            "column": 30,
+                            "line": 107
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m1231\u001b[39m\n\n  105 |         console.log(`Drawer open time: ${responseTime}ms`);\n  106 |\n> 107 |         expect(responseTime).toBeLessThan(500);\n      |                              ^\n  108 |     });\n  109 | });\n  110 |\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:107:30"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Drawer open time: 1231ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:37.123Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-dc28b-lity-drawer-open-time-500ms-firefox/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-dc28b-lity-drawer-open-time-500ms-firefox/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-dc28b-lity-drawer-open-time-500ms-firefox/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                        "column": 30,
+                        "line": 107
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-7ec45707d20fee85fba7",
+              "file": "performance/performance.spec.js",
+              "line": 97,
+              "column": 5
+            },
+            {
+              "title": "form input response time < 100ms",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 17,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 9583,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m1401\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m1401\u001b[39m\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:80:30",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                          "column": 30,
+                          "line": 80
+                        },
+                        "snippet": "  78 |\n  79 |         // User input should feel instant\n> 80 |         expect(responseTime).toBeLessThan(500);\n     |                              ^\n  81 |     });\n  82 |\n  83 |     test('dropdown selection response time', async ({ page }) => {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                            "column": 30,
+                            "line": 80
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m1401\u001b[39m\n\n  78 |\n  79 |         // User input should feel instant\n> 80 |         expect(responseTime).toBeLessThan(500);\n     |                              ^\n  81 |     });\n  82 |\n  83 |     test('dropdown selection response time', async ({ page }) => {\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:80:30"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Input response time: 1401ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:10.976Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-de0db-m-input-response-time-100ms-mobile-chrome/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-de0db-m-input-response-time-100ms-mobile-chrome/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-de0db-m-input-response-time-100ms-mobile-chrome/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                        "column": 30,
+                        "line": 80
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-649490a8dca53517b4dd",
+              "file": "performance/performance.spec.js",
+              "line": 68,
+              "column": 5
+            },
+            {
+              "title": "dropdown selection response time",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 18,
+                      "parallelIndex": 5,
+                      "status": "failed",
+                      "duration": 9521,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m1393\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m1393\u001b[39m\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:94:30",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                          "column": 30,
+                          "line": 94
+                        },
+                        "snippet": "  92 |         console.log(`Dropdown response time: ${responseTime}ms`);\n  93 |\n> 94 |         expect(responseTime).toBeLessThan(500);\n     |                              ^\n  95 |     });\n  96 |\n  97 |     test('accessibility drawer open time < 500ms', async ({ page }) => {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                            "column": 30,
+                            "line": 94
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m1393\u001b[39m\n\n  92 |         console.log(`Dropdown response time: ${responseTime}ms`);\n  93 |\n> 94 |         expect(responseTime).toBeLessThan(500);\n     |                              ^\n  95 |     });\n  96 |\n  97 |     test('accessibility drawer open time < 500ms', async ({ page }) => {\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:94:30"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Dropdown response time: 1393ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:11.749Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-c4470-own-selection-response-time-mobile-chrome/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-c4470-own-selection-response-time-mobile-chrome/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-c4470-own-selection-response-time-mobile-chrome/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                        "column": 30,
+                        "line": 94
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-748740e21d60be7bfe7c",
+              "file": "performance/performance.spec.js",
+              "line": 83,
+              "column": 5
+            },
+            {
+              "title": "accessibility drawer open time < 500ms",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 16,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 8891,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m2111\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m2111\u001b[39m\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:107:30",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                          "column": 30,
+                          "line": 107
+                        },
+                        "snippet": "  105 |         console.log(`Drawer open time: ${responseTime}ms`);\n  106 |\n> 107 |         expect(responseTime).toBeLessThan(500);\n      |                              ^\n  108 |     });\n  109 | });\n  110 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                            "column": 30,
+                            "line": 107
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m2111\u001b[39m\n\n  105 |         console.log(`Drawer open time: ${responseTime}ms`);\n  106 |\n> 107 |         expect(responseTime).toBeLessThan(500);\n      |                              ^\n  108 |     });\n  109 | });\n  110 |\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:107:30"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Drawer open time: 2111ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:12.239Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-dc28b-lity-drawer-open-time-500ms-mobile-chrome/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-dc28b-lity-drawer-open-time-500ms-mobile-chrome/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-dc28b-lity-drawer-open-time-500ms-mobile-chrome/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                        "column": 30,
+                        "line": 107
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-72e91353c9d9a941979e",
+              "file": "performance/performance.spec.js",
+              "line": 97,
+              "column": 5
+            },
+            {
+              "title": "form input response time < 100ms",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "tablet",
+                  "projectName": "tablet",
+                  "results": [
+                    {
+                      "workerIndex": 26,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 16793,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m3471\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m3471\u001b[39m\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:80:30",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                          "column": 30,
+                          "line": 80
+                        },
+                        "snippet": "  78 |\n  79 |         // User input should feel instant\n> 80 |         expect(responseTime).toBeLessThan(500);\n     |                              ^\n  81 |     });\n  82 |\n  83 |     test('dropdown selection response time', async ({ page }) => {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                            "column": 30,
+                            "line": 80
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m3471\u001b[39m\n\n  78 |\n  79 |         // User input should feel instant\n> 80 |         expect(responseTime).toBeLessThan(500);\n     |                              ^\n  81 |     });\n  82 |\n  83 |     test('dropdown selection response time', async ({ page }) => {\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:80:30"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Input response time: 3471ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:47.000Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-de0db-m-input-response-time-100ms-tablet/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-de0db-m-input-response-time-100ms-tablet/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-de0db-m-input-response-time-100ms-tablet/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                        "column": 30,
+                        "line": 80
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-9326880f86f61ecb6625",
+              "file": "performance/performance.spec.js",
+              "line": 68,
+              "column": 5
+            },
+            {
+              "title": "dropdown selection response time",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "tablet",
+                  "projectName": "tablet",
+                  "results": [
+                    {
+                      "workerIndex": 28,
+                      "parallelIndex": 5,
+                      "status": "failed",
+                      "duration": 14011,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m2570\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m2570\u001b[39m\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:94:30",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                          "column": 30,
+                          "line": 94
+                        },
+                        "snippet": "  92 |         console.log(`Dropdown response time: ${responseTime}ms`);\n  93 |\n> 94 |         expect(responseTime).toBeLessThan(500);\n     |                              ^\n  95 |     });\n  96 |\n  97 |     test('accessibility drawer open time < 500ms', async ({ page }) => {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                            "column": 30,
+                            "line": 94
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m2570\u001b[39m\n\n  92 |         console.log(`Dropdown response time: ${responseTime}ms`);\n  93 |\n> 94 |         expect(responseTime).toBeLessThan(500);\n     |                              ^\n  95 |     });\n  96 |\n  97 |     test('accessibility drawer open time < 500ms', async ({ page }) => {\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:94:30"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Dropdown response time: 2570ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:50.512Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-c4470-own-selection-response-time-tablet/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-c4470-own-selection-response-time-tablet/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-c4470-own-selection-response-time-tablet/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                        "column": 30,
+                        "line": 94
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-27bfa17427f946c9a046",
+              "file": "performance/performance.spec.js",
+              "line": 83,
+              "column": 5
+            },
+            {
+              "title": "accessibility drawer open time < 500ms",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "tablet",
+                  "projectName": "tablet",
+                  "results": [
+                    {
+                      "workerIndex": 23,
+                      "parallelIndex": 4,
+                      "status": "failed",
+                      "duration": 16451,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m4485\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m4485\u001b[39m\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:107:30",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                          "column": 30,
+                          "line": 107
+                        },
+                        "snippet": "  105 |         console.log(`Drawer open time: ${responseTime}ms`);\n  106 |\n> 107 |         expect(responseTime).toBeLessThan(500);\n      |                              ^\n  108 |     });\n  109 | });\n  110 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                            "column": 30,
+                            "line": 107
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m500\u001b[39m\nReceived:   \u001b[31m4485\u001b[39m\n\n  105 |         console.log(`Drawer open time: ${responseTime}ms`);\n  106 |\n> 107 |         expect(responseTime).toBeLessThan(500);\n      |                              ^\n  108 |     });\n  109 | });\n  110 |\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:107:30"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Drawer open time: 4485ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:43.765Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-dc28b-lity-drawer-open-time-500ms-tablet/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-dc28b-lity-drawer-open-time-500ms-tablet/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-dc28b-lity-drawer-open-time-500ms-tablet/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                        "column": 30,
+                        "line": 107
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-921f3db7b6d6f01dd54c",
+              "file": "performance/performance.spec.js",
+              "line": 97,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "Performance Testing: Navigation Performance",
+          "file": "performance/performance.spec.js",
+          "line": 111,
+          "column": 6,
+          "specs": [
+            {
+              "title": "route transition time",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 5605,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Route transition time: 955ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:16.849Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-d81e5f2d7bdb7978d754",
+              "file": "performance/performance.spec.js",
+              "line": 112,
+              "column": 5
+            },
+            {
+              "title": "multiple page navigation performance",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 11495,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m2000\u001b[39m\nReceived:   \u001b[31m2039\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m2000\u001b[39m\nReceived:   \u001b[31m2039\u001b[39m\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:141:25",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                          "column": 25,
+                          "line": 141
+                        },
+                        "snippet": "  139 |         console.log(`Individual times: ${times.join('ms, ')}ms`);\n  140 |\n> 141 |         expect(avgTime).toBeLessThan(2000);\n      |                         ^\n  142 |     });\n  143 | });\n  144 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                            "column": 25,
+                            "line": 141
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m2000\u001b[39m\nReceived:   \u001b[31m2039\u001b[39m\n\n  139 |         console.log(`Individual times: ${times.join('ms, ')}ms`);\n  140 |\n> 141 |         expect(avgTime).toBeLessThan(2000);\n      |                         ^\n  142 |     });\n  143 | });\n  144 |\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:141:25"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Average page load time: 2039ms\n"
+                        },
+                        {
+                          "text": "Individual times: 2452ms, 2515ms, 1637ms, 1552ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:05.292Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-85585-page-navigation-performance-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-85585-page-navigation-performance-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-85585-page-navigation-performance-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                        "column": 25,
+                        "line": 141
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-dd68332c710a049a8ecb",
+              "file": "performance/performance.spec.js",
+              "line": 125,
+              "column": 5
+            },
+            {
+              "title": "route transition time",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 11474,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m1000\u001b[39m\nReceived:   \u001b[31m1718\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m1000\u001b[39m\nReceived:   \u001b[31m1718\u001b[39m\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:122:32",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                          "column": 32,
+                          "line": 122
+                        },
+                        "snippet": "  120 |         console.log(`Route transition time: ${transitionTime}ms`);\n  121 |\n> 122 |         expect(transitionTime).toBeLessThan(1000);\n      |                                ^\n  123 |     });\n  124 |\n  125 |     test('multiple page navigation performance', async ({ page }) => {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                            "column": 32,
+                            "line": 122
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m1000\u001b[39m\nReceived:   \u001b[31m1718\u001b[39m\n\n  120 |         console.log(`Route transition time: ${transitionTime}ms`);\n  121 |\n> 122 |         expect(transitionTime).toBeLessThan(1000);\n      |                                ^\n  123 |     });\n  124 |\n  125 |     test('multiple page navigation performance', async ({ page }) => {\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:122:32"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Route transition time: 1718ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:37.548Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-7302d-mance-route-transition-time-firefox/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-7302d-mance-route-transition-time-firefox/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-7302d-mance-route-transition-time-firefox/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                        "column": 32,
+                        "line": 122
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-d50f6532a89ba9ef003d",
+              "file": "performance/performance.spec.js",
+              "line": 112,
+              "column": 5
+            },
+            {
+              "title": "multiple page navigation performance",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 13,
+                      "parallelIndex": 4,
+                      "status": "failed",
+                      "duration": 26606,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m2000\u001b[39m\nReceived:   \u001b[31m4145.75\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m2000\u001b[39m\nReceived:   \u001b[31m4145.75\u001b[39m\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:141:25",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                          "column": 25,
+                          "line": 141
+                        },
+                        "snippet": "  139 |         console.log(`Individual times: ${times.join('ms, ')}ms`);\n  140 |\n> 141 |         expect(avgTime).toBeLessThan(2000);\n      |                         ^\n  142 |     });\n  143 | });\n  144 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                            "column": 25,
+                            "line": 141
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m2000\u001b[39m\nReceived:   \u001b[31m4145.75\u001b[39m\n\n  139 |         console.log(`Individual times: ${times.join('ms, ')}ms`);\n  140 |\n> 141 |         expect(avgTime).toBeLessThan(2000);\n      |                         ^\n  142 |     });\n  143 | });\n  144 |\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:141:25"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Average page load time: 4145.75ms\n"
+                        },
+                        {
+                          "text": "Individual times: 4743ms, 2125ms, 3985ms, 5730ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:49.330Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-85585-page-navigation-performance-firefox/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-85585-page-navigation-performance-firefox/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-85585-page-navigation-performance-firefox/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                        "column": 25,
+                        "line": 141
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-555b496fce9c2da966b1",
+              "file": "performance/performance.spec.js",
+              "line": 125,
+              "column": 5
+            },
+            {
+              "title": "route transition time",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 19,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 6671,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m1000\u001b[39m\nReceived:   \u001b[31m1125\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m1000\u001b[39m\nReceived:   \u001b[31m1125\u001b[39m\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:122:32",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                          "column": 32,
+                          "line": 122
+                        },
+                        "snippet": "  120 |         console.log(`Route transition time: ${transitionTime}ms`);\n  121 |\n> 122 |         expect(transitionTime).toBeLessThan(1000);\n      |                                ^\n  123 |     });\n  124 |\n  125 |     test('multiple page navigation performance', async ({ page }) => {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                            "column": 32,
+                            "line": 122
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m1000\u001b[39m\nReceived:   \u001b[31m1125\u001b[39m\n\n  120 |         console.log(`Route transition time: ${transitionTime}ms`);\n  121 |\n> 122 |         expect(transitionTime).toBeLessThan(1000);\n      |                                ^\n  123 |     });\n  124 |\n  125 |     test('multiple page navigation performance', async ({ page }) => {\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:122:32"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Route transition time: 1125ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:27.092Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-7302d-mance-route-transition-time-mobile-chrome/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-7302d-mance-route-transition-time-mobile-chrome/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-7302d-mance-route-transition-time-mobile-chrome/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                        "column": 32,
+                        "line": 122
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-156ecd9875ddb049407f",
+              "file": "performance/performance.spec.js",
+              "line": 112,
+              "column": 5
+            },
+            {
+              "title": "multiple page navigation performance",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 20,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7854,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Average page load time: 1315.5ms\n"
+                        },
+                        {
+                          "text": "Individual times: 2142ms, 1295ms, 1156ms, 669ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:28.206Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-65874d60bc2fbd7a7b31",
+              "file": "performance/performance.spec.js",
+              "line": 125,
+              "column": 5
+            },
+            {
+              "title": "route transition time",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "tablet",
+                  "projectName": "tablet",
+                  "results": [
+                    {
+                      "workerIndex": 24,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 19880,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m1000\u001b[39m\nReceived:   \u001b[31m6733\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m1000\u001b[39m\nReceived:   \u001b[31m6733\u001b[39m\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:122:32",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                          "column": 32,
+                          "line": 122
+                        },
+                        "snippet": "  120 |         console.log(`Route transition time: ${transitionTime}ms`);\n  121 |\n> 122 |         expect(transitionTime).toBeLessThan(1000);\n      |                                ^\n  123 |     });\n  124 |\n  125 |     test('multiple page navigation performance', async ({ page }) => {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                            "column": 32,
+                            "line": 122
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m1000\u001b[39m\nReceived:   \u001b[31m6733\u001b[39m\n\n  120 |         console.log(`Route transition time: ${transitionTime}ms`);\n  121 |\n> 122 |         expect(transitionTime).toBeLessThan(1000);\n      |                                ^\n  123 |     });\n  124 |\n  125 |     test('multiple page navigation performance', async ({ page }) => {\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:122:32"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Route transition time: 6733ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:48.254Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-7302d-mance-route-transition-time-tablet/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-7302d-mance-route-transition-time-tablet/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                        "column": 32,
+                        "line": 122
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-fd006a9432ad640d737b",
+              "file": "performance/performance.spec.js",
+              "line": 112,
+              "column": 5
+            },
+            {
+              "title": "multiple page navigation performance",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "tablet",
+                  "projectName": "tablet",
+                  "results": [
+                    {
+                      "workerIndex": 25,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 25211,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m2000\u001b[39m\nReceived:   \u001b[31m2548.25\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m2000\u001b[39m\nReceived:   \u001b[31m2548.25\u001b[39m\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:141:25",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                          "column": 25,
+                          "line": 141
+                        },
+                        "snippet": "  139 |         console.log(`Individual times: ${times.join('ms, ')}ms`);\n  140 |\n> 141 |         expect(avgTime).toBeLessThan(2000);\n      |                         ^\n  142 |     });\n  143 | });\n  144 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                            "column": 25,
+                            "line": 141
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m2000\u001b[39m\nReceived:   \u001b[31m2548.25\u001b[39m\n\n  139 |         console.log(`Individual times: ${times.join('ms, ')}ms`);\n  140 |\n> 141 |         expect(avgTime).toBeLessThan(2000);\n      |                         ^\n  142 |     });\n  143 | });\n  144 |\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:141:25"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Average page load time: 2548.25ms\n"
+                        },
+                        {
+                          "text": "Individual times: 2633ms, 2964ms, 2309ms, 2287ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:59.600Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-85585-page-navigation-performance-tablet/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-85585-page-navigation-performance-tablet/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-85585-page-navigation-performance-tablet/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                        "column": 25,
+                        "line": 141
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-71d6b8d014508f06e7ed",
+              "file": "performance/performance.spec.js",
+              "line": 125,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "Performance Testing: Web Vitals Metrics",
+          "file": "performance/performance.spec.js",
+          "line": 145,
+          "column": 6,
+          "specs": [
+            {
+              "title": "measure Core Web Vitals",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 7292,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Web Vitals Metrics:\n"
+                        },
+                        {
+                          "text": "  FCP: 0ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:05.294Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-c76cfe354ce637d146f7",
+              "file": "performance/performance.spec.js",
+              "line": 146,
+              "column": 5
+            },
+            {
+              "title": "measure Time to Interactive",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7964,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Time to Interactive: 3605ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:05.455Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-6483c7e890c172c85481",
+              "file": "performance/performance.spec.js",
+              "line": 187,
+              "column": 5
+            },
+            {
+              "title": "measure Core Web Vitals",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 15255,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m1800\u001b[39m\nReceived:   \u001b[31m5143\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m1800\u001b[39m\nReceived:   \u001b[31m5143\u001b[39m\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:183:33",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                          "column": 33,
+                          "line": 183
+                        },
+                        "snippet": "  181 |         // FCP should be < 1800ms for good score\n  182 |         if (metrics.fcp > 0) {\n> 183 |             expect(metrics.fcp).toBeLessThan(1800);\n      |                                 ^\n  184 |         }\n  185 |     });\n  186 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                            "column": 33,
+                            "line": 183
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m1800\u001b[39m\nReceived:   \u001b[31m5143\u001b[39m\n\n  181 |         // FCP should be < 1800ms for good score\n  182 |         if (metrics.fcp > 0) {\n> 183 |             expect(metrics.fcp).toBeLessThan(1800);\n      |                                 ^\n  184 |         }\n  185 |     });\n  186 |\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:183:33"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Web Vitals Metrics:\n"
+                        },
+                        {
+                          "text": "  FCP: 5143ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:54.165Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-41943-ics-measure-Core-Web-Vitals-firefox/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-41943-ics-measure-Core-Web-Vitals-firefox/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-41943-ics-measure-Core-Web-Vitals-firefox/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                        "column": 33,
+                        "line": 183
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-85b5dbbd98b0fb87a95f",
+              "file": "performance/performance.spec.js",
+              "line": 146,
+              "column": 5
+            },
+            {
+              "title": "measure Time to Interactive",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 22144,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m3800\u001b[39m\nReceived:   \u001b[31m9668\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m3800\u001b[39m\nReceived:   \u001b[31m9668\u001b[39m\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:204:21",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                          "column": 21,
+                          "line": 204
+                        },
+                        "snippet": "  202 |\n  203 |         // TTI should be < 3800ms for good score\n> 204 |         expect(tti).toBeLessThan(3800);\n      |                     ^\n  205 |     });\n  206 | });\n  207 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                            "column": 21,
+                            "line": 204
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m3800\u001b[39m\nReceived:   \u001b[31m9668\u001b[39m\n\n  202 |\n  203 |         // TTI should be < 3800ms for good score\n> 204 |         expect(tti).toBeLessThan(3800);\n      |                     ^\n  205 |     });\n  206 | });\n  207 |\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:204:21"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Time to Interactive: 9668ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:42:57.934Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-0b3c5-measure-Time-to-Interactive-firefox/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-0b3c5-measure-Time-to-Interactive-firefox/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-0b3c5-measure-Time-to-Interactive-firefox/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                        "column": 21,
+                        "line": 204
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-4f7339af387bff718c8f",
+              "file": "performance/performance.spec.js",
+              "line": 187,
+              "column": 5
+            },
+            {
+              "title": "measure Core Web Vitals",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 21,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 7295,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Web Vitals Metrics:\n"
+                        },
+                        {
+                          "text": "  FCP: 0ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:28.984Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-49f5b2b68dacd9bcf03d",
+              "file": "performance/performance.spec.js",
+              "line": 146,
+              "column": 5
+            },
+            {
+              "title": "measure Time to Interactive",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 22,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 8045,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Time to Interactive: 2467ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:28.900Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-6272a04ff21a4e19c7e3",
+              "file": "performance/performance.spec.js",
+              "line": 187,
+              "column": 5
+            },
+            {
+              "title": "measure Core Web Vitals",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "tablet",
+                  "projectName": "tablet",
+                  "results": [
+                    {
+                      "workerIndex": 29,
+                      "parallelIndex": 4,
+                      "status": "failed",
+                      "duration": 14697,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m1800\u001b[39m\nReceived:   \u001b[31m5226\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m1800\u001b[39m\nReceived:   \u001b[31m5226\u001b[39m\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:183:33",
+                        "location": {
+                          "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                          "column": 33,
+                          "line": 183
+                        },
+                        "snippet": "  181 |         // FCP should be < 1800ms for good score\n  182 |         if (metrics.fcp > 0) {\n> 183 |             expect(metrics.fcp).toBeLessThan(1800);\n      |                                 ^\n  184 |         }\n  185 |     });\n  186 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                            "column": 33,
+                            "line": 183
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m1800\u001b[39m\nReceived:   \u001b[31m5226\u001b[39m\n\n  181 |         // FCP should be < 1800ms for good score\n  182 |         if (metrics.fcp > 0) {\n> 183 |             expect(metrics.fcp).toBeLessThan(1800);\n      |                                 ^\n  184 |         }\n  185 |     });\n  186 |\n    at /home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js:183:33"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Web Vitals Metrics:\n"
+                        },
+                        {
+                          "text": "  FCP: 5226ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:44:12.268Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-41943-ics-measure-Core-Web-Vitals-tablet/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-41943-ics-measure-Core-Web-Vitals-tablet/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/akash-krishnan/Documents/sriram/Frontend/test-results/performance-performance-Pe-41943-ics-measure-Core-Web-Vitals-tablet/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/akash-krishnan/Documents/sriram/Frontend/tests/performance/performance.spec.js",
+                        "column": 33,
+                        "line": 183
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-ed2913edb732ff7ffbe8",
+              "file": "performance/performance.spec.js",
+              "line": 146,
+              "column": 5
+            },
+            {
+              "title": "measure Time to Interactive",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "tablet",
+                  "projectName": "tablet",
+                  "results": [
+                    {
+                      "workerIndex": 30,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9286,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Time to Interactive: 3560ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:44:19.132Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4767ef4dda8941d15c6-76509df397267b7fa2d6",
+              "file": "performance/performance.spec.js",
+              "line": 187,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-02-06T18:41:49.280Z",
+    "duration": 160803.407,
+    "expected": 20,
+    "skipped": 0,
+    "unexpected": 24,
+    "flaky": 0
+  }
+}

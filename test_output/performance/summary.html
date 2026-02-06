@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performance Test Summary</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f5; padding: 20px; }
+        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        h1 { color: #333; margin-bottom: 30px; }
+        h2 { color: #555; margin-top: 30px; margin-bottom: 15px; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        .overview { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-bottom: 30px; }
+        .stat-card { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; }
+        .stat-card.success { background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); }
+        .stat-card.failed { background: linear-gradient(135deg, #ee0979 0%, #ff6a00 100%); }
+        .stat-label { font-size: 14px; opacity: 0.9; margin-bottom: 5px; }
+        .stat-value { font-size: 32px; font-weight: bold; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th, td { padding: 12px; text-align: left; border-bottom: 1px solid #eee; }
+        th { background: #f8f9fa; font-weight: 600; }
+        .status-passed { color: #38ef7d; font-weight: bold; }
+        .status-failed { color: #ee0979; font-weight: bold; }
+        .error-box { background: #fff5f5; border-left: 4px solid #ee0979; padding: 15px; margin: 10px 0; border-radius: 4px; overflow-x: auto; }
+        .error-box pre { font-size: 12px; color: #721c24; white-space: pre-wrap; }
+        .progress-bar { width: 100%; height: 30px; background: #eee; border-radius: 15px; overflow: hidden; margin: 20px 0; }
+        .progress-fill { height: 100%; background: linear-gradient(90deg, #11998e 0%, #38ef7d 100%); display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; transition: width 0.3s; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Performance Test Summary</h1>
+        
+        <div class="overview">
+            <div class="stat-card">
+                <div class="stat-label">Total Tests</div>
+                <div class="stat-value">44</div>
+            </div>
+            <div class="stat-card success">
+                <div class="stat-label">Passed</div>
+                <div class="stat-value">20</div>
+            </div>
+            <div class="stat-card failed">
+                <div class="stat-label">Failed</div>
+                <div class="stat-value">24</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Success Rate</div>
+                <div class="stat-value">45.45%</div>
+            </div>
+        </div>
+
+        <div class="progress-bar">
+            <div class="progress-fill" style="width: 45.45%">45.45%</div>
+        </div>
+
+        <table>
+            <tr>
+                <th>Metric</th>
+                <th>Value</th>
+            </tr>
+            <tr><td>Total Duration</td><td>160.80s</td></tr>
+            <tr><td>Average Duration</td><td>3654.62ms</td></tr>
+            <tr><td>Skipped Tests</td><td>0</td></tr>
+        </table>
+    <h2>❌ Failed Tests</h2>
+                <div class="error-box">
+                    <strong>1. login page should load within 3 seconds [firefox]</strong><br>
+                    <small>Duration: 11486ms</small>
+                    <pre>Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeLessThan[2m([22m[32mexpected[39m[2m)[22m
+
+Expected: < [32m3000[39m
+Received:   [31m3534[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>2. farmer preferences page load time [firefox]</strong><br>
+                    <small>Duration: 10299ms</small>
+                    <pre>Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeLessThan[2m([22m[32mexpected[39m[2m)[22m
+
+Expected: < [32m3000[39m
+Received:   [31m3755[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>3. farmer preferences page load time [tablet]</strong><br>
+                    <small>Duration: 13685ms</small>
+                    <pre>Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeLessThan[2m([22m[32mexpected[39m[2m)[22m
+
+Expected: < [32m3000[39m
+Received:   [31m3312[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>4. form input response time < 100ms [chromium]</strong><br>
+                    <small>Duration: 9017ms</small>
+                    <pre>Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeLessThan[2m([22m[32mexpected[39m[2m)[22m
+
+Expected: < [32m500[39m
+Received:   [31m1336[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>5. dropdown selection response time [chromium]</strong><br>
+                    <small>Duration: 8005ms</small>
+                    <pre>Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeLessThan[2m([22m[32mexpected[39m[2m)[22m
+
+Expected: < [32m500[39m
+Received:   [31m691[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>6. accessibility drawer open time < 500ms [chromium]</strong><br>
+                    <small>Duration: 10235ms</small>
+                    <pre>Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeLessThan[2m([22m[32mexpected[39m[2m)[22m
+
+Expected: < [32m500[39m
+Received:   [31m1562[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>7. form input response time < 100ms [firefox]</strong><br>
+                    <small>Duration: 12942ms</small>
+                    <pre>Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeLessThan[2m([22m[32mexpected[39m[2m)[22m
+
+Expected: < [32m500[39m
+Received:   [31m1130[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>8. dropdown selection response time [firefox]</strong><br>
+                    <small>Duration: 15402ms</small>
+                    <pre>Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeLessThan[2m([22m[32mexpected[39m[2m)[22m
+
+Expected: < [32m500[39m
+Received:   [31m859[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>9. accessibility drawer open time < 500ms [firefox]</strong><br>
+                    <small>Duration: 10035ms</small>
+                    <pre>Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeLessThan[2m([22m[32mexpected[39m[2m)[22m
+
+Expected: < [32m500[39m
+Received:   [31m1231[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>10. form input response time < 100ms [mobile-chrome]</strong><br>
+                    <small>Duration: 9583ms</small>
+                    <pre>Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeLessThan[2m([22m[32mexpected[39m[2m)[22m
+
+Expected: < [32m500[39m
+Received:   [31m1401[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>11. dropdown selection response time [mobile-chrome]</strong><br>
+                    <small>Duration: 9521ms</small>
+                    <pre>Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeLessThan[2m([22m[32mexpected[39m[2m)[22m
+
+Expected: < [32m500[39m
+Received:   [31m1393[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>12. accessibility drawer open time < 500ms [mobile-chrome]</strong><br>
+                    <small>Duration: 8891ms</small>
+                    <pre>Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeLessThan[2m([22m[32mexpected[39m[2m)[22m
+
+Expected: < [32m500[39m
+Received:   [31m2111[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>13. form input response time < 100ms [tablet]</strong><br>
+                    <small>Duration: 16793ms</small>
+                    <pre>Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeLessThan[2m([22m[32mexpected[39m[2m)[22m
+
+Expected: < [32m500[39m
+Received:   [31m3471[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>14. dropdown selection response time [tablet]</strong><br>
+                    <small>Duration: 14011ms</small>
+                    <pre>Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeLessThan[2m([22m[32mexpected[39m[2m)[22m
+
+Expected: < [32m500[39m
+Received:   [31m2570[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>15. accessibility drawer open time < 500ms [tablet]</strong><br>
+                    <small>Duration: 16451ms</small>
+                    <pre>Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeLessThan[2m([22m[32mexpected[39m[2m)[22m
+
+Expected: < [32m500[39m
+Received:   [31m4485[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>16. multiple page navigation performance [chromium]</strong><br>
+                    <small>Duration: 11495ms</small>
+                    <pre>Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeLessThan[2m([22m[32mexpected[39m[2m)[22m
+
+Expected: < [32m2000[39m
+Received:   [31m2039[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>17. route transition time [firefox]</strong><br>
+                    <small>Duration: 11474ms</small>
+                    <pre>Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeLessThan[2m([22m[32mexpected[39m[2m)[22m
+
+Expected: < [32m1000[39m
+Received:   [31m1718[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>18. multiple page navigation performance [firefox]</strong><br>
+                    <small>Duration: 26606ms</small>
+                    <pre>Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeLessThan[2m([22m[32mexpected[39m[2m)[22m
+
+Expected: < [32m2000[39m
+Received:   [31m4145.75[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>19. route transition time [mobile-chrome]</strong><br>
+                    <small>Duration: 6671ms</small>
+                    <pre>Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeLessThan[2m([22m[32mexpected[39m[2m)[22m
+
+Expected: < [32m1000[39m
+Received:   [31m1125[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>20. route transition time [tablet]</strong><br>
+                    <small>Duration: 19880ms</small>
+                    <pre>Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeLessThan[2m([22m[32mexpected[39m[2m)[22m
+
+Expected: < [32m1000[39m
+Received:   [31m6733[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>21. multiple page navigation performance [tablet]</strong><br>
+                    <small>Duration: 25211ms</small>
+                    <pre>Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeLessThan[2m([22m[32mexpected[39m[2m)[22m
+
+Expected: < [32m2000[39m
+Received:   [31m2548.25[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>22. measure Core Web Vitals [firefox]</strong><br>
+                    <small>Duration: 15255ms</small>
+                    <pre>Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeLessThan[2m([22m[32mexpected[39m[2m)[22m
+
+Expected: < [32m1800[39m
+Received:   [31m5143[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>23. measure Time to Interactive [firefox]</strong><br>
+                    <small>Duration: 22144ms</small>
+                    <pre>Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeLessThan[2m([22m[32mexpected[39m[2m)[22m
+
+Expected: < [32m3800[39m
+Received:   [31m9668[39m</pre>
+                </div>
+            
+                <div class="error-box">
+                    <strong>24. measure Core Web Vitals [tablet]</strong><br>
+                    <small>Duration: 14697ms</small>
+                    <pre>Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeLessThan[2m([22m[32mexpected[39m[2m)[22m
+
+Expected: < [32m1800[39m
+Received:   [31m5226[39m</pre>
+                </div>
+            <h2>🐌 Slowest Tests</h2><table><tr><th>Test</th><th>Duration</th></tr><tr><td>multiple page navigation performance [firefox]</td><td>26606ms</td></tr><tr><td>multiple page navigation performance [tablet]</td><td>25211ms</td></tr><tr><td>measure Time to Interactive [firefox]</td><td>22144ms</td></tr><tr><td>route transition time [tablet]</td><td>19880ms</td></tr><tr><td>form input response time < 100ms [tablet]</td><td>16793ms</td></tr></table><h2>📋 All Tests</h2><table><tr><th>Test</th><th>Status</th><th>Duration</th></tr><tr><td>login page should load within 3 seconds [chromium]</td><td class="status-passed">passed</td><td>9193ms</td></tr><tr><td>login page network idle within 5 seconds [chromium]</td><td class="status-passed">passed</td><td>9371ms</td></tr><tr><td>crop listing page load time [chromium]</td><td class="status-passed">passed</td><td>7470ms</td></tr><tr><td>farmer preferences page load time [chromium]</td><td class="status-passed">passed</td><td>7557ms</td></tr><tr><td>login page should load within 3 seconds [firefox]</td><td class="status-failed">failed</td><td>11486ms</td></tr><tr><td>login page network idle within 5 seconds [firefox]</td><td class="status-passed">passed</td><td>10793ms</td></tr><tr><td>crop listing page load time [firefox]</td><td class="status-passed">passed</td><td>9048ms</td></tr><tr><td>farmer preferences page load time [firefox]</td><td class="status-failed">failed</td><td>10299ms</td></tr><tr><td>login page should load within 3 seconds [mobile-chrome]</td><td class="status-passed">passed</td><td>8178ms</td></tr><tr><td>login page network idle within 5 seconds [mobile-chrome]</td><td class="status-passed">passed</td><td>10082ms</td></tr><tr><td>crop listing page load time [mobile-chrome]</td><td class="status-passed">passed</td><td>6683ms</td></tr><tr><td>farmer preferences page load time [mobile-chrome]</td><td class="status-passed">passed</td><td>5147ms</td></tr><tr><td>login page should load within 3 seconds [tablet]</td><td class="status-passed">passed</td><td>11097ms</td></tr><tr><td>login page network idle within 5 seconds [tablet]</td><td class="status-passed">passed</td><td>13367ms</td></tr><tr><td>crop listing page load time [tablet]</td><td class="status-passed">passed</td><td>12638ms</td></tr><tr><td>farmer preferences page load time [tablet]</td><td class="status-failed">failed</td><td>13685ms</td></tr><tr><td>form input response time < 100ms [chromium]</td><td class="status-failed">failed</td><td>9017ms</td></tr><tr><td>dropdown selection response time [chromium]</td><td class="status-failed">failed</td><td>8005ms</td></tr><tr><td>accessibility drawer open time < 500ms [chromium]</td><td class="status-failed">failed</td><td>10235ms</td></tr><tr><td>form input response time < 100ms [firefox]</td><td class="status-failed">failed</td><td>12942ms</td></tr><tr><td>dropdown selection response time [firefox]</td><td class="status-failed">failed</td><td>15402ms</td></tr><tr><td>accessibility drawer open time < 500ms [firefox]</td><td class="status-failed">failed</td><td>10035ms</td></tr><tr><td>form input response time < 100ms [mobile-chrome]</td><td class="status-failed">failed</td><td>9583ms</td></tr><tr><td>dropdown selection response time [mobile-chrome]</td><td class="status-failed">failed</td><td>9521ms</td></tr><tr><td>accessibility drawer open time < 500ms [mobile-chrome]</td><td class="status-failed">failed</td><td>8891ms</td></tr><tr><td>form input response time < 100ms [tablet]</td><td class="status-failed">failed</td><td>16793ms</td></tr><tr><td>dropdown selection response time [tablet]</td><td class="status-failed">failed</td><td>14011ms</td></tr><tr><td>accessibility drawer open time < 500ms [tablet]</td><td class="status-failed">failed</td><td>16451ms</td></tr><tr><td>route transition time [chromium]</td><td class="status-passed">passed</td><td>5605ms</td></tr><tr><td>multiple page navigation performance [chromium]</td><td class="status-failed">failed</td><td>11495ms</td></tr><tr><td>route transition time [firefox]</td><td class="status-failed">failed</td><td>11474ms</td></tr><tr><td>multiple page navigation performance [firefox]</td><td class="status-failed">failed</td><td>26606ms</td></tr><tr><td>route transition time [mobile-chrome]</td><td class="status-failed">failed</td><td>6671ms</td></tr><tr><td>multiple page navigation performance [mobile-chrome]</td><td class="status-passed">passed</td><td>7854ms</td></tr><tr><td>route transition time [tablet]</td><td class="status-failed">failed</td><td>19880ms</td></tr><tr><td>multiple page navigation performance [tablet]</td><td class="status-failed">failed</td><td>25211ms</td></tr><tr><td>measure Core Web Vitals [chromium]</td><td class="status-passed">passed</td><td>7292ms</td></tr><tr><td>measure Time to Interactive [chromium]</td><td class="status-passed">passed</td><td>7964ms</td></tr><tr><td>measure Core Web Vitals [firefox]</td><td class="status-failed">failed</td><td>15255ms</td></tr><tr><td>measure Time to Interactive [firefox]</td><td class="status-failed">failed</td><td>22144ms</td></tr><tr><td>measure Core Web Vitals [mobile-chrome]</td><td class="status-passed">passed</td><td>7295ms</td></tr><tr><td>measure Time to Interactive [mobile-chrome]</td><td class="status-passed">passed</td><td>8045ms</td></tr><tr><td>measure Core Web Vitals [tablet]</td><td class="status-failed">failed</td><td>14697ms</td></tr><tr><td>measure Time to Interactive [tablet]</td><td class="status-passed">passed</td><td>9286ms</td></tr></table></div></body></html>

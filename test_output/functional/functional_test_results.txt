@@ -1,0 +1,59 @@
+
+[1m[46m RUN [49m[22m [36mv4.0.18 [39m[90m/home/akash-krishnan/Documents/sriram/Frontend[39m
+
+ [32m✓[39m tests/functional/CropListingForm.test.jsx[2m > [22mFunctional: CropListingForm Component[2m > [22mTC001: renders form with all required elements[33m 339[2mms[22m[39m
+ [32m✓[39m tests/functional/Login.test.jsx[2m > [22mFunctional: Login Component[2m > [22mTC001: shows error for empty phone submission[33m 364[2mms[22m[39m
+ [32m✓[39m tests/functional/CropListingForm.test.jsx[2m > [22mFunctional: CropListingForm Component[2m > [22mTC002: enables crop dropdown after category selection[32m 115[2mms[22m[39m
+ [32m✓[39m tests/functional/Login.test.jsx[2m > [22mFunctional: Login Component[2m > [22mTC002: shows error for phone number less than 10 digits[32m 130[2mms[22m[39m
+ [32m✓[39m tests/functional/Login.test.jsx[2m > [22mFunctional: Login Component[2m > [22mTC003: accepts exactly 10 digit phone number[32m 164[2mms[22m[39m
+ [32m✓[39m tests/functional/CropListingForm.test.jsx[2m > [22mFunctional: CropListingForm Component[2m > [22mTC003: resets crop selection when category changes[32m 196[2mms[22m[39m
+ [32m✓[39m tests/functional/CropListingForm.test.jsx[2m > [22mFunctional: CropListingForm Component[2m > [22mTC004: shows correct crops for selected category[32m 115[2mms[22m[39m
+ [32m✓[39m tests/functional/CropListingForm.test.jsx[2m > [22mFunctional: CropListingForm Component[2m > [22mTC005: quantity input has number type[32m 12[2mms[22m[39m
+ [32m✓[39m tests/functional/CropListingForm.test.jsx[2m > [22mFunctional: CropListingForm Component[2m > [22mTC006: price input has number type[32m 11[2mms[22m[39m
+ [32m✓[39m tests/functional/Login.test.jsx[2m > [22mFunctional: Login Component[2m > [22mTC004: filters non-numeric characters from input[32m 111[2mms[22m[39m
+ [32m✓[39m tests/functional/Login.test.jsx[2m > [22mFunctional: Login Component[2m > [22mTC005: displays API error message[32m 132[2mms[22m[39m
+[90mstdout[2m | tests/functional/CropListingForm.test.jsx[2m > [22m[2mFunctional: CropListingForm Component[2m > [22m[2mTC007: clears form after successful submission
+[22m[39m{
+  category: [32m'Vegetables'[39m,
+  crop: [32m'Tomato'[39m,
+  quantity: [32m'100'[39m,
+  price: [32m'50'[39m
+}
+
+ [32m✓[39m tests/functional/CropListingForm.test.jsx[2m > [22mFunctional: CropListingForm Component[2m > [22mTC007: clears form after successful submission[32m 294[2mms[22m[39m
+ [32m✓[39m tests/functional/CropListingForm.test.jsx[2m > [22mFunctional: CropListingForm Component[2m > [22mTC008: displays all crop categories[32m 40[2mms[22m[39m
+ [32m✓[39m tests/functional/Login.test.jsx[2m > [22mFunctional: Login Component[2m > [22mTC006: shows loading state during submission[32m 174[2mms[22m[39m
+ [32m✓[39m tests/functional/Login.test.jsx[2m > [22mFunctional: Login Component[2m > [22mTC007: displays +91 country code[32m 13[2mms[22m[39m
+ [31m×[39m tests/functional/Login.test.jsx[2m > [22mFunctional: Login Component[2m > [22mTC008: enforces 10 digit maximum[32m 127[2mms[22m[39m
+[31m   → [2mexpect([22m[31melement[31m[2m).toHaveValue([22m[32m1234567890[31m[2m)[22m
+
+Expected the element to have value:
+[32m  1234567890[31m
+Received:
+[31m  12345678901234[31m[39m
+
+[31m⎯⎯⎯⎯⎯⎯⎯[39m[1m[41m Failed Tests 1 [49m[22m[31m⎯⎯⎯⎯⎯⎯⎯[39m
+
+[41m[1m FAIL [22m[49m tests/functional/Login.test.jsx[2m > [22mFunctional: Login Component[2m > [22mTC008: enforces 10 digit maximum
+[31m[1mError[22m: [2mexpect([22m[31melement[31m[2m).toHaveValue([22m[32m1234567890[31m[2m)[22m
+
+Expected the element to have value:
+[32m  1234567890[31m
+Received:
+[31m  12345678901234[31m[39m
+[36m [2m❯[22m tests/functional/Login.test.jsx:[2m202:23[22m[39m
+    [90m200| [39m        [35mawait[39m userEvent[33m.[39m[34mtype[39m(input[33m,[39m [32m'12345678901234'[39m)[33m;[39m
+    [90m201| [39m
+    [90m202| [39m        [34mexpect[39m(input)[33m.[39m[34mtoHaveValue[39m([32m'1234567890'[39m)[33m;[39m
+    [90m   | [39m                      [31m^[39m
+    [90m203| [39m    })[33m;[39m
+    [90m204| [39m})[33m;[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯[22m[39m
+
+
+[2m Test Files [22m [1m[31m1 failed[39m[22m[2m | [22m[1m[32m1 passed[39m[22m[90m (2)[39m
+[2m      Tests [22m [1m[31m1 failed[39m[22m[2m | [22m[1m[32m15 passed[39m[22m[90m (16)[39m
+[2m   Start at [22m 23:55:07
+[2m   Duration [22m 3.21s[2m (transform 846ms, setup 457ms, import 1.06s, tests 2.34s, environment 1.91s)[22m
+

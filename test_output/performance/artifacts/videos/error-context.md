@@ -1,0 +1,58 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]: Voice navigation not supported on this browser. Try Chrome/Edge.
+  - button [ref=e4] [cursor=pointer]:
+    - img [ref=e5]
+  - complementary [ref=e9]:
+    - generic [ref=e10]:
+      - heading "accessibility" [level=3] [ref=e11]
+      - button [ref=e12] [cursor=pointer]:
+        - img [ref=e13]
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - generic [ref=e19]: text_size
+          - generic [ref=e20]: adjust_readability
+        - generic [ref=e21]:
+          - button "A-" [ref=e22] [cursor=pointer]
+          - button "A" [ref=e23] [cursor=pointer]
+          - button "A+" [ref=e24] [cursor=pointer]
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - generic [ref=e28]: dark_light
+          - generic [ref=e29]: better_visibility
+        - button "switch_to_dark" [ref=e30] [cursor=pointer]
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - generic [ref=e34]: language
+          - generic [ref=e35]: choose_language
+        - combobox [ref=e36]:
+          - option "English" [selected]
+          - option "हिन्दी"
+          - option "മലയാളം"
+          - option "தமிழ்"
+          - option "తెలుగు"
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - generic [ref=e40]: voice_assist
+          - generic [ref=e41]: voice_demo
+        - button "off" [ref=e42] [cursor=pointer]
+  - generic [ref=e45]:
+    - generic [ref=e46]:
+      - img "logo" [ref=e47]
+      - heading "KISSAAN SAATHI" [level=1] [ref=e48]
+    - generic [ref=e49]:
+      - heading "WELCOME" [level=2] [ref=e50]
+      - text: Enter your mobile number
+      - generic [ref=e51]:
+        - generic [ref=e52]: "+91"
+        - textbox "XXXXXXXXXX" [ref=e53]
+      - paragraph [ref=e54]: We'll send an OTP to verify your account
+      - button "Continue" [ref=e55] [cursor=pointer]
+      - paragraph [ref=e56]:
+        - text: Don't have an account?
+        - link "Create new" [ref=e57]:
+          - /url: /signup
+```

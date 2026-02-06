@@ -1,0 +1,18 @@
+
+[1m[46m RUN [49m[22m [36mv4.0.18 [39m[90m/home/akash-krishnan/Documents/sriram/Frontend[39m
+
+ [32m✓[39m tests/regression/baseline.test.jsx[2m > [22mRegression: Login Component Baseline[2m > [22mBASELINE-001: Login form structure unchanged[32m 271[2mms[22m[39m
+ [32m✓[39m tests/regression/baseline.test.jsx[2m > [22mRegression: Login Component Baseline[2m > [22mBASELINE-002: Phone input accepts user input[32m 10[2mms[22m[39m
+ [32m✓[39m tests/regression/baseline.test.jsx[2m > [22mRegression: Login Component Baseline[2m > [22mBASELINE-003: Signup navigation link present[32m 31[2mms[22m[39m
+ [32m✓[39m tests/regression/baseline.test.jsx[2m > [22mRegression: CropListingForm Baseline[2m > [22mBASELINE-004: Form has category and crop dropdowns[32m 52[2mms[22m[39m
+ [32m✓[39m tests/regression/baseline.test.jsx[2m > [22mRegression: CropListingForm Baseline[2m > [22mBASELINE-005: Crop dropdown initially disabled[32m 36[2mms[22m[39m
+ [32m✓[39m tests/regression/baseline.test.jsx[2m > [22mRegression: CropListingForm Baseline[2m > [22mBASELINE-006: All crop categories available[32m 37[2mms[22m[39m
+ [32m✓[39m tests/regression/baseline.test.jsx[2m > [22mRegression: Accessibility Baseline[2m > [22mBASELINE-007: Accessibility button rendered[32m 20[2mms[22m[39m
+ [32m✓[39m tests/regression/baseline.test.jsx[2m > [22mRegression: Accessibility Baseline[2m > [22mBASELINE-008: Theme state initialization[32m 12[2mms[22m[39m
+ [32m✓[39m tests/regression/baseline.test.jsx[2m > [22mRegression: Accessibility Baseline[2m > [22mBASELINE-009: Language options exist after drawer open[32m 10[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m1 passed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[32m9 passed[39m[22m[90m (9)[39m
+[2m   Start at [22m 23:55:32
+[2m   Duration [22m 2.41s[2m (transform 520ms, setup 201ms, import 709ms, tests 483ms, environment 781ms)[22m
+
